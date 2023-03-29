@@ -53,12 +53,12 @@ Any help is highly appreciated.
 
 ### Testing
 
-**Untested features do not exist**. To ensure that what the code really works,
+**Untested features do not exist**. To ensure that the code really works,
 relevant flows should be covered via unit tests and functional tests. So when
 thinking about a contribution, also think about testability. All tests can be
 run local without the need of CI. Have a look at the
-[Testing](docs/getting-started.md#testing)
-section in the [Developer Guide](docs/getting-started.md).
+[Testing](https://github.com/kubevirt/kubevirt/blob/main/docs/getting-started.md#testing)
+section in the [Developer Guide](https://github.com/kubevirt/kubevirt/blob/main/docs/getting-started.md).
 
 ### Contributor compliance with Developer Certificate Of Origin (DCO)
 
@@ -99,9 +99,9 @@ Please have a look at our [membership guidelines](https://github.com/kubevirt/co
 ### [KubeVirt](https://github.com/kubevirt/)
 
 * Getting started
-  * [Developer Guide](docs/getting-started.md)
+  * [Developer Guide](https://github.com/kubevirt/kubevirt/blob/main/docs/getting-started.md)
   * [Demo](https://github.com/kubevirt/demo)
-  * [Documentation](docs/)
+  * [Documentation](https://github.com/kubevirt/kubevirt/blob/main/docs/)
 
 ### [Kubernetes](http://kubernetes.io/)
 
