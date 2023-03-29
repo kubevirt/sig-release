@@ -1,0 +1,14 @@
+# See the OWNERS docs at https://go.k8s.io/owners
+
+aliases:
+  approvers:
+  - davidvossel
+  - rthallisey
+  - fabiand
+  - aburdenthehand
+  reviewers:
+  - dhiller
+  - rthallisey
+  - fabiand
+  - aburdenthehand
+  emeritus_approvers: { }
