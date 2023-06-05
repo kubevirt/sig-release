@@ -13,7 +13,7 @@
 |  2023-05-09 |                    |                                | CI lanes for provider are voting |                    |
 |  2023-05-16 | Beta 0             | Tag v1.0.0-beta.0              | Mandatory pre-submit             |                    |
 | **June**    |                    |                                |                                  |                    |
-|  2023-06-06 | Feature Freeze     | Branch release-1.0             |                                  |                    |
-|  2023-06-13 | RC 0               | Tag v1.0.0-rc.0 on release-1.0 |                                  |                    |
-|  2023-06-20 | RC 1               | Tag v1.0.0-rc.1 on release-1.0 |                                  |                    |
-|  2023-06-27 | GA                 | Tag v1.0.0 on release-1.0      |                                  |                    |
+|  2023-06-13 | Feature Freeze     | Branch release-1.0             |                                  |                    |
+|  2023-06-20 | RC 0               | Tag v1.0.0-rc.0 on release-1.0 |                                  |                    |
+|  2023-06-27 | RC 1               | Tag v1.0.0-rc.1 on release-1.0 |                                  |                    |
+|  2023-07-04 | GA                 | Tag v1.0.0 on release-1.0      |                                  |                    |
