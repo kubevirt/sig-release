@@ -1,5 +1,6 @@
 aliases:
   sig-release-approvers:
+  - dhiller
   - davidvossel
   - rthallisey
   - fabiand
