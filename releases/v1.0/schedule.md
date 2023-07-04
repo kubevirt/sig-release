@@ -16,4 +16,4 @@
 |  2023-06-13 | Feature Freeze     | Branch release-1.0             |                                  |                    |
 |  2023-06-20 | RC 0               | Tag v1.0.0-rc.0 on release-1.0 |                                  |                    |
 |  2023-06-27 | RC 1               | Tag v1.0.0-rc.1 on release-1.0 |                                  |                    |
-|  2023-07-04 | GA                 | Tag v1.0.0 on release-1.0      |                                  |                    |
+|  2023-07-11 | GA                 | Tag v1.0.0 on release-1.0      |                                  |                    |
