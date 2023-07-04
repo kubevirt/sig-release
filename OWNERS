@@ -1,10 +1,6 @@
-# See the OWNERS docs at https://go.k8s.io/owners
-
 filters:
   ".*":
     reviewers:
     - sig-release-reviewers
     approvers:
     - sig-release-approvers
-    emeritus_approvers:
-    - sig-release-emeritus-approvers
