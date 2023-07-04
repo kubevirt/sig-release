@@ -3,8 +3,8 @@
 filters:
   ".*":
     reviewers:
-    - reviewers
+    - sig-release-reviewers
     approvers:
-    - approvers
+    - sig-release-approvers
     emeritus_approvers:
-    - emeritus_approvers
+    - sig-release-emeritus-approvers
