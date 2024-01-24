@@ -11,6 +11,15 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| Expose fs disk information via GuestOsInfo  | [#10970](https://github.com/kubevirt/kubevirt/pull/10970) | [alromeros](https://github.com/alromeros) |
+| restrict default cluster role to authenticated only users  | [#11050](https://github.com/kubevirt/kubevirt/pull/11050) | [fossedihelm](https://github.com/fossedihelm) |
+| Allow unprivileged users read-only access to VirtualMachineCluster{Instancetypes,Preferences} by default.  | [#11025](https://github.com/kubevirt/kubevirt/pull/11025) | [0xFelix](https://github.com/0xFelix) |
+| Refactor monitoring collectors  | [#10853](https://github.com/kubevirt/kubevirt/pull/10853) | [machadovilaca](https://github.com/machadovilaca) |
+| Allow `kubevirt.io:default` clusterRole to get,list kubevirts  | [#11001](https://github.com/kubevirt/kubevirt/pull/11001) | [fossedihelm](https://github.com/fossedihelm) |
+| Aggregate DVs conditions on VMI (and so VM)  | [#10905](https://github.com/kubevirt/kubevirt/pull/10905) | [tiraboschi](https://github.com/tiraboschi) |
+| Bugfix: Reject volume exports when no output is specified  | [#10963](https://github.com/kubevirt/kubevirt/pull/10963) | [alromeros](https://github.com/alromeros) |
+| Update monitoring file structure  | [#10962](https://github.com/kubevirt/kubevirt/pull/10962) | [machadovilaca](https://github.com/machadovilaca) |
+| Report IP of interfaces using network binding plugin.  | [#10981](https://github.com/kubevirt/kubevirt/pull/10981) | [AlonaKaplan](https://github.com/AlonaKaplan) |
 | Updated common-instancetypes bundles to v0.4.0  | [#10922](https://github.com/kubevirt/kubevirt/pull/10922) | [kubevirt-bot](https://github.com/kubevirt-bot) |
 | KubeVirt is now built with go 1.21.5  | [#10914](https://github.com/kubevirt/kubevirt/pull/10914) | [brianmcarey](https://github.com/brianmcarey) |
 | Change vm.status.PrintableStatus default value to "Stopped"  | [#10846](https://github.com/kubevirt/kubevirt/pull/10846) | [RamLavi](https://github.com/RamLavi) |
@@ -28,7 +37,6 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 | Fix KubeVirt for CRIO 1.28 by using checksums to verify containerdisks when migrating VMIs  | [#10747](https://github.com/kubevirt/kubevirt/pull/10747) | [acardace](https://github.com/acardace) |
 | BugFix: Double cloning with filter fails  | [#10860](https://github.com/kubevirt/kubevirt/pull/10860) | [akalenyu](https://github.com/akalenyu) |
 | Attachment pod creation is now rate limited  | [#10567](https://github.com/kubevirt/kubevirt/pull/10567) | [awels](https://github.com/awels) |
-| Not needed, as it affects only how tests are run.  | [#10836](https://github.com/kubevirt/kubevirt/pull/10836) | [jschintag](https://github.com/jschintag) |
 | Reject VirtualMachineClone creation when target name is equal to source name  | [#10845](https://github.com/kubevirt/kubevirt/pull/10845) | [orelmisan](https://github.com/orelmisan) |
 | Requests/Limits can now be configured when using CPU/Memory hotplug  | [#10840](https://github.com/kubevirt/kubevirt/pull/10840) | [acardace](https://github.com/acardace) |
 | Add total VMs created metric  | [#10418](https://github.com/kubevirt/kubevirt/pull/10418) | [machadovilaca](https://github.com/machadovilaca) |
