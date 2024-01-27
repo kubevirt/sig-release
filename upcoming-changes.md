@@ -11,6 +11,7 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| [Bugfix] Clone VM with WaitForFirstConsumer binding mode PVC now works.  | [#10888](https://github.com/kubevirt/kubevirt/pull/10888) | [fossedihelm](https://github.com/fossedihelm) |
 | Update container base image to use current stable debian 12 base  | [#11068](https://github.com/kubevirt/kubevirt/pull/11068) | [brianmcarey](https://github.com/brianmcarey) |
 | Fix potential crash when trying to list USB devices on host without any  | [#11047](https://github.com/kubevirt/kubevirt/pull/11047) | [jschintag](https://github.com/jschintag) |
 | Expose fs disk information via GuestOsInfo  | [#10970](https://github.com/kubevirt/kubevirt/pull/10970) | [alromeros](https://github.com/alromeros) |
