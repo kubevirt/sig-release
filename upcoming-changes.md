@@ -11,6 +11,8 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| Reduced VM rescheduling time on node failure  | [#10961](https://github.com/kubevirt/kubevirt/pull/10961) | [jcanocan](https://github.com/jcanocan) |
+| fix(vmclone): Generate VM patches from vmsnapshotcontent, instead of current VM  | [#11065](https://github.com/kubevirt/kubevirt/pull/11065) | [fossedihelm](https://github.com/fossedihelm) |
 | [Bugfix] Clone VM with WaitForFirstConsumer binding mode PVC now works.  | [#10888](https://github.com/kubevirt/kubevirt/pull/10888) | [fossedihelm](https://github.com/fossedihelm) |
 | Update container base image to use current stable debian 12 base  | [#11068](https://github.com/kubevirt/kubevirt/pull/11068) | [brianmcarey](https://github.com/brianmcarey) |
 | Fix potential crash when trying to list USB devices on host without any  | [#11047](https://github.com/kubevirt/kubevirt/pull/11047) | [jschintag](https://github.com/jschintag) |
