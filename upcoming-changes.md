@@ -11,6 +11,7 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| Bug fix: Packet drops during the initial phase of VM live migration https://issues.redhat.com/browse/CNV-28040  | [#11069](https://github.com/kubevirt/kubevirt/pull/11069) | [ormergi](https://github.com/ormergi) |
 | Reduced VM rescheduling time on node failure  | [#10961](https://github.com/kubevirt/kubevirt/pull/10961) | [jcanocan](https://github.com/jcanocan) |
 | fix(vmclone): Generate VM patches from vmsnapshotcontent, instead of current VM  | [#11065](https://github.com/kubevirt/kubevirt/pull/11065) | [fossedihelm](https://github.com/fossedihelm) |
 | [Bugfix] Clone VM with WaitForFirstConsumer binding mode PVC now works.  | [#10888](https://github.com/kubevirt/kubevirt/pull/10888) | [fossedihelm](https://github.com/fossedihelm) |
