@@ -11,6 +11,8 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| virtctl: Specifying size when creating a VM and using --volume-import to clone a PVC or a VolumeSnapshot is optional now  | [#11144](https://github.com/kubevirt/kubevirt/pull/11144) | [0xFelix](https://github.com/0xFelix) |
+| New cluster-wide `vmRolloutStrategy` setting to define whether changes to VMs should either be always staged or live-updated when possible.  | [#11054](https://github.com/kubevirt/kubevirt/pull/11054) | [jean-edouard](https://github.com/jean-edouard) |
 | Introduce a new API to mark a binding plugin as migratable.<br>With this new API a VM using passt binding plugin allows migration.  | [#11064](https://github.com/kubevirt/kubevirt/pull/11064) | [AlonaKaplan](https://github.com/AlonaKaplan) |
 | Update runc dependency to v1.1.12  | [#11122](https://github.com/kubevirt/kubevirt/pull/11122) | [brianmcarey](https://github.com/brianmcarey) |
 | Refactor monitoring metrics  | [#10982](https://github.com/kubevirt/kubevirt/pull/10982) | [machadovilaca](https://github.com/machadovilaca) |
