@@ -11,6 +11,7 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| Fix migration breaking in case the VM has an rng device after hotplugging a block volume on cgroupsv2  | [#11205](https://github.com/kubevirt/kubevirt/pull/11205) | [akalenyu](https://github.com/akalenyu) |
 | Bugfix: Improve error reporting when fsfreeze fails  | [#11051](https://github.com/kubevirt/kubevirt/pull/11051) | [alromeros](https://github.com/alromeros) |
 | Move some verification from the VMI create validation webhook to the CRD<br>The webhook will no longer return the following errors:<br>* "spec.accessCredentials list exceeds the 256 element limit in length"<br>* "spec.domain.devices.disks list exceeds the 256 element limit in length"<br>* "spec.domain.devices.interfaces list exceeds the 256 element limit in length"<br>* "spec.networks list exceeds the 256 element limit in length"<br>* "spec.volumes list exceeds the 256 element limit in length"  | [#11156](https://github.com/kubevirt/kubevirt/pull/11156) | [nunnatsa](https://github.com/nunnatsa) |
 | node-labeller: Remove obsolete functionalities  | [#11146](https://github.com/kubevirt/kubevirt/pull/11146) | [RamLavi](https://github.com/RamLavi) |
