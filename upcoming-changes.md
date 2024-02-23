@@ -11,6 +11,7 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| Fix perfscale buckets error  | [#11264](https://github.com/kubevirt/kubevirt/pull/11264) | [machadovilaca](https://github.com/machadovilaca) |
 | Extend OWNERS for sig-buildsystem  | [#11183](https://github.com/kubevirt/kubevirt/pull/11183) | [dhiller](https://github.com/dhiller) |
 | fix(vmclone): delete vmclone resource when the target vm is deleted  | [#11058](https://github.com/kubevirt/kubevirt/pull/11058) | [fossedihelm](https://github.com/fossedihelm) |
 | Bug fix: VM controller doesn't corrupt its cache anymore  | [#11265](https://github.com/kubevirt/kubevirt/pull/11265) | [xpivarc](https://github.com/xpivarc) |
