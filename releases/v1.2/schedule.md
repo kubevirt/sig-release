@@ -15,4 +15,4 @@
 | 2024-02-06   | Feature Freeze     | Branch release-1.2             |                                  |                |
 | 2024-02-13   | RC 0               | Tag v1.2.0-rc.0 on release-1.2 |                                  |                |
 | 2024-02-20   | RC 1               | Tag v1.2.0-rc.1 on release-1.2 |                                  |                |
-| 2024-02-27   | GA                 | Tag v1.2.0 on release-1.2      |                                  |                |
+| 2024-03-05   | GA                 | Tag v1.2.0 on release-1.2      |                                  |                |
