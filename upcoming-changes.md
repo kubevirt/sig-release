@@ -11,6 +11,8 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| Expose volumesnapshot error in vmsnapshot object  | [#11095](https://github.com/kubevirt/kubevirt/pull/11095) | [ShellyKa13](https://github.com/ShellyKa13) |
+| Bug-fix: Fix nil panic if VM update fails  | [#11372](https://github.com/kubevirt/kubevirt/pull/11372) | [xpivarc](https://github.com/xpivarc) |
 | BugFix: Ensure DataVolumes created by virt-controller (DataVolumeTemplates) are recreated and owned by the VM in the case of DR and backup/restore.  | [#11267](https://github.com/kubevirt/kubevirt/pull/11267) | [mhenriks](https://github.com/mhenriks) |
 | BugFix: Fixed incorrect APIVersion of APIResourceList  | [#10900](https://github.com/kubevirt/kubevirt/pull/10900) | [KarstenB](https://github.com/KarstenB) |
 | fix(ksm): set the `kubevirt.io/ksm-enabled` node label to true if the ksm is managed by KubeVirt, instead of reflect the actual ksm value.  | [#11306](https://github.com/kubevirt/kubevirt/pull/11306) | [fossedihelm](https://github.com/fossedihelm) |
