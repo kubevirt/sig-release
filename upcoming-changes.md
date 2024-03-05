@@ -11,6 +11,7 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| add cloudraft to adopters.  | [#11331](https://github.com/kubevirt/kubevirt/pull/11331) | [anjuls](https://github.com/anjuls) |
 | add perf-scale benchmarks for release v1.2  | [#11387](https://github.com/kubevirt/kubevirt/pull/11387) | [alaypatel07](https://github.com/alaypatel07) |
 | Expose volumesnapshot error in vmsnapshot object  | [#11095](https://github.com/kubevirt/kubevirt/pull/11095) | [ShellyKa13](https://github.com/ShellyKa13) |
 | Bug-fix: Fix nil panic if VM update fails  | [#11372](https://github.com/kubevirt/kubevirt/pull/11372) | [xpivarc](https://github.com/xpivarc) |
