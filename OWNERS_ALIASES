@@ -1,12 +1,20 @@
 aliases:
   sig-release-approvers:
-  - dhiller
+  - aburdenthehand
+  - acardace
   - davidvossel
-  - rthallisey
+  - dhiller
   - fabiand
+  - fossedihelm
+  - rthallisey
+  - xpivarc
+
   - aburdenthehand
   sig-release-reviewers:
-  - dhiller
-  - rthallisey
-  - fabiand
   - aburdenthehand
+  - acardace
+  - dhiller
+  - fabiand
+  - fossedihelm
+  - rthallisey
+  - xpivarc
