@@ -11,6 +11,9 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| Improve handling of export resources in virtctl vmexport  | [#11312](https://github.com/kubevirt/kubevirt/pull/11312) | [alromeros](https://github.com/alromeros) |
+| Bugfix: Allow vmexport download redirections by printing logs into stderr  | [#11367](https://github.com/kubevirt/kubevirt/pull/11367) | [alromeros](https://github.com/alromeros) |
+| Bugfix: Improve handling of IOThreads with incompatible buses  | [#11219](https://github.com/kubevirt/kubevirt/pull/11219) | [alromeros](https://github.com/alromeros) |
 | virtctl: It is possible to import volumes from GCS when creating a VM now  | [#11149](https://github.com/kubevirt/kubevirt/pull/11149) | [0xFelix](https://github.com/0xFelix) |
 | KubeVirtComponentExceedsRequestedCPU and KubeVirtComponentExceedsRequestedMemory alerts are deprecated; they do not indicate a genuine issue.  | [#11404](https://github.com/kubevirt/kubevirt/pull/11404) | [avlitman](https://github.com/avlitman) |
 | add cloudraft to adopters.  | [#11331](https://github.com/kubevirt/kubevirt/pull/11331) | [anjuls](https://github.com/anjuls) |
