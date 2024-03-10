@@ -11,6 +11,7 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| Build KubeVirt with Go version 1.21.8  | [#11470](https://github.com/kubevirt/kubevirt/pull/11470) | [brianmcarey](https://github.com/brianmcarey) |
 | Improve handling of export resources in virtctl vmexport  | [#11312](https://github.com/kubevirt/kubevirt/pull/11312) | [alromeros](https://github.com/alromeros) |
 | Bugfix: Allow vmexport download redirections by printing logs into stderr  | [#11367](https://github.com/kubevirt/kubevirt/pull/11367) | [alromeros](https://github.com/alromeros) |
 | Bugfix: Improve handling of IOThreads with incompatible buses  | [#11219](https://github.com/kubevirt/kubevirt/pull/11219) | [alromeros](https://github.com/alromeros) |
