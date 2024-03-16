@@ -11,6 +11,7 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| Support HyperV Passthrough: automatically use all available HyperV features  | [#11500](https://github.com/kubevirt/kubevirt/pull/11500) | [iholder101](https://github.com/iholder101) |
 | Reduce the downwardMetrics server maximum number of request per second to 1.  | [#11484](https://github.com/kubevirt/kubevirt/pull/11484) | [jcanocan](https://github.com/jcanocan) |
 | Allow to hotplug memory for VMs with memory limits set  | [#11498](https://github.com/kubevirt/kubevirt/pull/11498) | [acardace](https://github.com/acardace) |
 | Build KubeVirt with Go version 1.21.8  | [#11470](https://github.com/kubevirt/kubevirt/pull/11470) | [brianmcarey](https://github.com/brianmcarey) |
