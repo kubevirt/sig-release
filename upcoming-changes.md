@@ -11,6 +11,8 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| emission of k8s logs when using programmatic focus with `FIt`  | [#11416](https://github.com/kubevirt/kubevirt/pull/11416) | [dhiller](https://github.com/dhiller) |
+| Make 'image' field in hook sidecar annotation optional.  | [#11272](https://github.com/kubevirt/kubevirt/pull/11272) | [dharmit](https://github.com/dharmit) |
 | Support HyperV Passthrough: automatically use all available HyperV features  | [#11500](https://github.com/kubevirt/kubevirt/pull/11500) | [iholder101](https://github.com/iholder101) |
 | Reduce the downwardMetrics server maximum number of request per second to 1.  | [#11484](https://github.com/kubevirt/kubevirt/pull/11484) | [jcanocan](https://github.com/jcanocan) |
 | Allow to hotplug memory for VMs with memory limits set  | [#11498](https://github.com/kubevirt/kubevirt/pull/11498) | [acardace](https://github.com/acardace) |
