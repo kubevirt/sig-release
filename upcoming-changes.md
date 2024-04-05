@@ -11,6 +11,7 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| Add e2e tests for metrics  | [#11307](https://github.com/kubevirt/kubevirt/pull/11307) | [machadovilaca](https://github.com/machadovilaca) |
 | virtual machines instance will no longer be stuck in an irrecoverable state after an interrupted postcopy migration. Instead, these will fail and could be restarted again.  | [#11479](https://github.com/kubevirt/kubevirt/pull/11479) | [vladikr](https://github.com/vladikr) |
 | emission of k8s logs when using programmatic focus with `FIt`  | [#11416](https://github.com/kubevirt/kubevirt/pull/11416) | [dhiller](https://github.com/dhiller) |
 | Make 'image' field in hook sidecar annotation optional.  | [#11272](https://github.com/kubevirt/kubevirt/pull/11272) | [dharmit](https://github.com/dharmit) |
