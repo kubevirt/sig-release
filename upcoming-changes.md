@@ -11,6 +11,7 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| Improve the handling of ordinal pod interface name for upgrade  | [#11678](https://github.com/kubevirt/kubevirt/pull/11678) | [Vicente-Cheng](https://github.com/Vicente-Cheng) |
 | Build the `passt`custom CNI binary statically, for the `passt` network binding plugin.<br>Resolves  https://github.com/kubevirt/kubevirt/issues/11586  | [#11653](https://github.com/kubevirt/kubevirt/pull/11653) | [EdDev](https://github.com/EdDev) |
 | Fix kubevirt_vm_created_total being broken down by virt-api pod  | [#11294](https://github.com/kubevirt/kubevirt/pull/11294) | [machadovilaca](https://github.com/machadovilaca) |
 | Add e2e tests for metrics  | [#11307](https://github.com/kubevirt/kubevirt/pull/11307) | [machadovilaca](https://github.com/machadovilaca) |
