@@ -11,6 +11,7 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| Collect VMI OS info from the Guest agent as `kubevirt_vmi_phase_count` metric labels  | [#11283](https://github.com/kubevirt/kubevirt/pull/11283) | [assafad](https://github.com/assafad) |
 | Rename rest client metrics to include kubevirt prefix  | [#11676](https://github.com/kubevirt/kubevirt/pull/11676) | [machadovilaca](https://github.com/machadovilaca) |
 | New memory statistics added named kubevirt_memory_delta_from_requested_bytes  | [#11557](https://github.com/kubevirt/kubevirt/pull/11557) | [avlitman](https://github.com/avlitman) |
 | Improve the handling of ordinal pod interface name for upgrade  | [#11678](https://github.com/kubevirt/kubevirt/pull/11678) | [Vicente-Cheng](https://github.com/Vicente-Cheng) |
