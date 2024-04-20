@@ -11,6 +11,7 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| Updated go version of the client-go to 1.21  | [#11685](https://github.com/kubevirt/kubevirt/pull/11685) | [fossedihelm](https://github.com/fossedihelm) |
 | Extend network binding plugin to support device-info DownwardAPI.  | [#11618](https://github.com/kubevirt/kubevirt/pull/11618) | [AlonaKaplan](https://github.com/AlonaKaplan) |
 | Collect VMI OS info from the Guest agent as `kubevirt_vmi_phase_count` metric labels  | [#11283](https://github.com/kubevirt/kubevirt/pull/11283) | [assafad](https://github.com/assafad) |
 | Rename rest client metrics to include kubevirt prefix  | [#11676](https://github.com/kubevirt/kubevirt/pull/11676) | [machadovilaca](https://github.com/machadovilaca) |
