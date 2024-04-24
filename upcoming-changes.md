@@ -11,6 +11,7 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| Fix: SEV methods in client-go now satisfy the proxy server configuration, if provided  | [#11718](https://github.com/kubevirt/kubevirt/pull/11718) | [fossedihelm](https://github.com/fossedihelm) |
 | Updated go version of the client-go to 1.21  | [#11685](https://github.com/kubevirt/kubevirt/pull/11685) | [fossedihelm](https://github.com/fossedihelm) |
 | Extend network binding plugin to support device-info DownwardAPI.  | [#11618](https://github.com/kubevirt/kubevirt/pull/11618) | [AlonaKaplan](https://github.com/AlonaKaplan) |
 | Collect VMI OS info from the Guest agent as `kubevirt_vmi_phase_count` metric labels  | [#11283](https://github.com/kubevirt/kubevirt/pull/11283) | [assafad](https://github.com/assafad) |
