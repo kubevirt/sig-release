@@ -11,6 +11,7 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| Fix the live updates for volumes and disks  | [#11770](https://github.com/kubevirt/kubevirt/pull/11770) | [alicefr](https://github.com/alicefr) |
 | Re-adding Cloudflare to our ADOPTERS list  | [#11790](https://github.com/kubevirt/kubevirt/pull/11790) | [aburdenthehand](https://github.com/aburdenthehand) |
 | Fix: SEV methods in client-go now satisfy the proxy server configuration, if provided  | [#11718](https://github.com/kubevirt/kubevirt/pull/11718) | [fossedihelm](https://github.com/fossedihelm) |
 | Updated go version of the client-go to 1.21  | [#11685](https://github.com/kubevirt/kubevirt/pull/11685) | [fossedihelm](https://github.com/fossedihelm) |
