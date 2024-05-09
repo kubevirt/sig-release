@@ -11,6 +11,8 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| Add the updateVolumeStrategy field  | [#11700](https://github.com/kubevirt/kubevirt/pull/11700) | [alicefr](https://github.com/alicefr) |
+| This version of KubeVirt includes upgraded virtualization technology based on libvirt 10.0.0 and QEMU 8.2.0.<br>Each new release of libvirt and QEMU contains numerous improvements and bug fixes.  | [#11256](https://github.com/kubevirt/kubevirt/pull/11256) | [andreabolognani](https://github.com/andreabolognani) |
 | Build KubeVirt with go v1.22.2  | [#11482](https://github.com/kubevirt/kubevirt/pull/11482) | [brianmcarey](https://github.com/brianmcarey) |
 | Add kubevirt.io/testWorkloadUpdateMigrationAbortion annotation and a mechanism to abort workload updates  | [#11641](https://github.com/kubevirt/kubevirt/pull/11641) | [alicefr](https://github.com/alicefr) |
 | Fix the live updates for volumes and disks  | [#11770](https://github.com/kubevirt/kubevirt/pull/11770) | [alicefr](https://github.com/alicefr) |
