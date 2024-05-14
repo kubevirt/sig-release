@@ -11,6 +11,7 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| Allow to hotplug vcpus for VMs with CPU requests and/or limits set  | [#11655](https://github.com/kubevirt/kubevirt/pull/11655) | [acardace](https://github.com/acardace) |
 | The SLIRP core binding is deprecated and removed.  | [#11701](https://github.com/kubevirt/kubevirt/pull/11701) | [EdDev](https://github.com/EdDev) |
 | SMBios sidecar can be built out-of-tree  | [#11846](https://github.com/kubevirt/kubevirt/pull/11846) | [victortoso](https://github.com/victortoso) |
 | The network-info annotation is now used for mapping between SR-IOV network and the underlying device PCI address  | [#11788](https://github.com/kubevirt/kubevirt/pull/11788) | [ormergi](https://github.com/ormergi) |
