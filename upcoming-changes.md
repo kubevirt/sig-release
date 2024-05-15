@@ -11,6 +11,8 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| sidecar-shim: allow stderr log from binary hooks  | [#11908](https://github.com/kubevirt/kubevirt/pull/11908) | [victortoso](https://github.com/victortoso) |
+| `spreadOptions` have been introduced to preferences in order to allow for finer grain control of the `preferSpread` `preferredCPUTopology`. This includes the ability to now spread vCPUs across guest visible sockets, cores and threads.  | [#11729](https://github.com/kubevirt/kubevirt/pull/11729) | [lyarwood](https://github.com/lyarwood) |
 | Allow to hotplug vcpus for VMs with CPU requests and/or limits set  | [#11655](https://github.com/kubevirt/kubevirt/pull/11655) | [acardace](https://github.com/acardace) |
 | The SLIRP core binding is deprecated and removed.  | [#11701](https://github.com/kubevirt/kubevirt/pull/11701) | [EdDev](https://github.com/EdDev) |
 | SMBios sidecar can be built out-of-tree  | [#11846](https://github.com/kubevirt/kubevirt/pull/11846) | [victortoso](https://github.com/victortoso) |
