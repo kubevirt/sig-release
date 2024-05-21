@@ -11,6 +11,7 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| Require scheduling infra components onto control-plane nodes  | [#11659](https://github.com/kubevirt/kubevirt/pull/11659) | [iholder101](https://github.com/iholder101) |
 | `ControllerRevisions` containing instance types and preferences are now upgraded to their latest available version when the `VirtualMachine` owning them is resync'd by `virt-controller`.  | [#10545](https://github.com/kubevirt/kubevirt/pull/10545) | [lyarwood](https://github.com/lyarwood) |
 | The 'macvtap' core network binding is discontinued and removed.  | [#11901](https://github.com/kubevirt/kubevirt/pull/11901) | [EdDev](https://github.com/EdDev) |
 | Bugfix: Fix VM manifest rendering in export controller  | [#11922](https://github.com/kubevirt/kubevirt/pull/11922) | [alromeros](https://github.com/alromeros) |
