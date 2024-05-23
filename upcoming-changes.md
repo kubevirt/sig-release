@@ -11,6 +11,7 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| Update virtctl to use v1beta1 endpoint for both regular and async image upload  | [#11942](https://github.com/kubevirt/kubevirt/pull/11942) | [ido106](https://github.com/ido106) |
 | Updated common-instancetypes bundles to v1.0.0  | [#11648](https://github.com/kubevirt/kubevirt/pull/11648) | [kubevirt-bot](https://github.com/kubevirt-bot) |
 | Require scheduling infra components onto control-plane nodes  | [#11659](https://github.com/kubevirt/kubevirt/pull/11659) | [iholder101](https://github.com/iholder101) |
 | `ControllerRevisions` containing instance types and preferences are now upgraded to their latest available version when the `VirtualMachine` owning them is resync'd by `virt-controller`.  | [#10545](https://github.com/kubevirt/kubevirt/pull/10545) | [lyarwood](https://github.com/lyarwood) |
