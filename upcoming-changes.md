@@ -11,6 +11,8 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| Fix RerunOnFailure RunStrategy  | [#11963](https://github.com/kubevirt/kubevirt/pull/11963) | [acardace](https://github.com/acardace) |
+| `VirtualMachines` referencing an instance type are now allowed when the `LiveUpdate` feature is enabled and will trigger the `RestartRequired` condition if the reference within the `VirtualMachine` is changed.  | [#11962](https://github.com/kubevirt/kubevirt/pull/11962) | [lyarwood](https://github.com/lyarwood) |
 | Update virtctl to use v1beta1 endpoint for both regular and async image upload  | [#11942](https://github.com/kubevirt/kubevirt/pull/11942) | [ido106](https://github.com/ido106) |
 | Updated common-instancetypes bundles to v1.0.0  | [#11648](https://github.com/kubevirt/kubevirt/pull/11648) | [kubevirt-bot](https://github.com/kubevirt-bot) |
 | Require scheduling infra components onto control-plane nodes  | [#11659](https://github.com/kubevirt/kubevirt/pull/11659) | [iholder101](https://github.com/iholder101) |
