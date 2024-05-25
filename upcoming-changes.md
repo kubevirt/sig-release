@@ -11,6 +11,7 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| Bug fix: Correctly reflect RestartRequired condition  | [#11973](https://github.com/kubevirt/kubevirt/pull/11973) | [fossedihelm](https://github.com/fossedihelm) |
 | Fix RerunOnFailure RunStrategy  | [#11963](https://github.com/kubevirt/kubevirt/pull/11963) | [acardace](https://github.com/acardace) |
 | `VirtualMachines` referencing an instance type are now allowed when the `LiveUpdate` feature is enabled and will trigger the `RestartRequired` condition if the reference within the `VirtualMachine` is changed.  | [#11962](https://github.com/kubevirt/kubevirt/pull/11962) | [lyarwood](https://github.com/lyarwood) |
 | Update virtctl to use v1beta1 endpoint for both regular and async image upload  | [#11942](https://github.com/kubevirt/kubevirt/pull/11942) | [ido106](https://github.com/ido106) |
