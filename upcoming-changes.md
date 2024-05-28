@@ -11,6 +11,10 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| Introduce snapshot.kibevirt.io/v1beta1  | [#11955](https://github.com/kubevirt/kubevirt/pull/11955) | [mhenriks](https://github.com/mhenriks) |
+| Restart of a VM is required when the CPU socket count is reduced  | [#11883](https://github.com/kubevirt/kubevirt/pull/11883) | [orelmisan](https://github.com/orelmisan) |
+| add Intel Gaudi to adopters.  | [#11835](https://github.com/kubevirt/kubevirt/pull/11835) | [talcoh2x](https://github.com/talcoh2x) |
+| Refactor device plugins to use a base plugin and define a common interface  | [#11344](https://github.com/kubevirt/kubevirt/pull/11344) | [aerosouund](https://github.com/aerosouund) |
 | Bug fix: Correctly reflect RestartRequired condition  | [#11973](https://github.com/kubevirt/kubevirt/pull/11973) | [fossedihelm](https://github.com/fossedihelm) |
 | Fix RerunOnFailure RunStrategy  | [#11963](https://github.com/kubevirt/kubevirt/pull/11963) | [acardace](https://github.com/acardace) |
 | `VirtualMachines` referencing an instance type are now allowed when the `LiveUpdate` feature is enabled and will trigger the `RestartRequired` condition if the reference within the `VirtualMachine` is changed.  | [#11962](https://github.com/kubevirt/kubevirt/pull/11962) | [lyarwood](https://github.com/lyarwood) |
