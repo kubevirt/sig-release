@@ -11,6 +11,7 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| Infra components control-plane nodes NoSchedule toleration  | [#11969](https://github.com/kubevirt/kubevirt/pull/11969) | [iholder101](https://github.com/iholder101) |
 | Introduce snapshot.kibevirt.io/v1beta1  | [#11955](https://github.com/kubevirt/kubevirt/pull/11955) | [mhenriks](https://github.com/mhenriks) |
 | Restart of a VM is required when the CPU socket count is reduced  | [#11883](https://github.com/kubevirt/kubevirt/pull/11883) | [orelmisan](https://github.com/orelmisan) |
 | add Intel Gaudi to adopters.  | [#11835](https://github.com/kubevirt/kubevirt/pull/11835) | [talcoh2x](https://github.com/talcoh2x) |
