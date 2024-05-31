@@ -11,6 +11,8 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| BugFix: Fix restore panic in case of volumesnapshot missing  | [#11996](https://github.com/kubevirt/kubevirt/pull/11996) | [ShellyKa13](https://github.com/ShellyKa13) |
+| snapshot: Ignore unfreeze error if VMSnapshot deleting  | [#11957](https://github.com/kubevirt/kubevirt/pull/11957) | [mhenriks](https://github.com/mhenriks) |
 | Create kubevirt_vmi_info metric  | [#11906](https://github.com/kubevirt/kubevirt/pull/11906) | [machadovilaca](https://github.com/machadovilaca) |
 | Infra components control-plane nodes NoSchedule toleration  | [#11969](https://github.com/kubevirt/kubevirt/pull/11969) | [iholder101](https://github.com/iholder101) |
 | Introduce snapshot.kibevirt.io/v1beta1  | [#11955](https://github.com/kubevirt/kubevirt/pull/11955) | [mhenriks](https://github.com/mhenriks) |
