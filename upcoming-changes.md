@@ -11,6 +11,7 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| Implement volume migration and introduce the migration updateVolumesStrategy field  | [#11533](https://github.com/kubevirt/kubevirt/pull/11533) | [alicefr](https://github.com/alicefr) |
 | Add kubevirt_vmi_last_connection_timestamp_seconds metric  | [#11934](https://github.com/kubevirt/kubevirt/pull/11934) | [assafad](https://github.com/assafad) |
 | Introduce export.kibevirt.io/v1beta1  | [#11956](https://github.com/kubevirt/kubevirt/pull/11956) | [mhenriks](https://github.com/mhenriks) |
 | BugFix: Fix restore panic in case of volumesnapshot missing  | [#11996](https://github.com/kubevirt/kubevirt/pull/11996) | [ShellyKa13](https://github.com/ShellyKa13) |
