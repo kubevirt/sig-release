@@ -11,6 +11,7 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| `LiveUpdates`  of VMs using instance types are now supported with the same caveats as when making changes to a vanilla VM.  | [#11455](https://github.com/kubevirt/kubevirt/pull/11455) | [lyarwood](https://github.com/lyarwood) |
 | Create kubevirt_vmi_launcher_memory_overhead_bytes metric  | [#12000](https://github.com/kubevirt/kubevirt/pull/12000) | [machadovilaca](https://github.com/machadovilaca) |
 | The 'passt' core network binding is discontinued and removed.  | [#11915](https://github.com/kubevirt/kubevirt/pull/11915) | [ormergi](https://github.com/ormergi) |
 | fix starting VM with Manual RunStrategy  | [#12016](https://github.com/kubevirt/kubevirt/pull/12016) | [acardace](https://github.com/acardace) |
