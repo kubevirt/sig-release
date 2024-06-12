@@ -11,6 +11,8 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| Less privileged virt-operator ClusterRole  | [#12089](https://github.com/kubevirt/kubevirt/pull/12089) | [jean-edouard](https://github.com/jean-edouard) |
+| BugFix: Graceful deletion skipped for any delete call to the VM (not VMI) resource  | [#12064](https://github.com/kubevirt/kubevirt/pull/12064) | [akalenyu](https://github.com/akalenyu) |
 | Add support for building and running kubevirt on s390x.  | [#10490](https://github.com/kubevirt/kubevirt/pull/10490) | [jschintag](https://github.com/jschintag) |
 | Network hotplug feature is declared as Beta.  | [#12079](https://github.com/kubevirt/kubevirt/pull/12079) | [EdDev](https://github.com/EdDev) |
 | `LiveUpdates`  of VMs using instance types are now supported with the same caveats as when making changes to a vanilla VM.  | [#11455](https://github.com/kubevirt/kubevirt/pull/11455) | [lyarwood](https://github.com/lyarwood) |
