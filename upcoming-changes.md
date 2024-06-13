@@ -11,6 +11,8 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| Add descheduler compatibility  | [#12025](https://github.com/kubevirt/kubevirt/pull/12025) | [fossedihelm](https://github.com/fossedihelm) |
+| Bump k8s deps to 0.30.0  | [#12097](https://github.com/kubevirt/kubevirt/pull/12097) | [fossedihelm](https://github.com/fossedihelm) |
 | Less privileged virt-operator ClusterRole  | [#12089](https://github.com/kubevirt/kubevirt/pull/12089) | [jean-edouard](https://github.com/jean-edouard) |
 | BugFix: Graceful deletion skipped for any delete call to the VM (not VMI) resource  | [#12064](https://github.com/kubevirt/kubevirt/pull/12064) | [akalenyu](https://github.com/akalenyu) |
 | Add support for building and running kubevirt on s390x.  | [#10490](https://github.com/kubevirt/kubevirt/pull/10490) | [jschintag](https://github.com/jschintag) |
