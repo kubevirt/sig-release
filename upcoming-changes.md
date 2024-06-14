@@ -11,6 +11,9 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| Support Memory Hotplug with Hugepages  | [#12109](https://github.com/kubevirt/kubevirt/pull/12109) | [acardace](https://github.com/acardace) |
+| By enabling NodeRestriction feature gate, Kubevirt now authorize virt-handler's requests to modify VMs.  | [#12009](https://github.com/kubevirt/kubevirt/pull/12009) | [xpivarc](https://github.com/xpivarc) |
+| The `CommonInstancetypesDeployment` feature and gate are retrospectively moved to Beta from the 1.2.0 release.  | [#11681](https://github.com/kubevirt/kubevirt/pull/11681) | [lyarwood](https://github.com/lyarwood) |
 | Add descheduler compatibility  | [#12025](https://github.com/kubevirt/kubevirt/pull/12025) | [fossedihelm](https://github.com/fossedihelm) |
 | Bump k8s deps to 0.30.0  | [#12097](https://github.com/kubevirt/kubevirt/pull/12097) | [fossedihelm](https://github.com/fossedihelm) |
 | Less privileged virt-operator ClusterRole  | [#12089](https://github.com/kubevirt/kubevirt/pull/12089) | [jean-edouard](https://github.com/jean-edouard) |
