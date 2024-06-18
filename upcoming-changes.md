@@ -11,6 +11,7 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| Bugfix: Implement retry mechanism in export server and vmexport  | [#11911](https://github.com/kubevirt/kubevirt/pull/11911) | [alromeros](https://github.com/alromeros) |
 | Introduce validatingAdmissionPolicy to restrict node patches on virt-handler  | [#11982](https://github.com/kubevirt/kubevirt/pull/11982) | [RamLavi](https://github.com/RamLavi) |
 | Fix VMPools when `LiveUpdate` as `vmRolloutStrategy` is used.  | [#12119](https://github.com/kubevirt/kubevirt/pull/12119) | [acardace](https://github.com/acardace) |
 | Support Memory Hotplug with Hugepages  | [#12109](https://github.com/kubevirt/kubevirt/pull/12109) | [acardace](https://github.com/acardace) |
