@@ -11,6 +11,7 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| `PreferredDiskDedicatedIoThread` is now only applied to `virtio` disk devices  | [#12169](https://github.com/kubevirt/kubevirt/pull/12169) | [lyarwood](https://github.com/lyarwood) |
 | chore: bump virtio-win image version to 0.1.248  | [#12125](https://github.com/kubevirt/kubevirt/pull/12125) | [ksimon1](https://github.com/ksimon1) |
 | Memory Hotplug fixes and stabilization  | [#12128](https://github.com/kubevirt/kubevirt/pull/12128) | [acardace](https://github.com/acardace) |
 | Bugfix: Implement retry mechanism in export server and vmexport  | [#11911](https://github.com/kubevirt/kubevirt/pull/11911) | [alromeros](https://github.com/alromeros) |
