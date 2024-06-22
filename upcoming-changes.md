@@ -11,6 +11,7 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| Updated common-instancetypes bundles to v1.0.1  | [#12186](https://github.com/kubevirt/kubevirt/pull/12186) | [kubevirt-bot](https://github.com/kubevirt-bot) |
 | VMs with a single socket and NetworkInterfaceMultiqueue enabled require a restart to hotplug additional CPU sockets.  | [#12180](https://github.com/kubevirt/kubevirt/pull/12180) | [0xFelix](https://github.com/0xFelix) |
 | All `preferredCPUTopology` constants prefixed with `Prefer` have been deprecated and will be removed in a future version of the `instancetype.kubevirt.io` API.  | [#11927](https://github.com/kubevirt/kubevirt/pull/11927) | [lyarwood](https://github.com/lyarwood) |
 | `PreferredDiskDedicatedIoThread` is now only applied to `virtio` disk devices  | [#12169](https://github.com/kubevirt/kubevirt/pull/12169) | [lyarwood](https://github.com/lyarwood) |
