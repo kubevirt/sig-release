@@ -11,6 +11,7 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| enable only for VMs with memory >= 1Gi  | [#12212](https://github.com/kubevirt/kubevirt/pull/12212) | [acardace](https://github.com/acardace) |
 | Only a single vgpu display option with ramfb will be configured per VMI.  | [#12053](https://github.com/kubevirt/kubevirt/pull/12053) | [vladikr](https://github.com/vladikr) |
 | fix RerunOnFailure stuck in Provisioning  | [#12193](https://github.com/kubevirt/kubevirt/pull/12193) | [acardace](https://github.com/acardace) |
 | Updated common-instancetypes bundles to v1.0.1  | [#12186](https://github.com/kubevirt/kubevirt/pull/12186) | [kubevirt-bot](https://github.com/kubevirt-bot) |
