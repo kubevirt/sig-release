@@ -11,6 +11,7 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| Fix missing performance metrics for VMI resources  | [#12096](https://github.com/kubevirt/kubevirt/pull/12096) | [machadovilaca](https://github.com/machadovilaca) |
 | Add unit tests to check for API backward compatibility  | [#11856](https://github.com/kubevirt/kubevirt/pull/11856) | [Sreeja1725](https://github.com/Sreeja1725) |
 | Add CPU/Memory utilization of components metrics to kubevirt benchmarks  | [#12116](https://github.com/kubevirt/kubevirt/pull/12116) | [Sreeja1725](https://github.com/Sreeja1725) |
 | Virt export route has an edge termination of redirect  | [#12195](https://github.com/kubevirt/kubevirt/pull/12195) | [awels](https://github.com/awels) |
