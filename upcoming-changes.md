@@ -11,6 +11,7 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| Fix wrong KubeVirtVMIExcessiveMigrations alert calculation in an upgrade scenario.  | [#12209](https://github.com/kubevirt/kubevirt/pull/12209) | [orenc1](https://github.com/orenc1) |
 | Fix: persistent tpm can be used with vmis containing dots in their name  | [#12261](https://github.com/kubevirt/kubevirt/pull/12261) | [fossedihelm](https://github.com/fossedihelm) |
 | Add perf-scale benchmarks for release v1.3  | [#12247](https://github.com/kubevirt/kubevirt/pull/12247) | [Sreeja1725](https://github.com/Sreeja1725) |
 | BugFix: Grant namespace admin RBAC to passthrough a client USB to a VMI  | [#12181](https://github.com/kubevirt/kubevirt/pull/12181) | [akalenyu](https://github.com/akalenyu) |
