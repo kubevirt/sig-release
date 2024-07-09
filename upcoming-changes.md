@@ -11,6 +11,7 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| Network binding plugins: Enable the ability to specify compute memory overhead  | [#12235](https://github.com/kubevirt/kubevirt/pull/12235) | [orelmisan](https://github.com/orelmisan) |
 | Fix wrong KubeVirtVMIExcessiveMigrations alert calculation in an upgrade scenario.  | [#12209](https://github.com/kubevirt/kubevirt/pull/12209) | [orenc1](https://github.com/orenc1) |
 | Fix: persistent tpm can be used with vmis containing dots in their name  | [#12261](https://github.com/kubevirt/kubevirt/pull/12261) | [fossedihelm](https://github.com/fossedihelm) |
 | Add perf-scale benchmarks for release v1.3  | [#12247](https://github.com/kubevirt/kubevirt/pull/12247) | [Sreeja1725](https://github.com/Sreeja1725) |
