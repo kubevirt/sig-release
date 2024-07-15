@@ -16,4 +16,5 @@
 |  2024-06-19 | RC 0               | Tag v1.3.0-rc.0 on release-1.3 |                                  |                    |
 |  2024-06-26 | RC 1               | Tag v1.3.0-rc.1 on release-1.3 |                                  |                    |
 | **July**    |                    |                                |                                  |                    |
-|  2024-07-03 | GA                 | Tag v1.3.0 on release-1.3      |                                  |                    |
+|  2024-07-10 | RC 2               | Tag v1.3.0-rc.2 on release-1.3 |                                  |                    |
+|  2024-07-17 | GA                 | Tag v1.3.0 on release-1.3      |                                  |                    |
