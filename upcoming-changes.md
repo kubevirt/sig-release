@@ -11,6 +11,7 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| fix some comments  | [#12425](https://github.com/kubevirt/kubevirt/pull/12425) | [fudancoder](https://github.com/fudancoder) |
 | Use optional interface at passt binding sidecar  | [#12354](https://github.com/kubevirt/kubevirt/pull/12354) | [qinqon](https://github.com/qinqon) |
 | Drop `ForceRestart` and `ForceStop` methods from client-go  | [#12268](https://github.com/kubevirt/kubevirt/pull/12268) | [fossedihelm](https://github.com/fossedihelm) |
 | Network binding plugins: Enable the ability to specify compute memory overhead  | [#12235](https://github.com/kubevirt/kubevirt/pull/12235) | [orelmisan](https://github.com/orelmisan) |
