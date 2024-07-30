@@ -11,6 +11,7 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| The `expand-spec` subresource API now applies defaults to the returned `VirtualMachine` to ensure the `VirtualMachineInstanceSpec` within is closer to the eventual version used when starting the original `VirtualMachine`.  | [#11881](https://github.com/kubevirt/kubevirt/pull/11881) | [lyarwood](https://github.com/lyarwood) |
 | This version of KubeVirt includes upgraded virtualization technology based on libvirt 10.5.0 and QEMU 9.0.0.<br>Each new release of libvirt and QEMU contains numerous improvements and bug fixes.  | [#12452](https://github.com/kubevirt/kubevirt/pull/12452) | [andreabolognani](https://github.com/andreabolognani) |
 | fix some comments  | [#12425](https://github.com/kubevirt/kubevirt/pull/12425) | [fudancoder](https://github.com/fudancoder) |
 | Use optional interface at passt binding sidecar  | [#12354](https://github.com/kubevirt/kubevirt/pull/12354) | [qinqon](https://github.com/qinqon) |
