@@ -11,6 +11,8 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| * Reduced the severity of log messages when a `VolumeSnapshotClass` is not found. When snapshots are not enabled for a volume, the reason will still be displayed in the `status.volumeSnapshotStatuses` field of a `VirtualMachine` resource.  | [#12254](https://github.com/kubevirt/kubevirt/pull/12254) | [jkinred](https://github.com/jkinred) |
+| virt-api: unencode authorization extra headers  | [#12460](https://github.com/kubevirt/kubevirt/pull/12460) | [mhenriks](https://github.com/mhenriks) |
 | Fix: eviction requests to completed virt-launcher pods cannot trigger a live migration  | [#12451](https://github.com/kubevirt/kubevirt/pull/12451) | [fossedihelm](https://github.com/fossedihelm) |
 | The `expand-spec` subresource API now applies defaults to the returned `VirtualMachine` to ensure the `VirtualMachineInstanceSpec` within is closer to the eventual version used when starting the original `VirtualMachine`.  | [#11881](https://github.com/kubevirt/kubevirt/pull/11881) | [lyarwood](https://github.com/lyarwood) |
 | This version of KubeVirt includes upgraded virtualization technology based on libvirt 10.5.0 and QEMU 9.0.0.<br>Each new release of libvirt and QEMU contains numerous improvements and bug fixes.  | [#12452](https://github.com/kubevirt/kubevirt/pull/12452) | [andreabolognani](https://github.com/andreabolognani) |
