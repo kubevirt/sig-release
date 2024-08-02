@@ -11,6 +11,7 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| Adding support for the `igb` network interface model  | [#11754](https://github.com/kubevirt/kubevirt/pull/11754) | [nickolaev](https://github.com/nickolaev) |
 | * Reduced the severity of log messages when a `VolumeSnapshotClass` is not found. When snapshots are not enabled for a volume, the reason will still be displayed in the `status.volumeSnapshotStatuses` field of a `VirtualMachine` resource.  | [#12254](https://github.com/kubevirt/kubevirt/pull/12254) | [jkinred](https://github.com/jkinred) |
 | virt-api: unencode authorization extra headers  | [#12460](https://github.com/kubevirt/kubevirt/pull/12460) | [mhenriks](https://github.com/mhenriks) |
 | Fix: eviction requests to completed virt-launcher pods cannot trigger a live migration  | [#12451](https://github.com/kubevirt/kubevirt/pull/12451) | [fossedihelm](https://github.com/fossedihelm) |
