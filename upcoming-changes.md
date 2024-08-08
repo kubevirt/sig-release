@@ -11,6 +11,7 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| VM supports kubevirt.io/immediate-data-volume-creation: "false" which delays creating DataVolumeTemplates until VM is started  | [#12194](https://github.com/kubevirt/kubevirt/pull/12194) | [mhenriks](https://github.com/mhenriks) |
 | Adding newMacAddresses validatewebhook for  VMCloneAPI  | [#11802](https://github.com/kubevirt/kubevirt/pull/11802) | [matthewei](https://github.com/matthewei) |
 | Adding support for the `igb` network interface model  | [#11754](https://github.com/kubevirt/kubevirt/pull/11754) | [nickolaev](https://github.com/nickolaev) |
 | * Reduced the severity of log messages when a `VolumeSnapshotClass` is not found. When snapshots are not enabled for a volume, the reason will still be displayed in the `status.volumeSnapshotStatuses` field of a `VirtualMachine` resource.  | [#12254](https://github.com/kubevirt/kubevirt/pull/12254) | [jkinred](https://github.com/jkinred) |
