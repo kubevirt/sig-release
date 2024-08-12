@@ -11,6 +11,7 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| tests/vm_tests.go: replace Update() with Patch()  | [#12466](https://github.com/kubevirt/kubevirt/pull/12466) | [orenc1](https://github.com/orenc1) |
 | Updated common-instancetypes bundles to v1.1.0  | [#12548](https://github.com/kubevirt/kubevirt/pull/12548) | [kubevirt-bot](https://github.com/kubevirt-bot) |
 | Enable live-migration and node labels on s390x  | [#12476](https://github.com/kubevirt/kubevirt/pull/12476) | [jschintag](https://github.com/jschintag) |
 | VM supports kubevirt.io/immediate-data-volume-creation: "false" which delays creating DataVolumeTemplates until VM is started  | [#12194](https://github.com/kubevirt/kubevirt/pull/12194) | [mhenriks](https://github.com/mhenriks) |
