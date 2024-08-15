@@ -11,6 +11,7 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| Build KubeVirt with go v1.22.6  | [#12584](https://github.com/kubevirt/kubevirt/pull/12584) | [brianmcarey](https://github.com/brianmcarey) |
 | Advise users to use RunStrategy in virt-api messages  | [#12575](https://github.com/kubevirt/kubevirt/pull/12575) | [Barakmor1](https://github.com/Barakmor1) |
 | tests/vm_tests.go: replace Update() with Patch()  | [#12466](https://github.com/kubevirt/kubevirt/pull/12466) | [orenc1](https://github.com/orenc1) |
 | Updated common-instancetypes bundles to v1.1.0  | [#12548](https://github.com/kubevirt/kubevirt/pull/12548) | [kubevirt-bot](https://github.com/kubevirt-bot) |
