@@ -11,6 +11,7 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| Add timeout to validation webhooks  | [#12419](https://github.com/kubevirt/kubevirt/pull/12419) | [nunnatsa](https://github.com/nunnatsa) |
 | Fixed issue emitting created secret events when not actually creating secrets during VMExport setup  | [#12592](https://github.com/kubevirt/kubevirt/pull/12592) | [awels](https://github.com/awels) |
 | Build KubeVirt with go v1.22.6  | [#12584](https://github.com/kubevirt/kubevirt/pull/12584) | [brianmcarey](https://github.com/brianmcarey) |
 | Advise users to use RunStrategy in virt-api messages  | [#12575](https://github.com/kubevirt/kubevirt/pull/12575) | [Barakmor1](https://github.com/Barakmor1) |
