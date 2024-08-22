@@ -11,6 +11,8 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| BugFix: "Cannot allocate memory" warnings for containerdisk VMs  | [#12638](https://github.com/kubevirt/kubevirt/pull/12638) | [akalenyu](https://github.com/akalenyu) |
+| Add new condition for VMIStorageLiveMigratable  | [#12395](https://github.com/kubevirt/kubevirt/pull/12395) | [alicefr](https://github.com/alicefr) |
 | Add timeout to validation webhooks  | [#12419](https://github.com/kubevirt/kubevirt/pull/12419) | [nunnatsa](https://github.com/nunnatsa) |
 | Fixed issue emitting created secret events when not actually creating secrets during VMExport setup  | [#12592](https://github.com/kubevirt/kubevirt/pull/12592) | [awels](https://github.com/awels) |
 | Build KubeVirt with go v1.22.6  | [#12584](https://github.com/kubevirt/kubevirt/pull/12584) | [brianmcarey](https://github.com/brianmcarey) |
