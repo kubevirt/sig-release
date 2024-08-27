@@ -11,6 +11,7 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| Add kubevirt_vm_resource_requests metric for memory resource  | [#12593](https://github.com/kubevirt/kubevirt/pull/12593) | [machadovilaca](https://github.com/machadovilaca) |
 | grpc from go.mod is now correctly shipped in release images  | [#12617](https://github.com/kubevirt/kubevirt/pull/12617) | [Acedus](https://github.com/Acedus) |
 | BugFix: "Cannot allocate memory" warnings for containerdisk VMs  | [#12638](https://github.com/kubevirt/kubevirt/pull/12638) | [akalenyu](https://github.com/akalenyu) |
 | Add new condition for VMIStorageLiveMigratable  | [#12395](https://github.com/kubevirt/kubevirt/pull/12395) | [alicefr](https://github.com/alicefr) |
