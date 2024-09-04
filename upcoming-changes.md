@@ -11,6 +11,8 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| replace `Update()` with `Patch()` for `test VirtualMachineInstancesPerNode`  | [#12616](https://github.com/kubevirt/kubevirt/pull/12616) | [orenc1](https://github.com/orenc1) |
+| Optionally create data source using virtctl image upload.  | [#12557](https://github.com/kubevirt/kubevirt/pull/12557) | [codingben](https://github.com/codingben) |
 | virt-api: skip clone auth check when DataVolume already exists  | [#12547](https://github.com/kubevirt/kubevirt/pull/12547) | [mhenriks](https://github.com/mhenriks) |
 | Bridge binding: Static routes to subnets containing the pod's NIC IP address are passed to the VM.  | [#12613](https://github.com/kubevirt/kubevirt/pull/12613) | [orelmisan](https://github.com/orelmisan) |
 | [tests] introduce a decorator for Periodic_only tests  | [#12594](https://github.com/kubevirt/kubevirt/pull/12594) | [tiraboschi](https://github.com/tiraboschi) |
