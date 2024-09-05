@@ -11,6 +11,10 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| The `NUMA` feature gate is now deprecated with the feature state graduated to `GA` and thus enabled by default  | [#12232](https://github.com/kubevirt/kubevirt/pull/12232) | [lyarwood](https://github.com/lyarwood) |
+| vmsnapshot: when checking if a VM is running, ignore runStrategy  | [#12582](https://github.com/kubevirt/kubevirt/pull/12582) | [mhenriks](https://github.com/mhenriks) |
+| Add kubevirt_vm_resource_requests for CPU resource  | [#12625](https://github.com/kubevirt/kubevirt/pull/12625) | [machadovilaca](https://github.com/machadovilaca) |
+| vmexport: enable status subresource for VirtualMachineExport  | [#12605](https://github.com/kubevirt/kubevirt/pull/12605) | [mhenriks](https://github.com/mhenriks) |
 | replace `Update()` with `Patch()` for `test VirtualMachineInstancesPerNode`  | [#12616](https://github.com/kubevirt/kubevirt/pull/12616) | [orenc1](https://github.com/orenc1) |
 | Optionally create data source using virtctl image upload.  | [#12557](https://github.com/kubevirt/kubevirt/pull/12557) | [codingben](https://github.com/codingben) |
 | virt-api: skip clone auth check when DataVolume already exists  | [#12547](https://github.com/kubevirt/kubevirt/pull/12547) | [mhenriks](https://github.com/mhenriks) |
