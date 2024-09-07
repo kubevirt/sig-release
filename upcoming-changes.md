@@ -11,6 +11,8 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| A new `PreferredEfi` field has been added to preferences to express the preferred `EFI` configuration for a given `VirtualMachine`.  | [#12739](https://github.com/kubevirt/kubevirt/pull/12739) | [lyarwood](https://github.com/lyarwood) |
+| Add evictable label to kubevirt_vmi_info  | [#12737](https://github.com/kubevirt/kubevirt/pull/12737) | [machadovilaca](https://github.com/machadovilaca) |
 | The `NUMA` feature gate is now deprecated with the feature state graduated to `GA` and thus enabled by default  | [#12232](https://github.com/kubevirt/kubevirt/pull/12232) | [lyarwood](https://github.com/lyarwood) |
 | vmsnapshot: when checking if a VM is running, ignore runStrategy  | [#12582](https://github.com/kubevirt/kubevirt/pull/12582) | [mhenriks](https://github.com/mhenriks) |
 | Add kubevirt_vm_resource_requests for CPU resource  | [#12625](https://github.com/kubevirt/kubevirt/pull/12625) | [machadovilaca](https://github.com/machadovilaca) |
