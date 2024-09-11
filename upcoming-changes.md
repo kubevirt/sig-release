@@ -11,6 +11,8 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| Continue changes to Ginkgo V2 Serial runs  | [#10562](https://github.com/kubevirt/kubevirt/pull/10562) | [dhiller](https://github.com/dhiller) |
+| enable initial e2e tests for s390x.  | [#12516](https://github.com/kubevirt/kubevirt/pull/12516) | [vamsikrishna-siddu](https://github.com/vamsikrishna-siddu) |
 | A new `PreferredEfi` field has been added to preferences to express the preferred `EFI` configuration for a given `VirtualMachine`.  | [#12739](https://github.com/kubevirt/kubevirt/pull/12739) | [lyarwood](https://github.com/lyarwood) |
 | Add evictable label to kubevirt_vmi_info  | [#12737](https://github.com/kubevirt/kubevirt/pull/12737) | [machadovilaca](https://github.com/machadovilaca) |
 | The `NUMA` feature gate is now deprecated with the feature state graduated to `GA` and thus enabled by default  | [#12232](https://github.com/kubevirt/kubevirt/pull/12232) | [lyarwood](https://github.com/lyarwood) |
