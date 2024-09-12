@@ -11,6 +11,7 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| bugfix: vmrestore create DVs before creation/update of restored VM  | [#12764](https://github.com/kubevirt/kubevirt/pull/12764) | [ShellyKa13](https://github.com/ShellyKa13) |
 | Continue changes to Ginkgo V2 Serial runs  | [#10562](https://github.com/kubevirt/kubevirt/pull/10562) | [dhiller](https://github.com/dhiller) |
 | enable initial e2e tests for s390x.  | [#12516](https://github.com/kubevirt/kubevirt/pull/12516) | [vamsikrishna-siddu](https://github.com/vamsikrishna-siddu) |
 | A new `PreferredEfi` field has been added to preferences to express the preferred `EFI` configuration for a given `VirtualMachine`.  | [#12739](https://github.com/kubevirt/kubevirt/pull/12739) | [lyarwood](https://github.com/lyarwood) |
