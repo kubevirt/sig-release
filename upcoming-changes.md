@@ -11,6 +11,8 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| BugFix: can't create export pod on OpenShift  | [#12813](https://github.com/kubevirt/kubevirt/pull/12813) | [akalenyu](https://github.com/akalenyu) |
+| virtctl: Created VMs can infer an instancetype or preference from PVC, Registry and Snapshot sources now.  | [#12786](https://github.com/kubevirt/kubevirt/pull/12786) | [0xFelix](https://github.com/0xFelix) |
 | bugfix: vmrestore create DVs before creation/update of restored VM  | [#12764](https://github.com/kubevirt/kubevirt/pull/12764) | [ShellyKa13](https://github.com/ShellyKa13) |
 | Continue changes to Ginkgo V2 Serial runs  | [#10562](https://github.com/kubevirt/kubevirt/pull/10562) | [dhiller](https://github.com/dhiller) |
 | enable initial e2e tests for s390x.  | [#12516](https://github.com/kubevirt/kubevirt/pull/12516) | [vamsikrishna-siddu](https://github.com/vamsikrishna-siddu) |
