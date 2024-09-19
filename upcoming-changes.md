@@ -11,6 +11,7 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| bug-fix: Ensure PDB associated with a VMI is deleted when it Reaches Succeeded or Failed phase  | [#12809](https://github.com/kubevirt/kubevirt/pull/12809) | [dasionov](https://github.com/dasionov) |
 | BugFix: can't create export pod on OpenShift  | [#12813](https://github.com/kubevirt/kubevirt/pull/12813) | [akalenyu](https://github.com/akalenyu) |
 | virtctl: Created VMs can infer an instancetype or preference from PVC, Registry and Snapshot sources now.  | [#12786](https://github.com/kubevirt/kubevirt/pull/12786) | [0xFelix](https://github.com/0xFelix) |
 | bugfix: vmrestore create DVs before creation/update of restored VM  | [#12764](https://github.com/kubevirt/kubevirt/pull/12764) | [ShellyKa13](https://github.com/ShellyKa13) |
