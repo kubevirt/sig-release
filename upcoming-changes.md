@@ -11,6 +11,10 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| MaxCpuSockets won't block creation of VMs with more Sockets than MaxCpuSockets declare  | [#12599](https://github.com/kubevirt/kubevirt/pull/12599) | [xpivarc](https://github.com/xpivarc) |
+| BugFix: Fail to create VMExport via virtctl vmexport create  | [#12857](https://github.com/kubevirt/kubevirt/pull/12857) | [akalenyu](https://github.com/akalenyu) |
+| Add the volume migration state in the VM status  | [#12355](https://github.com/kubevirt/kubevirt/pull/12355) | [alicefr](https://github.com/alicefr) |
+| Concurrent addvolume/removevolume using virtctl no longer fail if concurrent modifications happen  | [#12726](https://github.com/kubevirt/kubevirt/pull/12726) | [awels](https://github.com/awels) |
 | bugfix: In case of err in vmrestore, leave VM without RestoreInProgress annotation allowing it to be started  | [#12835](https://github.com/kubevirt/kubevirt/pull/12835) | [ShellyKa13](https://github.com/ShellyKa13) |
 | bug-fix: Ensure PDB associated with a VMI is deleted when it Reaches Succeeded or Failed phase  | [#12809](https://github.com/kubevirt/kubevirt/pull/12809) | [dasionov](https://github.com/dasionov) |
 | BugFix: can't create export pod on OpenShift  | [#12813](https://github.com/kubevirt/kubevirt/pull/12813) | [akalenyu](https://github.com/akalenyu) |
