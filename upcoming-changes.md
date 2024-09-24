@@ -11,6 +11,7 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| Add kubevirt_vm_info metric  | [#12718](https://github.com/kubevirt/kubevirt/pull/12718) | [machadovilaca](https://github.com/machadovilaca) |
 | MaxCpuSockets won't block creation of VMs with more Sockets than MaxCpuSockets declare  | [#12599](https://github.com/kubevirt/kubevirt/pull/12599) | [xpivarc](https://github.com/xpivarc) |
 | BugFix: Fail to create VMExport via virtctl vmexport create  | [#12857](https://github.com/kubevirt/kubevirt/pull/12857) | [akalenyu](https://github.com/akalenyu) |
 | Add the volume migration state in the VM status  | [#12355](https://github.com/kubevirt/kubevirt/pull/12355) | [alicefr](https://github.com/alicefr) |
