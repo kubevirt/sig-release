@@ -11,6 +11,9 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| Rename kubevirt_vm_resource_requests 'vmi' label to 'name'  | [#12910](https://github.com/kubevirt/kubevirt/pull/12910) | [machadovilaca](https://github.com/machadovilaca) |
+| Reduce default CompletionTimeoutPerGiB from 800s to 150s  | [#12848](https://github.com/kubevirt/kubevirt/pull/12848) | [iholder101](https://github.com/iholder101) |
+| bugfix: fix possible miss update of datavolumename on vmrestore restores  | [#12861](https://github.com/kubevirt/kubevirt/pull/12861) | [ShellyKa13](https://github.com/ShellyKa13) |
 | Increase periodicity in domainstats migration metrics  | [#12441](https://github.com/kubevirt/kubevirt/pull/12441) | [machadovilaca](https://github.com/machadovilaca) |
 | Add kubevirt_vm_info metric  | [#12718](https://github.com/kubevirt/kubevirt/pull/12718) | [machadovilaca](https://github.com/machadovilaca) |
 | MaxCpuSockets won't block creation of VMs with more Sockets than MaxCpuSockets declare  | [#12599](https://github.com/kubevirt/kubevirt/pull/12599) | [xpivarc](https://github.com/xpivarc) |
