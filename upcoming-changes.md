@@ -11,6 +11,8 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| Add kubevirt_vmsnapshot_succeeded_timestamp_seconds metric  | [#12645](https://github.com/kubevirt/kubevirt/pull/12645) | [avlitman](https://github.com/avlitman) |
+| add s390x support for kubevirt builder  | [#11097](https://github.com/kubevirt/kubevirt/pull/11097) | [vamsikrishna-siddu](https://github.com/vamsikrishna-siddu) |
 | Rename kubevirt_vm_resource_requests 'vmi' label to 'name'  | [#12910](https://github.com/kubevirt/kubevirt/pull/12910) | [machadovilaca](https://github.com/machadovilaca) |
 | Reduce default CompletionTimeoutPerGiB from 800s to 150s  | [#12848](https://github.com/kubevirt/kubevirt/pull/12848) | [iholder101](https://github.com/iholder101) |
 | bugfix: fix possible miss update of datavolumename on vmrestore restores  | [#12861](https://github.com/kubevirt/kubevirt/pull/12861) | [ShellyKa13](https://github.com/ShellyKa13) |
