@@ -11,6 +11,7 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| Mark Running field as deprecated  | [#12578](https://github.com/kubevirt/kubevirt/pull/12578) | [dasionov](https://github.com/dasionov) |
 | The `CommonInstancetypesDeploymentGate` feature gate and underlying feature are graduated to GA and now always enabled by default. A single new `KubeVirt` configurable is also introduced to allow cluster admins a way of explicitly disabling deployment when required.  | [#12753](https://github.com/kubevirt/kubevirt/pull/12753) | [lyarwood](https://github.com/lyarwood) |
 | Add kubevirt_vmsnapshot_succeeded_timestamp_seconds metric  | [#12645](https://github.com/kubevirt/kubevirt/pull/12645) | [avlitman](https://github.com/avlitman) |
 | add s390x support for kubevirt builder  | [#11097](https://github.com/kubevirt/kubevirt/pull/11097) | [vamsikrishna-siddu](https://github.com/vamsikrishna-siddu) |
