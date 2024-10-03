@@ -11,6 +11,7 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| Integrate kwok with sig-scale tests  | [#12117](https://github.com/kubevirt/kubevirt/pull/12117) | [Sreeja1725](https://github.com/Sreeja1725) |
 | Update kubevirt_rest_client_request_latency_seconds to count list calls if made using query params  | [#12716](https://github.com/kubevirt/kubevirt/pull/12716) | [Sreeja1725](https://github.com/Sreeja1725) |
 | Mark Running field as deprecated  | [#12578](https://github.com/kubevirt/kubevirt/pull/12578) | [dasionov](https://github.com/dasionov) |
 | The `CommonInstancetypesDeploymentGate` feature gate and underlying feature are graduated to GA and now always enabled by default. A single new `KubeVirt` configurable is also introduced to allow cluster admins a way of explicitly disabling deployment when required.  | [#12753](https://github.com/kubevirt/kubevirt/pull/12753) | [lyarwood](https://github.com/lyarwood) |
