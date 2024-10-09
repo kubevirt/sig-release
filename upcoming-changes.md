@@ -11,6 +11,7 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| Add a 'outdated' label to kubevirt_vmi_info metric  | [#12992](https://github.com/kubevirt/kubevirt/pull/12992) | [machadovilaca](https://github.com/machadovilaca) |
 | VM admitter: improve validation of vm spec datavolumetemplate  | [#12933](https://github.com/kubevirt/kubevirt/pull/12933) | [ShellyKa13](https://github.com/ShellyKa13) |
 | The `PreferredEfi` preference is now only applied when a user has not already enabled either `EFI` or `BIOS` within the underlying `VirtualMachine`.  | [#12986](https://github.com/kubevirt/kubevirt/pull/12986) | [lyarwood](https://github.com/lyarwood) |
 | Integrate kwok with sig-scale tests  | [#12117](https://github.com/kubevirt/kubevirt/pull/12117) | [Sreeja1725](https://github.com/Sreeja1725) |
