@@ -11,6 +11,9 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| Fixed additional broken amd64 image in some image manifests  | [#12867](https://github.com/kubevirt/kubevirt/pull/12867) | [jschintag](https://github.com/jschintag) |
+| Deprecate the DockerSELinuxMCS FeatureGate  | [#12940](https://github.com/kubevirt/kubevirt/pull/12940) | [Barakmor1](https://github.com/Barakmor1) |
+| The `GPU` feature gate is now deprecated with the feature state graduated to `GA` and thus enabled by default  | [#12943](https://github.com/kubevirt/kubevirt/pull/12943) | [Barakmor1](https://github.com/Barakmor1) |
 | Add a 'outdated' label to kubevirt_vmi_info metric  | [#12992](https://github.com/kubevirt/kubevirt/pull/12992) | [machadovilaca](https://github.com/machadovilaca) |
 | VM admitter: improve validation of vm spec datavolumetemplate  | [#12933](https://github.com/kubevirt/kubevirt/pull/12933) | [ShellyKa13](https://github.com/ShellyKa13) |
 | The `PreferredEfi` preference is now only applied when a user has not already enabled either `EFI` or `BIOS` within the underlying `VirtualMachine`.  | [#12986](https://github.com/kubevirt/kubevirt/pull/12986) | [lyarwood](https://github.com/lyarwood) |
