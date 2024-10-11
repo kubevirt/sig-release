@@ -11,6 +11,9 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| Build KubeVirt with go v1.22.8  | [#12882](https://github.com/kubevirt/kubevirt/pull/12882) | [brianmcarey](https://github.com/brianmcarey) |
+| BugFix: Allow VMExport to work with VM columes that have dots in its name  | [#13040](https://github.com/kubevirt/kubevirt/pull/13040) | [awels](https://github.com/awels) |
+| Update k8s dependencies to 0.31.0<br>Dropped `computeResourceOverhead.claims` and `supportContainerResources.claims` fields in KV config  | [#12729](https://github.com/kubevirt/kubevirt/pull/12729) | [fossedihelm](https://github.com/fossedihelm) |
 | Fixed additional broken amd64 image in some image manifests  | [#12867](https://github.com/kubevirt/kubevirt/pull/12867) | [jschintag](https://github.com/jschintag) |
 | Deprecate the DockerSELinuxMCS FeatureGate  | [#12940](https://github.com/kubevirt/kubevirt/pull/12940) | [Barakmor1](https://github.com/Barakmor1) |
 | The `GPU` feature gate is now deprecated with the feature state graduated to `GA` and thus enabled by default  | [#12943](https://github.com/kubevirt/kubevirt/pull/12943) | [Barakmor1](https://github.com/Barakmor1) |
