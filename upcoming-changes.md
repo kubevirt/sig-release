@@ -11,6 +11,9 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| fix: Proxies configured in kubeconfig are used in client-go for asynchronous subresources like VNC or Console  | [#12829](https://github.com/kubevirt/kubevirt/pull/12829) | [0xFelix](https://github.com/0xFelix) |
+| Bugfix: Fix disk expansion logic by checking usable size instead of requested capacity  | [#12733](https://github.com/kubevirt/kubevirt/pull/12733) | [alromeros](https://github.com/alromeros) |
+| Update code-generators to 1.31.1  | [#13052](https://github.com/kubevirt/kubevirt/pull/13052) | [fossedihelm](https://github.com/fossedihelm) |
 | Build KubeVirt with go v1.22.8  | [#12882](https://github.com/kubevirt/kubevirt/pull/12882) | [brianmcarey](https://github.com/brianmcarey) |
 | BugFix: Allow VMExport to work with VM columes that have dots in its name  | [#13040](https://github.com/kubevirt/kubevirt/pull/13040) | [awels](https://github.com/awels) |
 | Update k8s dependencies to 0.31.0<br>Dropped `computeResourceOverhead.claims` and `supportContainerResources.claims` fields in KV config  | [#12729](https://github.com/kubevirt/kubevirt/pull/12729) | [fossedihelm](https://github.com/fossedihelm) |
