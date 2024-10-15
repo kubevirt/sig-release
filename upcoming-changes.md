@@ -11,6 +11,7 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| virtctl: Allow creating a basic cloud-init config with virtctl create vm  | [#13008](https://github.com/kubevirt/kubevirt/pull/13008) | [0xFelix](https://github.com/0xFelix) |
 | fix: Proxies configured in kubeconfig are used in client-go for asynchronous subresources like VNC or Console  | [#12829](https://github.com/kubevirt/kubevirt/pull/12829) | [0xFelix](https://github.com/0xFelix) |
 | Bugfix: Fix disk expansion logic by checking usable size instead of requested capacity  | [#12733](https://github.com/kubevirt/kubevirt/pull/12733) | [alromeros](https://github.com/alromeros) |
 | Update code-generators to 1.31.1  | [#13052](https://github.com/kubevirt/kubevirt/pull/13052) | [fossedihelm](https://github.com/fossedihelm) |
