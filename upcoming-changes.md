@@ -11,6 +11,13 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| Support Dynamic Primary Pod NIC Name  | [#13018](https://github.com/kubevirt/kubevirt/pull/13018) | [orelmisan](https://github.com/orelmisan) |
+| virtctl: The flags `--volume-clone-pvc`, `--volume-datasource` and `--volume-blank` are deprecated in favor of the `--volume-import` flag.  | [#13019](https://github.com/kubevirt/kubevirt/pull/13019) | [0xFelix](https://github.com/0xFelix) |
+| Network hotplug feature is declared as GA.  | [#13059](https://github.com/kubevirt/kubevirt/pull/13059) | [EdDev](https://github.com/EdDev) |
+| network binding plugin: Introduce a new `managedTap` `domainAttachmentType`  | [#13024](https://github.com/kubevirt/kubevirt/pull/13024) | [EdDev](https://github.com/EdDev) |
+| Network binding plugins feature is declared as Beta.  | [#13060](https://github.com/kubevirt/kubevirt/pull/13060) | [EdDev](https://github.com/EdDev) |
+| Add 'machine_type' label for kubevirt_vm_info metric  | [#13045](https://github.com/kubevirt/kubevirt/pull/13045) | [dasionov](https://github.com/dasionov) |
+| Removed the ManualRecoveryRequired field from the VolumeMigrationState and convert it to the VM condition ManualRecoveryRequired  | [#13030](https://github.com/kubevirt/kubevirt/pull/13030) | [alicefr](https://github.com/alicefr) |
 | virtctl: Users can specify a sysprep volume in VMs created with virtctl create vm  | [#13053](https://github.com/kubevirt/kubevirt/pull/13053) | [0xFelix](https://github.com/0xFelix) |
 | virtctl expose: Drop flag to set deprecated LoadBalancerIP option  | [#12855](https://github.com/kubevirt/kubevirt/pull/12855) | [0xFelix](https://github.com/0xFelix) |
 | virtctl: Allow creating a basic cloud-init config with virtctl create vm  | [#13008](https://github.com/kubevirt/kubevirt/pull/13008) | [0xFelix](https://github.com/0xFelix) |
