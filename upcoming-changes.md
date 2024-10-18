@@ -11,6 +11,11 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| Add kubevirt_vmi_status_addresses metric  | [#12802](https://github.com/kubevirt/kubevirt/pull/12802) | [machadovilaca](https://github.com/machadovilaca) |
+| BugFix: Stop creating tokenSecretRef when no volumes to export  | [#13027](https://github.com/kubevirt/kubevirt/pull/13027) | [awels](https://github.com/awels) |
+| Relaxed check on modify VM spec during VM snapshot to only check disks/volumes  | [#13001](https://github.com/kubevirt/kubevirt/pull/13001) | [awels](https://github.com/awels) |
+| Updated common-instancetypes bundles to v1.2.0  | [#13082](https://github.com/kubevirt/kubevirt/pull/13082) | [kubevirt-bot](https://github.com/kubevirt-bot) |
+| vmsnapshot: Enable status subresource for snapshot.kubevirt.io api group  | [#12601](https://github.com/kubevirt/kubevirt/pull/12601) | [mhenriks](https://github.com/mhenriks) |
 | Support Dynamic Primary Pod NIC Name  | [#13018](https://github.com/kubevirt/kubevirt/pull/13018) | [orelmisan](https://github.com/orelmisan) |
 | virtctl: The flags `--volume-clone-pvc`, `--volume-datasource` and `--volume-blank` are deprecated in favor of the `--volume-import` flag.  | [#13019](https://github.com/kubevirt/kubevirt/pull/13019) | [0xFelix](https://github.com/0xFelix) |
 | Network hotplug feature is declared as GA.  | [#13059](https://github.com/kubevirt/kubevirt/pull/13059) | [EdDev](https://github.com/EdDev) |
