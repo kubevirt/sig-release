@@ -11,6 +11,9 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| Add dynamic pod interface name feature gate  | [#13078](https://github.com/kubevirt/kubevirt/pull/13078) | [qinqon](https://github.com/qinqon) |
+| virtctl: virtctl create vm can now use the Access Credentials API to add credentials to a new VM  | [#13072](https://github.com/kubevirt/kubevirt/pull/13072) | [0xFelix](https://github.com/0xFelix) |
+| fix the cpu model issue for s390x.  | [#13050](https://github.com/kubevirt/kubevirt/pull/13050) | [vamsikrishna-siddu](https://github.com/vamsikrishna-siddu) |
 | Add kubevirt_vmi_status_addresses metric  | [#12802](https://github.com/kubevirt/kubevirt/pull/12802) | [machadovilaca](https://github.com/machadovilaca) |
 | BugFix: Stop creating tokenSecretRef when no volumes to export  | [#13027](https://github.com/kubevirt/kubevirt/pull/13027) | [awels](https://github.com/awels) |
 | Relaxed check on modify VM spec during VM snapshot to only check disks/volumes  | [#13001](https://github.com/kubevirt/kubevirt/pull/13001) | [awels](https://github.com/awels) |
