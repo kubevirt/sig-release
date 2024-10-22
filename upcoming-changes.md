@@ -11,6 +11,7 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| BochsDisplayForEFIGuests is GAed, use  "kubevirt.io/vga-display-efi-x86" annotation on Kubevirt CR before upgrading in case you need retain compatibility.  | [#12967](https://github.com/kubevirt/kubevirt/pull/12967) | [xpivarc](https://github.com/xpivarc) |
 | Add dynamic pod interface name feature gate  | [#13078](https://github.com/kubevirt/kubevirt/pull/13078) | [qinqon](https://github.com/qinqon) |
 | virtctl: virtctl create vm can now use the Access Credentials API to add credentials to a new VM  | [#13072](https://github.com/kubevirt/kubevirt/pull/13072) | [0xFelix](https://github.com/0xFelix) |
 | fix the cpu model issue for s390x.  | [#13050](https://github.com/kubevirt/kubevirt/pull/13050) | [vamsikrishna-siddu](https://github.com/vamsikrishna-siddu) |
