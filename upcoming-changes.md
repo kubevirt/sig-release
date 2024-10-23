@@ -11,6 +11,9 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| Allow live updating VMs' tolerations  | [#13090](https://github.com/kubevirt/kubevirt/pull/13090) | [acardace](https://github.com/acardace) |
+| backend-storage now supports RWO FS  | [#12629](https://github.com/kubevirt/kubevirt/pull/12629) | [jean-edouard](https://github.com/jean-edouard) |
+| A new `spec.configuration.instancetype.referencePolicy` configurable has been added to the `KubeVirt` CR with support for `reference` (default), `expand` and `expandAll` policies provided.  | [#13086](https://github.com/kubevirt/kubevirt/pull/13086) | [lyarwood](https://github.com/lyarwood) |
 | BochsDisplayForEFIGuests is GAed, use  "kubevirt.io/vga-display-efi-x86" annotation on Kubevirt CR before upgrading in case you need retain compatibility.  | [#12967](https://github.com/kubevirt/kubevirt/pull/12967) | [xpivarc](https://github.com/xpivarc) |
 | Add dynamic pod interface name feature gate  | [#13078](https://github.com/kubevirt/kubevirt/pull/13078) | [qinqon](https://github.com/qinqon) |
 | virtctl: virtctl create vm can now use the Access Credentials API to add credentials to a new VM  | [#13072](https://github.com/kubevirt/kubevirt/pull/13072) | [0xFelix](https://github.com/0xFelix) |
