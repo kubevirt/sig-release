@@ -11,6 +11,8 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| GA the `VMLiveUpdateFeatures` feature-gate.  | [#13091](https://github.com/kubevirt/kubevirt/pull/13091) | [acardace](https://github.com/acardace) |
+| Add kubevirt_vm_resource_limits metric  | [#13071](https://github.com/kubevirt/kubevirt/pull/13071) | [machadovilaca](https://github.com/machadovilaca) |
 | Allow live updating VMs' tolerations  | [#13090](https://github.com/kubevirt/kubevirt/pull/13090) | [acardace](https://github.com/acardace) |
 | backend-storage now supports RWO FS  | [#12629](https://github.com/kubevirt/kubevirt/pull/12629) | [jean-edouard](https://github.com/jean-edouard) |
 | A new `spec.configuration.instancetype.referencePolicy` configurable has been added to the `KubeVirt` CR with support for `reference` (default), `expand` and `expandAll` policies provided.  | [#13086](https://github.com/kubevirt/kubevirt/pull/13086) | [lyarwood](https://github.com/lyarwood) |
