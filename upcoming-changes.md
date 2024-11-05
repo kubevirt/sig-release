@@ -11,6 +11,7 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| Update promql query of cpu and memory metrics for sig-performance tests  | [#12546](https://github.com/kubevirt/kubevirt/pull/12546) | [Sreeja1725](https://github.com/Sreeja1725) |
 | Enable virt-exportproxy and virt-exportserver image for s390x  | [#12844](https://github.com/kubevirt/kubevirt/pull/12844) | [jschintag](https://github.com/jschintag) |
 | VMs admitter: remove validation of vm clone volume from the webhook  | [#12628](https://github.com/kubevirt/kubevirt/pull/12628) | [ShellyKa13](https://github.com/ShellyKa13) |
 | Added labels, annotations to VM Export resources and configurable pod readiness timeout  | [#13006](https://github.com/kubevirt/kubevirt/pull/13006) | [chomatdam](https://github.com/chomatdam) |
