@@ -11,6 +11,7 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| kubevirt_vm_disk_allocated_size_bytes metric added in order to monitor vm sizes  | [#12765](https://github.com/kubevirt/kubevirt/pull/12765) | [avlitman](https://github.com/avlitman) |
 | Update promql query of cpu and memory metrics for sig-performance tests  | [#12546](https://github.com/kubevirt/kubevirt/pull/12546) | [Sreeja1725](https://github.com/Sreeja1725) |
 | Enable virt-exportproxy and virt-exportserver image for s390x  | [#12844](https://github.com/kubevirt/kubevirt/pull/12844) | [jschintag](https://github.com/jschintag) |
 | VMs admitter: remove validation of vm clone volume from the webhook  | [#12628](https://github.com/kubevirt/kubevirt/pull/12628) | [ShellyKa13](https://github.com/ShellyKa13) |
