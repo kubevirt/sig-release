@@ -11,6 +11,8 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| virtctl: Image uploads are retried up to 15 times  | [#12925](https://github.com/kubevirt/kubevirt/pull/12925) | [0xFelix](https://github.com/0xFelix) |
+| BugFix: VMSnapshot 'InProgress' and Failing for a VM with InstanceType and Preference  | [#13260](https://github.com/kubevirt/kubevirt/pull/13260) | [akalenyu](https://github.com/akalenyu) |
 | Fix issue starting Virtual Machine Export when succeed/failed VMI exists for that VM  | [#13240](https://github.com/kubevirt/kubevirt/pull/13240) | [awels](https://github.com/awels) |
 | The inflexible `PreferredUseEFi` and `PreferredUseSecureBoot` preference fields have been deprecated ahead of removal in a future version of the `instancetype.kubevirt.io` API. Users should instead use `PreferredEfi` to provide a preferred `EFI` configuration for their `VirtualMachine`.  | [#12750](https://github.com/kubevirt/kubevirt/pull/12750) | [lyarwood](https://github.com/lyarwood) |
 | backend-storage will now correctly use the default virtualization storage class  | [#13219](https://github.com/kubevirt/kubevirt/pull/13219) | [jean-edouard](https://github.com/jean-edouard) |
