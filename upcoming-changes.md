@@ -11,6 +11,7 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| Enable volume migration for hotplugged volumes  | [#12800](https://github.com/kubevirt/kubevirt/pull/12800) | [alicefr](https://github.com/alicefr) |
 | virtctl: Image uploads are retried up to 15 times  | [#12925](https://github.com/kubevirt/kubevirt/pull/12925) | [0xFelix](https://github.com/0xFelix) |
 | BugFix: VMSnapshot 'InProgress' and Failing for a VM with InstanceType and Preference  | [#13260](https://github.com/kubevirt/kubevirt/pull/13260) | [akalenyu](https://github.com/akalenyu) |
 | Fix issue starting Virtual Machine Export when succeed/failed VMI exists for that VM  | [#13240](https://github.com/kubevirt/kubevirt/pull/13240) | [awels](https://github.com/awels) |
