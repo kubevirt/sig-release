@@ -11,6 +11,8 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| VMSnapshot: propagate freeze error failure  | [#13270](https://github.com/kubevirt/kubevirt/pull/13270) | [ShellyKa13](https://github.com/ShellyKa13) |
+| added a new label to kubevirt_vmi_info metric named vmi_pod and contain the current pod name that runs the VMI.  | [#13148](https://github.com/kubevirt/kubevirt/pull/13148) | [avlitman](https://github.com/avlitman) |
 | Enable volume migration for hotplugged volumes  | [#12800](https://github.com/kubevirt/kubevirt/pull/12800) | [alicefr](https://github.com/alicefr) |
 | virtctl: Image uploads are retried up to 15 times  | [#12925](https://github.com/kubevirt/kubevirt/pull/12925) | [0xFelix](https://github.com/0xFelix) |
 | BugFix: VMSnapshot 'InProgress' and Failing for a VM with InstanceType and Preference  | [#13260](https://github.com/kubevirt/kubevirt/pull/13260) | [akalenyu](https://github.com/akalenyu) |
