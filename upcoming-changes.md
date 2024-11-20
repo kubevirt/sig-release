@@ -11,6 +11,8 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| Vmrestore - add options to handle cases when target is not ready  | [#13195](https://github.com/kubevirt/kubevirt/pull/13195) | [ShellyKa13](https://github.com/ShellyKa13) |
+| Avoid NPE when getting filesystem overhead  | [#13138](https://github.com/kubevirt/kubevirt/pull/13138) | [mhenriks](https://github.com/mhenriks) |
 | VMSnapshot: propagate freeze error failure  | [#13270](https://github.com/kubevirt/kubevirt/pull/13270) | [ShellyKa13](https://github.com/ShellyKa13) |
 | added a new label to kubevirt_vmi_info metric named vmi_pod and contain the current pod name that runs the VMI.  | [#13148](https://github.com/kubevirt/kubevirt/pull/13148) | [avlitman](https://github.com/avlitman) |
 | Enable volume migration for hotplugged volumes  | [#12800](https://github.com/kubevirt/kubevirt/pull/12800) | [alicefr](https://github.com/alicefr) |
