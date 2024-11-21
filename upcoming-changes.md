@@ -11,6 +11,7 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| Add Guest and Hugepages memory to kubevirt_vm_resource_requests  | [#13294](https://github.com/kubevirt/kubevirt/pull/13294) | [machadovilaca](https://github.com/machadovilaca) |
 | Vmrestore - add options to handle cases when target is not ready  | [#13195](https://github.com/kubevirt/kubevirt/pull/13195) | [ShellyKa13](https://github.com/ShellyKa13) |
 | Avoid NPE when getting filesystem overhead  | [#13138](https://github.com/kubevirt/kubevirt/pull/13138) | [mhenriks](https://github.com/mhenriks) |
 | VMSnapshot: propagate freeze error failure  | [#13270](https://github.com/kubevirt/kubevirt/pull/13270) | [ShellyKa13](https://github.com/ShellyKa13) |
