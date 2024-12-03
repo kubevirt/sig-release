@@ -11,6 +11,8 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| VMRestore: remove VMSnapshot logic from vmrestore webhook  | [#13305](https://github.com/kubevirt/kubevirt/pull/13305) | [ShellyKa13](https://github.com/ShellyKa13) |
+| Bug-fix: Reduced probability of false "failed to detect socket for containerDisk disk0: ... connection refused" warnings  | [#13367](https://github.com/kubevirt/kubevirt/pull/13367) | [xpivarc](https://github.com/xpivarc) |
 | Network Binding Plugin feature is declared GA  | [#13314](https://github.com/kubevirt/kubevirt/pull/13314) | [EdDev](https://github.com/EdDev) |
 | Add node label to migration metrics  | [#13325](https://github.com/kubevirt/kubevirt/pull/13325) | [machadovilaca](https://github.com/machadovilaca) |
 | Add Guest and Hugepages memory to kubevirt_vm_resource_requests  | [#13294](https://github.com/kubevirt/kubevirt/pull/13294) | [machadovilaca](https://github.com/machadovilaca) |
