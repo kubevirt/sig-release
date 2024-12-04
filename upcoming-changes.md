@@ -11,6 +11,8 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| bug-fix: prevent status update for old migrations  | [#13426](https://github.com/kubevirt/kubevirt/pull/13426) | [dasionov](https://github.com/dasionov) |
+| Unconditionally disable libvirt's VMPort feature which is relevant for VMWare only  | [#13252](https://github.com/kubevirt/kubevirt/pull/13252) | [iholder101](https://github.com/iholder101) |
 | VMRestore: remove VMSnapshot logic from vmrestore webhook  | [#13305](https://github.com/kubevirt/kubevirt/pull/13305) | [ShellyKa13](https://github.com/ShellyKa13) |
 | Bug-fix: Reduced probability of false "failed to detect socket for containerDisk disk0: ... connection refused" warnings  | [#13367](https://github.com/kubevirt/kubevirt/pull/13367) | [xpivarc](https://github.com/xpivarc) |
 | Network Binding Plugin feature is declared GA  | [#13314](https://github.com/kubevirt/kubevirt/pull/13314) | [EdDev](https://github.com/EdDev) |
