@@ -11,6 +11,7 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| /var/lib/kubelet on the nodes can now be a symlink  | [#13263](https://github.com/kubevirt/kubevirt/pull/13263) | [jean-edouard](https://github.com/jean-edouard) |
 | Auto-configured parallel QEMU-level migration threads (a.k.a. multifd)  | [#12705](https://github.com/kubevirt/kubevirt/pull/12705) | [iholder101](https://github.com/iholder101) |
 | bug-fix: prevent status update for old migrations  | [#13426](https://github.com/kubevirt/kubevirt/pull/13426) | [dasionov](https://github.com/dasionov) |
 | Unconditionally disable libvirt's VMPort feature which is relevant for VMWare only  | [#13252](https://github.com/kubevirt/kubevirt/pull/13252) | [iholder101](https://github.com/iholder101) |
