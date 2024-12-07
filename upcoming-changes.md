@@ -11,6 +11,8 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| Adjust managedTap binding to work with VMs with Address Conflict Detection enabled  | [#13458](https://github.com/kubevirt/kubevirt/pull/13458) | [orelmisan](https://github.com/orelmisan) |
+| Add virt-handler cpu and memory usage metrics  | [#13250](https://github.com/kubevirt/kubevirt/pull/13250) | [Sreeja1725](https://github.com/Sreeja1725) |
 | /var/lib/kubelet on the nodes can now be a symlink  | [#13263](https://github.com/kubevirt/kubevirt/pull/13263) | [jean-edouard](https://github.com/jean-edouard) |
 | Auto-configured parallel QEMU-level migration threads (a.k.a. multifd)  | [#12705](https://github.com/kubevirt/kubevirt/pull/12705) | [iholder101](https://github.com/iholder101) |
 | bug-fix: prevent status update for old migrations  | [#13426](https://github.com/kubevirt/kubevirt/pull/13426) | [dasionov](https://github.com/dasionov) |
