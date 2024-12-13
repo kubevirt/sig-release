@@ -11,6 +11,7 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| Remove deprecated DataVolume garbage collection tests  | [#13437](https://github.com/kubevirt/kubevirt/pull/13437) | [arnongilboa](https://github.com/arnongilboa) |
 | Ensure IP not empty in kubevirt_vmi_status_addresses metric  | [#13386](https://github.com/kubevirt/kubevirt/pull/13386) | [machadovilaca](https://github.com/machadovilaca) |
 | Bugfix: fix possible virt-handler race condition and stuck situation during shutdown  | [#13424](https://github.com/kubevirt/kubevirt/pull/13424) | [fossedihelm](https://github.com/fossedihelm) |
 | Adjust managedTap binding to work with VMs with Address Conflict Detection enabled  | [#13458](https://github.com/kubevirt/kubevirt/pull/13458) | [orelmisan](https://github.com/orelmisan) |
