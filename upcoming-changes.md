@@ -11,6 +11,8 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| Upgrade of virt stack  | [#13545](https://github.com/kubevirt/kubevirt/pull/13545) | [alicefr](https://github.com/alicefr) |
+| VMExport: exported DV uses the storage API  | [#13152](https://github.com/kubevirt/kubevirt/pull/13152) | [akalenyu](https://github.com/akalenyu) |
 | Updated common-instancetypes bundles to v1.2.1  | [#13562](https://github.com/kubevirt/kubevirt/pull/13562) | [kubevirt-bot](https://github.com/kubevirt-bot) |
 | virtctl expose now uses the unique `vm.kubevirt.io/name` label found on every virt-launcher Pod as a service selector.  | [#13496](https://github.com/kubevirt/kubevirt/pull/13496) | [0xFelix](https://github.com/0xFelix) |
 | virtctl create vm validates disk names and prevents disk names that will lead to rejection of a VM upon creation.  | [#13547](https://github.com/kubevirt/kubevirt/pull/13547) | [0xFelix](https://github.com/0xFelix) |
