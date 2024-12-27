@@ -11,6 +11,7 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| Ensure virt-tail and virt-monitor have the same timeout, preventing early termination of virt-tail while virt-monitor is still starting  | [#13588](https://github.com/kubevirt/kubevirt/pull/13588) | [Yu-Jack](https://github.com/Yu-Jack) |
 | Upgrade of virt stack  | [#13545](https://github.com/kubevirt/kubevirt/pull/13545) | [alicefr](https://github.com/alicefr) |
 | VMExport: exported DV uses the storage API  | [#13152](https://github.com/kubevirt/kubevirt/pull/13152) | [akalenyu](https://github.com/akalenyu) |
 | Updated common-instancetypes bundles to v1.2.1  | [#13562](https://github.com/kubevirt/kubevirt/pull/13562) | [kubevirt-bot](https://github.com/kubevirt-bot) |
