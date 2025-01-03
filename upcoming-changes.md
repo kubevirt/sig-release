@@ -11,6 +11,8 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| add support for virtio video device for amd64  | [#13606](https://github.com/kubevirt/kubevirt/pull/13606) | [dasionov](https://github.com/dasionov) |
+| Storage tests: eliminate runtime skips  | [#13603](https://github.com/kubevirt/kubevirt/pull/13603) | [akalenyu](https://github.com/akalenyu) |
 | BugFix: Volume hotplug broken with crun >= 1.18  | [#13546](https://github.com/kubevirt/kubevirt/pull/13546) | [akalenyu](https://github.com/akalenyu) |
 | Ensure virt-tail and virt-monitor have the same timeout, preventing early termination of virt-tail while virt-monitor is still starting  | [#13588](https://github.com/kubevirt/kubevirt/pull/13588) | [Yu-Jack](https://github.com/Yu-Jack) |
 | Upgrade of virt stack  | [#13545](https://github.com/kubevirt/kubevirt/pull/13545) | [alicefr](https://github.com/alicefr) |
