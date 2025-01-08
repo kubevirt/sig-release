@@ -11,6 +11,8 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| Add the iothreads option to specify number of iothreads to be used  | [#13110](https://github.com/kubevirt/kubevirt/pull/13110) | [alicefr](https://github.com/alicefr) |
+| storage tests: assemble storage-oriented conformance test suite  | [#13586](https://github.com/kubevirt/kubevirt/pull/13586) | [akalenyu](https://github.com/akalenyu) |
 | add support for virtio video device for amd64  | [#13606](https://github.com/kubevirt/kubevirt/pull/13606) | [dasionov](https://github.com/dasionov) |
 | Storage tests: eliminate runtime skips  | [#13603](https://github.com/kubevirt/kubevirt/pull/13603) | [akalenyu](https://github.com/akalenyu) |
 | BugFix: Volume hotplug broken with crun >= 1.18  | [#13546](https://github.com/kubevirt/kubevirt/pull/13546) | [akalenyu](https://github.com/akalenyu) |
