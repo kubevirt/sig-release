@@ -11,6 +11,7 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| Test suite: 3 new labels are available to filter tests: HostDiskGate, requireHugepages1Gi, blockrwo  | [#13109](https://github.com/kubevirt/kubevirt/pull/13109) | [xpivarc](https://github.com/xpivarc) |
 | Add the iothreads option to specify number of iothreads to be used  | [#13110](https://github.com/kubevirt/kubevirt/pull/13110) | [alicefr](https://github.com/alicefr) |
 | storage tests: assemble storage-oriented conformance test suite  | [#13586](https://github.com/kubevirt/kubevirt/pull/13586) | [akalenyu](https://github.com/akalenyu) |
 | add support for virtio video device for amd64  | [#13606](https://github.com/kubevirt/kubevirt/pull/13606) | [dasionov](https://github.com/dasionov) |
