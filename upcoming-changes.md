@@ -11,6 +11,7 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| Bugfix: Support online snapshot of VMs with backend storage  | [#13682](https://github.com/kubevirt/kubevirt/pull/13682) | [alromeros](https://github.com/alromeros) |
 | Bugfix: Support offline snapshot of VMs with backend storage  | [#13207](https://github.com/kubevirt/kubevirt/pull/13207) | [alromeros](https://github.com/alromeros) |
 | Alert KubevirtVmHighMemoryUsage has been deprecated.  | [#13587](https://github.com/kubevirt/kubevirt/pull/13587) | [sradco](https://github.com/sradco) |
 | Test suite: 3 new labels are available to filter tests: HostDiskGate, requireHugepages1Gi, blockrwo  | [#13109](https://github.com/kubevirt/kubevirt/pull/13109) | [xpivarc](https://github.com/xpivarc) |
