@@ -11,6 +11,7 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| This version of KubeVirt includes upgraded virtualization technology based on libvirt 10.10.0 and QEMU 9.1.0.<br>Each new release of libvirt and QEMU contains numerous improvements and bug fixes.  | [#13641](https://github.com/kubevirt/kubevirt/pull/13641) | [andreabolognani](https://github.com/andreabolognani) |
 | Bugfix: Support online snapshot of VMs with backend storage  | [#13682](https://github.com/kubevirt/kubevirt/pull/13682) | [alromeros](https://github.com/alromeros) |
 | Bugfix: Support offline snapshot of VMs with backend storage  | [#13207](https://github.com/kubevirt/kubevirt/pull/13207) | [alromeros](https://github.com/alromeros) |
 | Alert KubevirtVmHighMemoryUsage has been deprecated.  | [#13587](https://github.com/kubevirt/kubevirt/pull/13587) | [sradco](https://github.com/sradco) |
