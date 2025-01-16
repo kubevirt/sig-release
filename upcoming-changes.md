@@ -11,6 +11,7 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| Graduate the clone API to v1beta1 and deprecate v1alpha1  | [#13520](https://github.com/kubevirt/kubevirt/pull/13520) | [iholder101](https://github.com/iholder101) |
 | Drop `ExperimentalVirtiofsSupport` feature gate in favor of `EnableVirtioFsConfigVolumes` for sharing ConfigMaps, Secrets, DownwardAPI and ServiceAccounts and `EnableVirtioFsPVC` for sharing PVCs.  | [#11997](https://github.com/kubevirt/kubevirt/pull/11997) | [jcanocan](https://github.com/jcanocan) |
 | This version of KubeVirt includes upgraded virtualization technology based on libvirt 10.10.0 and QEMU 9.1.0.<br>Each new release of libvirt and QEMU contains numerous improvements and bug fixes.  | [#13641](https://github.com/kubevirt/kubevirt/pull/13641) | [andreabolognani](https://github.com/andreabolognani) |
 | Bugfix: Support online snapshot of VMs with backend storage  | [#13682](https://github.com/kubevirt/kubevirt/pull/13682) | [alromeros](https://github.com/alromeros) |
