@@ -11,6 +11,9 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| VMSnapshot: honor StorageProfile snapshotClass when choosing volumesnapshotclass  | [#13711](https://github.com/kubevirt/kubevirt/pull/13711) | [ShellyKa13](https://github.com/ShellyKa13) |
+| Set VM status indication if storage exceeds quota  | [#13667](https://github.com/kubevirt/kubevirt/pull/13667) | [arnongilboa](https://github.com/arnongilboa) |
+| Graduation of VolumeUpdateStrategy and VolumeMigration feature gates  | [#13288](https://github.com/kubevirt/kubevirt/pull/13288) | [alicefr](https://github.com/alicefr) |
 | Graduate the clone API to v1beta1 and deprecate v1alpha1  | [#13520](https://github.com/kubevirt/kubevirt/pull/13520) | [iholder101](https://github.com/iholder101) |
 | Drop `ExperimentalVirtiofsSupport` feature gate in favor of `EnableVirtioFsConfigVolumes` for sharing ConfigMaps, Secrets, DownwardAPI and ServiceAccounts and `EnableVirtioFsPVC` for sharing PVCs.  | [#11997](https://github.com/kubevirt/kubevirt/pull/11997) | [jcanocan](https://github.com/jcanocan) |
 | This version of KubeVirt includes upgraded virtualization technology based on libvirt 10.10.0 and QEMU 9.1.0.<br>Each new release of libvirt and QEMU contains numerous improvements and bug fixes.  | [#13641](https://github.com/kubevirt/kubevirt/pull/13641) | [andreabolognani](https://github.com/andreabolognani) |
