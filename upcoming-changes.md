@@ -11,6 +11,7 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| Build KubeVirt with go v1.23.4  | [#13699](https://github.com/kubevirt/kubevirt/pull/13699) | [brianmcarey](https://github.com/brianmcarey) |
 | VMSnapshot: honor StorageProfile snapshotClass when choosing volumesnapshotclass  | [#13711](https://github.com/kubevirt/kubevirt/pull/13711) | [ShellyKa13](https://github.com/ShellyKa13) |
 | Set VM status indication if storage exceeds quota  | [#13667](https://github.com/kubevirt/kubevirt/pull/13667) | [arnongilboa](https://github.com/arnongilboa) |
 | Graduation of VolumeUpdateStrategy and VolumeMigration feature gates  | [#13288](https://github.com/kubevirt/kubevirt/pull/13288) | [alicefr](https://github.com/alicefr) |
