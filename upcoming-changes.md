@@ -11,6 +11,8 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| KubeVirt will no longer deploy a custom SELinux policy on worker nodes  | [#11266](https://github.com/kubevirt/kubevirt/pull/11266) | [jean-edouard](https://github.com/jean-edouard) |
+| Add kubevirt_vmi_migration_data_total_bytes metric  | [#13423](https://github.com/kubevirt/kubevirt/pull/13423) | [machadovilaca](https://github.com/machadovilaca) |
 | Build KubeVirt with go v1.23.4  | [#13699](https://github.com/kubevirt/kubevirt/pull/13699) | [brianmcarey](https://github.com/brianmcarey) |
 | VMSnapshot: honor StorageProfile snapshotClass when choosing volumesnapshotclass  | [#13711](https://github.com/kubevirt/kubevirt/pull/13711) | [ShellyKa13](https://github.com/ShellyKa13) |
 | Set VM status indication if storage exceeds quota  | [#13667](https://github.com/kubevirt/kubevirt/pull/13667) | [arnongilboa](https://github.com/arnongilboa) |
