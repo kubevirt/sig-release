@@ -11,6 +11,8 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| Network interfaces' link state will be reported for interfaces present in VMI spec  | [#13708](https://github.com/kubevirt/kubevirt/pull/13708) | [orelmisan](https://github.com/orelmisan) |
+| Add kubevirt_vmi_migration_(start|end)_time_seconds metrics  | [#13428](https://github.com/kubevirt/kubevirt/pull/13428) | [machadovilaca](https://github.com/machadovilaca) |
 | KubeVirt will no longer deploy a custom SELinux policy on worker nodes  | [#11266](https://github.com/kubevirt/kubevirt/pull/11266) | [jean-edouard](https://github.com/jean-edouard) |
 | Add kubevirt_vmi_migration_data_total_bytes metric  | [#13423](https://github.com/kubevirt/kubevirt/pull/13423) | [machadovilaca](https://github.com/machadovilaca) |
 | Build KubeVirt with go v1.23.4  | [#13699](https://github.com/kubevirt/kubevirt/pull/13699) | [brianmcarey](https://github.com/brianmcarey) |
