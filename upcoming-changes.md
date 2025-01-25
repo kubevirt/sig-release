@@ -11,6 +11,8 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| Enhancement: Declare to libvirt upfront which filesystems are shared to allow migration on some NFS backed provisioners  | [#13713](https://github.com/kubevirt/kubevirt/pull/13713) | [akalenyu](https://github.com/akalenyu) |
+| Collect resource requests and limits from VM instance type/preference  | [#13535](https://github.com/kubevirt/kubevirt/pull/13535) | [machadovilaca](https://github.com/machadovilaca) |
 | Network interfaces' link state will be reported for interfaces present in VMI spec  | [#13708](https://github.com/kubevirt/kubevirt/pull/13708) | [orelmisan](https://github.com/orelmisan) |
 | Add kubevirt_vmi_migration_(start|end)_time_seconds metrics  | [#13428](https://github.com/kubevirt/kubevirt/pull/13428) | [machadovilaca](https://github.com/machadovilaca) |
 | KubeVirt will no longer deploy a custom SELinux policy on worker nodes  | [#11266](https://github.com/kubevirt/kubevirt/pull/11266) | [jean-edouard](https://github.com/jean-edouard) |
