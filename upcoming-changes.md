@@ -11,6 +11,7 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| Refuse to volume migrate to legacy datavolumes using no-CSI storageclasses  | [#13717](https://github.com/kubevirt/kubevirt/pull/13717) | [alicefr](https://github.com/alicefr) |
 | Add VM reset functionality to virtctl and api  | [#13208](https://github.com/kubevirt/kubevirt/pull/13208) | [davidvossel](https://github.com/davidvossel) |
 | The `AutoResourceLimits` feature gate is now deprecated with the feature state graduated to `GA` and thus enabled by default  | [#13817](https://github.com/kubevirt/kubevirt/pull/13817) | [Barakmor1](https://github.com/Barakmor1) |
 | Live migration support for VMIs with (virtiofs) filesystem devices  | [#13756](https://github.com/kubevirt/kubevirt/pull/13756) | [germag](https://github.com/germag) |
