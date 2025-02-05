@@ -11,6 +11,8 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| Better handle unsupported volume type with Slic table  | [#12624](https://github.com/kubevirt/kubevirt/pull/12624) | [victortoso](https://github.com/victortoso) |
+| This version of KubeVirt upgrades the passt package, providing user-mode networking, to match upstream version 2025_01_21.4f2c8e7.  | [#13775](https://github.com/kubevirt/kubevirt/pull/13775) | [sbrivio-rh](https://github.com/sbrivio-rh) |
 | Refuse to volume migrate to legacy datavolumes using no-CSI storageclasses  | [#13717](https://github.com/kubevirt/kubevirt/pull/13717) | [alicefr](https://github.com/alicefr) |
 | Add VM reset functionality to virtctl and api  | [#13208](https://github.com/kubevirt/kubevirt/pull/13208) | [davidvossel](https://github.com/davidvossel) |
 | The `AutoResourceLimits` feature gate is now deprecated with the feature state graduated to `GA` and thus enabled by default  | [#13817](https://github.com/kubevirt/kubevirt/pull/13817) | [Barakmor1](https://github.com/Barakmor1) |
