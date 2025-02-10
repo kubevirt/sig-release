@@ -11,6 +11,8 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| Network interfaces state can be set to `down` or `up` in order to set the link state accordingly.  | [#13850](https://github.com/kubevirt/kubevirt/pull/13850) | [nirdothan](https://github.com/nirdothan) |
+| BugFix: VMSnapshot: wait for volumes to be bound instead of skip  | [#13803](https://github.com/kubevirt/kubevirt/pull/13803) | [ShellyKa13](https://github.com/ShellyKa13) |
 | Added kubevirt_vm_vnic_info and kubevirt_vmi_vnic_info metrics  | [#13610](https://github.com/kubevirt/kubevirt/pull/13610) | [avlitman](https://github.com/avlitman) |
 | VMs in a VMPool are able to receive individual configuration through individually indexed ConfigMaps and Secrets.  | [#13642](https://github.com/kubevirt/kubevirt/pull/13642) | [0xFelix](https://github.com/0xFelix) |
 | Better handle unsupported volume type with Slic table  | [#12624](https://github.com/kubevirt/kubevirt/pull/12624) | [victortoso](https://github.com/victortoso) |
