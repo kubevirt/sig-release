@@ -11,6 +11,8 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| Add the KeepValueUpdated() method to time-defined cache  | [#13838](https://github.com/kubevirt/kubevirt/pull/13838) | [iholder101](https://github.com/iholder101) |
+| VMSnapshot: allow creating snapshot when source doesnt exist yet  | [#13857](https://github.com/kubevirt/kubevirt/pull/13857) | [ShellyKa13](https://github.com/ShellyKa13) |
 | Reject VM clone when source uses backend storage PVC  | [#13864](https://github.com/kubevirt/kubevirt/pull/13864) | [alromeros](https://github.com/alromeros) |
 | Network interfaces state can be set to `down` or `up` in order to set the link state accordingly.  | [#13850](https://github.com/kubevirt/kubevirt/pull/13850) | [nirdothan](https://github.com/nirdothan) |
 | BugFix: VMSnapshot: wait for volumes to be bound instead of skip  | [#13803](https://github.com/kubevirt/kubevirt/pull/13803) | [ShellyKa13](https://github.com/ShellyKa13) |
