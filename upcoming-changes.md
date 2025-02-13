@@ -11,6 +11,11 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| Updated common-instancetypes bundles to v1.3.0  | [#13928](https://github.com/kubevirt/kubevirt/pull/13928) | [kubevirt-bot](https://github.com/kubevirt-bot) |
+| Fetch non-cluster instance type and preferences with namespace key  | [#13805](https://github.com/kubevirt/kubevirt/pull/13805) | [machadovilaca](https://github.com/machadovilaca) |
+| By default the local SSH client on the machine running `virtctl ssh` is now used. The `--local-ssh` flag is now deprecated.  | [#13871](https://github.com/kubevirt/kubevirt/pull/13871) | [0xFelix](https://github.com/0xFelix) |
+| VMClone: Remove webhook that checks VM Source  | [#11964](https://github.com/kubevirt/kubevirt/pull/11964) | [ShellyKa13](https://github.com/ShellyKa13) |
+| `type` being optional in the syntax of virtctl port-forward/ssh/scp is now deprecated.  | [#13918](https://github.com/kubevirt/kubevirt/pull/13918) | [0xFelix](https://github.com/0xFelix) |
 | Add the KeepValueUpdated() method to time-defined cache  | [#13838](https://github.com/kubevirt/kubevirt/pull/13838) | [iholder101](https://github.com/iholder101) |
 | VMSnapshot: allow creating snapshot when source doesnt exist yet  | [#13857](https://github.com/kubevirt/kubevirt/pull/13857) | [ShellyKa13](https://github.com/ShellyKa13) |
 | Reject VM clone when source uses backend storage PVC  | [#13864](https://github.com/kubevirt/kubevirt/pull/13864) | [alromeros](https://github.com/alromeros) |
