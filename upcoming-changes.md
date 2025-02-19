@@ -11,6 +11,9 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| Network interfaces state can be set to `down` or `up` in order to set the link state accordingly when VM is running. Hot plugging of interface in these states is also supported.  | [#13744](https://github.com/kubevirt/kubevirt/pull/13744) | [nirdothan](https://github.com/nirdothan) |
+| Interrupted migrations will now be reconciled on next VM start.  | [#13536](https://github.com/kubevirt/kubevirt/pull/13536) | [jean-edouard](https://github.com/jean-edouard) |
+| bug-fix: add machine type to `NodeSelector` to prevent breaking changes on unsupported nodes  | [#13690](https://github.com/kubevirt/kubevirt/pull/13690) | [dasionov](https://github.com/dasionov) |
 | The node-restriction Validating Admission Policy will return consistent reasons on failures  | [#13940](https://github.com/kubevirt/kubevirt/pull/13940) | [tiraboschi](https://github.com/tiraboschi) |
 | Instance type and preference runtime data is now stored under `Status.{Instancetype,Preference}Ref` and is no longer mutated into the core VirtualMachine` `Spec`.  | [#13916](https://github.com/kubevirt/kubevirt/pull/13916) | [lyarwood](https://github.com/lyarwood) |
 | VMClone: Remove webhook that checks Snapshot Source  | [#13831](https://github.com/kubevirt/kubevirt/pull/13831) | [ShellyKa13](https://github.com/ShellyKa13) |
