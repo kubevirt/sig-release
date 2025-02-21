@@ -11,6 +11,7 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| The virtctl port-forward/ssh/scp syntax was changed to type/name[/namespace]. It now supports resources with dots in their name properly.  | [#13939](https://github.com/kubevirt/kubevirt/pull/13939) | [0xFelix](https://github.com/0xFelix) |
 | virt-launcher now uses bash to retrieve disk info and verify container-disk files, requiring bash to be included in the launcher image  | [#13807](https://github.com/kubevirt/kubevirt/pull/13807) | [Barakmor1](https://github.com/Barakmor1) |
 | Network interfaces state can be set to `down` or `up` in order to set the link state accordingly when VM is running. Hot plugging of interface in these states is also supported.  | [#13744](https://github.com/kubevirt/kubevirt/pull/13744) | [nirdothan](https://github.com/nirdothan) |
 | Interrupted migrations will now be reconciled on next VM start.  | [#13536](https://github.com/kubevirt/kubevirt/pull/13536) | [jean-edouard](https://github.com/jean-edouard) |
