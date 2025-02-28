@@ -11,6 +11,7 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| Support live migration to a named node  | [#12725](https://github.com/kubevirt/kubevirt/pull/12725) | [tiraboschi](https://github.com/tiraboschi) |
 | Add v1.5.0 perf and scale benchmarks data  | [#13888](https://github.com/kubevirt/kubevirt/pull/13888) | [Sreeja1725](https://github.com/Sreeja1725) |
 | The virtctl port-forward/ssh/scp syntax was changed to type/name[/namespace]. It now supports resources with dots in their name properly.  | [#13939](https://github.com/kubevirt/kubevirt/pull/13939) | [0xFelix](https://github.com/0xFelix) |
 | virt-launcher now uses bash to retrieve disk info and verify container-disk files, requiring bash to be included in the launcher image  | [#13807](https://github.com/kubevirt/kubevirt/pull/13807) | [Barakmor1](https://github.com/Barakmor1) |
