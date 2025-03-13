@@ -11,6 +11,7 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| Ensure launcher pods are finalized and deleted before removing the VMI finalizer when the VMI is marked for deletion.  | [#13870](https://github.com/kubevirt/kubevirt/pull/13870) | [dasionov](https://github.com/dasionov) |
 | libvirt: 10.10.0-7, qemu: 9.1.0-15  | [#14101](https://github.com/kubevirt/kubevirt/pull/14101) | [qinqon](https://github.com/qinqon) |
 | Add entrypoint to the pr-helper for creating the symlink to the multipath socket  | [#14071](https://github.com/kubevirt/kubevirt/pull/14071) | [alicefr](https://github.com/alicefr) |
 | Support live migration to a named node  | [#12725](https://github.com/kubevirt/kubevirt/pull/12725) | [tiraboschi](https://github.com/tiraboschi) |
