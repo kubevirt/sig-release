@@ -11,6 +11,7 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| Update module golang.org/x/net to v0.36.0  | [#14222](https://github.com/kubevirt/kubevirt/pull/14222) | [dominikholler](https://github.com/dominikholler) |
 | Update golang.org/x/crypto to v0.35.0  | [#14218](https://github.com/kubevirt/kubevirt/pull/14218) | [dominikholler](https://github.com/dominikholler) |
 | Update module github.com/opencontainers/runc to v1.1.14  | [#14217](https://github.com/kubevirt/kubevirt/pull/14217) | [dominikholler](https://github.com/dominikholler) |
 | Large number of migrations should no longer lead to active migrations timing out  | [#14141](https://github.com/kubevirt/kubevirt/pull/14141) | [jean-edouard](https://github.com/jean-edouard) |
