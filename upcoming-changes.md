@@ -11,6 +11,9 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| VMSnapshot: add QuiesceFailed indication to snapshot if freeze failed  | [#14096](https://github.com/kubevirt/kubevirt/pull/14096) | [ShellyKa13](https://github.com/ShellyKa13) |
+| Update module golang.org/x/oauth2 to v0.27.0  | [#14215](https://github.com/kubevirt/kubevirt/pull/14215) | [dominikholler](https://github.com/dominikholler) |
+| Default VM Rollout Strategy is now LiveUpdate. Important: to preserve previous behavior, rolloutStrategy needs to be set to "Stage" in the KubeVirt CR.  | [#14068](https://github.com/kubevirt/kubevirt/pull/14068) | [jean-edouard](https://github.com/jean-edouard) |
 | Update module golang.org/x/net to v0.36.0  | [#14222](https://github.com/kubevirt/kubevirt/pull/14222) | [dominikholler](https://github.com/dominikholler) |
 | Update golang.org/x/crypto to v0.35.0  | [#14218](https://github.com/kubevirt/kubevirt/pull/14218) | [dominikholler](https://github.com/dominikholler) |
 | Update module github.com/opencontainers/runc to v1.1.14  | [#14217](https://github.com/kubevirt/kubevirt/pull/14217) | [dominikholler](https://github.com/dominikholler) |
