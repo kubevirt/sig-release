@@ -11,6 +11,7 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| VM Persistent State GA  | [#14065](https://github.com/kubevirt/kubevirt/pull/14065) | [jean-edouard](https://github.com/jean-edouard) |
 | VMSnapshot: add QuiesceFailed indication to snapshot if freeze failed  | [#14096](https://github.com/kubevirt/kubevirt/pull/14096) | [ShellyKa13](https://github.com/ShellyKa13) |
 | Update module golang.org/x/oauth2 to v0.27.0  | [#14215](https://github.com/kubevirt/kubevirt/pull/14215) | [dominikholler](https://github.com/dominikholler) |
 | Default VM Rollout Strategy is now LiveUpdate. Important: to preserve previous behavior, rolloutStrategy needs to be set to "Stage" in the KubeVirt CR.  | [#14068](https://github.com/kubevirt/kubevirt/pull/14068) | [jean-edouard](https://github.com/jean-edouard) |
