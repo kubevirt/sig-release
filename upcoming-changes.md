@@ -11,6 +11,7 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| Update module github.com/containers/common to v0.60.4  | [#14304](https://github.com/kubevirt/kubevirt/pull/14304) | [jean-edouard](https://github.com/jean-edouard) |
 | VM Persistent State GA  | [#14065](https://github.com/kubevirt/kubevirt/pull/14065) | [jean-edouard](https://github.com/jean-edouard) |
 | VMSnapshot: add QuiesceFailed indication to snapshot if freeze failed  | [#14096](https://github.com/kubevirt/kubevirt/pull/14096) | [ShellyKa13](https://github.com/ShellyKa13) |
 | Update module golang.org/x/oauth2 to v0.27.0  | [#14215](https://github.com/kubevirt/kubevirt/pull/14215) | [dominikholler](https://github.com/dominikholler) |
