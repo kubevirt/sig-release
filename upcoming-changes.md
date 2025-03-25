@@ -11,6 +11,8 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| The `InstancetypeReferencePolicy` feature has graduated to GA and no longer requires the associated feature gate to be enabled.  | [#14050](https://github.com/kubevirt/kubevirt/pull/14050) | [lyarwood](https://github.com/lyarwood) |
+| Register k8s client-go latency metrics on init  | [#14286](https://github.com/kubevirt/kubevirt/pull/14286) | [machadovilaca](https://github.com/machadovilaca) |
 | Update module github.com/containers/common to v0.60.4  | [#14304](https://github.com/kubevirt/kubevirt/pull/14304) | [jean-edouard](https://github.com/jean-edouard) |
 | VM Persistent State GA  | [#14065](https://github.com/kubevirt/kubevirt/pull/14065) | [jean-edouard](https://github.com/jean-edouard) |
 | VMSnapshot: add QuiesceFailed indication to snapshot if freeze failed  | [#14096](https://github.com/kubevirt/kubevirt/pull/14096) | [ShellyKa13](https://github.com/ShellyKa13) |
