@@ -11,6 +11,8 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| Cleanup: Fix unit tests on a sane, non-host-cgroup-sharing development setup  | [#14328](https://github.com/kubevirt/kubevirt/pull/14328) | [akalenyu](https://github.com/akalenyu) |
+| Add interface name label to kubevirt_vmi_status_addresses  | [#14108](https://github.com/kubevirt/kubevirt/pull/14108) | [machadovilaca](https://github.com/machadovilaca) |
 | The `InstancetypeReferencePolicy` feature has graduated to GA and no longer requires the associated feature gate to be enabled.  | [#14050](https://github.com/kubevirt/kubevirt/pull/14050) | [lyarwood](https://github.com/lyarwood) |
 | Register k8s client-go latency metrics on init  | [#14286](https://github.com/kubevirt/kubevirt/pull/14286) | [machadovilaca](https://github.com/machadovilaca) |
 | Update module github.com/containers/common to v0.60.4  | [#14304](https://github.com/kubevirt/kubevirt/pull/14304) | [jean-edouard](https://github.com/jean-edouard) |
