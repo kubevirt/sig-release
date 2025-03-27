@@ -11,6 +11,11 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| Don't expose as VMI status the implicit qemu domain pause at the end of live migration  | [#14288](https://github.com/kubevirt/kubevirt/pull/14288) | [qinqon](https://github.com/qinqon) |
+| Fixed persistent reservation support for multipathd by improving socket access and multipath files in pr-helper  | [#14309](https://github.com/kubevirt/kubevirt/pull/14309) | [alicefr](https://github.com/alicefr) |
+| fix: disks-images-provider is pointing to wrong alpine image for s390x.  | [#14325](https://github.com/kubevirt/kubevirt/pull/14325) | [vamsikrishna-siddu](https://github.com/vamsikrishna-siddu) |
+| The `v1alpha{1,2}` versions of the `instancetype.kubevirt.io` API group are no longer served or supported.  | [#14048](https://github.com/kubevirt/kubevirt/pull/14048) | [lyarwood](https://github.com/lyarwood) |
+| A new `Enabled` attribute has been added to the `TPM` device allowing users to explicitly disable the device regardless of any referenced preference.  | [#14316](https://github.com/kubevirt/kubevirt/pull/14316) | [lyarwood](https://github.com/lyarwood) |
 | Cleanup: Fix unit tests on a sane, non-host-cgroup-sharing development setup  | [#14328](https://github.com/kubevirt/kubevirt/pull/14328) | [akalenyu](https://github.com/akalenyu) |
 | Add interface name label to kubevirt_vmi_status_addresses  | [#14108](https://github.com/kubevirt/kubevirt/pull/14108) | [machadovilaca](https://github.com/machadovilaca) |
 | The `InstancetypeReferencePolicy` feature has graduated to GA and no longer requires the associated feature gate to be enabled.  | [#14050](https://github.com/kubevirt/kubevirt/pull/14050) | [lyarwood](https://github.com/lyarwood) |
