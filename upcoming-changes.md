@@ -11,6 +11,7 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| Updated common-instancetypes bundles to v1.3.1  | [#14374](https://github.com/kubevirt/kubevirt/pull/14374) | [kubevirt-bot](https://github.com/kubevirt-bot) |
 | A request to create a VirtualMachines that references a non-existent  instance type or preference are no longer rejected. The VirtualMachine will be created but will fail to start until the missing resources are created in the cluster.  | [#14219](https://github.com/kubevirt/kubevirt/pull/14219) | [lyarwood](https://github.com/lyarwood) |
 | Don't expose as VMI status the implicit qemu domain pause at the end of live migration  | [#14288](https://github.com/kubevirt/kubevirt/pull/14288) | [qinqon](https://github.com/qinqon) |
 | Fixed persistent reservation support for multipathd by improving socket access and multipath files in pr-helper  | [#14309](https://github.com/kubevirt/kubevirt/pull/14309) | [alicefr](https://github.com/alicefr) |
