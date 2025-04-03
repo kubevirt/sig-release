@@ -11,6 +11,8 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| supplementalPool added to the description of the ioThreadsPolicy possible values  | [#14405](https://github.com/kubevirt/kubevirt/pull/14405) | [jpeimer](https://github.com/jpeimer) |
+| handle nil pointer dereference in cellToCell  | [#14145](https://github.com/kubevirt/kubevirt/pull/14145) | [ayushpatil2122](https://github.com/ayushpatil2122) |
 | VMRestore: Keep VM RunStrategy as before the restore  | [#14281](https://github.com/kubevirt/kubevirt/pull/14281) | [ShellyKa13](https://github.com/ShellyKa13) |
 | Updated common-instancetypes bundles to v1.3.1  | [#14374](https://github.com/kubevirt/kubevirt/pull/14374) | [kubevirt-bot](https://github.com/kubevirt-bot) |
 | A request to create a VirtualMachines that references a non-existent  instance type or preference are no longer rejected. The VirtualMachine will be created but will fail to start until the missing resources are created in the cluster.  | [#14219](https://github.com/kubevirt/kubevirt/pull/14219) | [lyarwood](https://github.com/lyarwood) |
