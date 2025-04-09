@@ -11,6 +11,8 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| To use nfs-csi, the env variable KUBEVIRT_NFS_DIR has to be set to a location on the host for NFS data  | [#14428](https://github.com/kubevirt/kubevirt/pull/14428) | [jean-edouard](https://github.com/jean-edouard) |
+| Bugfix: Truncate volume names in export pod  | [#13951](https://github.com/kubevirt/kubevirt/pull/13951) | [alromeros](https://github.com/alromeros) |
 | supplementalPool added to the description of the ioThreadsPolicy possible values  | [#14405](https://github.com/kubevirt/kubevirt/pull/14405) | [jpeimer](https://github.com/jpeimer) |
 | handle nil pointer dereference in cellToCell  | [#14145](https://github.com/kubevirt/kubevirt/pull/14145) | [ayushpatil2122](https://github.com/ayushpatil2122) |
 | VMRestore: Keep VM RunStrategy as before the restore  | [#14281](https://github.com/kubevirt/kubevirt/pull/14281) | [ShellyKa13](https://github.com/ShellyKa13) |
