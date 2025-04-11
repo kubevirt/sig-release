@@ -4,6 +4,16 @@ KubeVirt SIG release is responsible for scheduling and release KubeVirt.
 
 KubeVirt releases 3 times per year, approximately 8-10 weeks after Kubernetes.
 
+## KubeVirt roadmap
+
+See what's coming in our next release, the features that the KubeVirt community is discussing and prioritising for upcoming releases, and track the lifecycle of features across releases.
+
+The [KubeVirt roadmap](ROADMAP.md) includes links to our Virtualization Enhancements Proposals (VEPs) tracking board and our pre-release notes for our upcoming releases.
+
+## KubeVirt support matrix
+
+Use the [KubeVirt to Kubernetes version support matrix](https://github.com/kubevirt/sig-release/blob/main/releases/k8s-support-matrix.md) to verify the version of KubeVirt that are built and supported for your verstion of Kubernetes.
+
 ## To start using KubeVirt
 
 Try our quickstart at [kubevirt.io](http://kubevirt.io/get_kubevirt/).
