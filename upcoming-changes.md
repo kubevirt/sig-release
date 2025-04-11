@@ -11,6 +11,9 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| Enable Watchdog device support on s390x using the Diag288 device model.  | [#14277](https://github.com/kubevirt/kubevirt/pull/14277) | [HarshithaMS005](https://github.com/HarshithaMS005) |
+| guest console log: make virt-tail a proper sidecar  | [#13422](https://github.com/kubevirt/kubevirt/pull/13422) | [mhenriks](https://github.com/mhenriks) |
+| Added kubevirt_vmi_migrations_in_unset_phase, instead of including it in kubevirt_vmi_migration_failed.  | [#14426](https://github.com/kubevirt/kubevirt/pull/14426) | [avlitman](https://github.com/avlitman) |
 | To use nfs-csi, the env variable KUBEVIRT_NFS_DIR has to be set to a location on the host for NFS data  | [#14428](https://github.com/kubevirt/kubevirt/pull/14428) | [jean-edouard](https://github.com/jean-edouard) |
 | Bugfix: Truncate volume names in export pod  | [#13951](https://github.com/kubevirt/kubevirt/pull/13951) | [alromeros](https://github.com/alromeros) |
 | supplementalPool added to the description of the ioThreadsPolicy possible values  | [#14405](https://github.com/kubevirt/kubevirt/pull/14405) | [jpeimer](https://github.com/jpeimer) |
