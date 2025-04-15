@@ -11,6 +11,7 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| VirtHandlerRESTErrorsHigh, VirtOperatorRESTErrorsHigh, VirtAPIRESTErrorsHigh and VirtControllerRESTErrorsHigh alerts removed.  | [#13911](https://github.com/kubevirt/kubevirt/pull/13911) | [avlitman](https://github.com/avlitman) |
 | Enable Watchdog device support on s390x using the Diag288 device model.  | [#14277](https://github.com/kubevirt/kubevirt/pull/14277) | [HarshithaMS005](https://github.com/HarshithaMS005) |
 | guest console log: make virt-tail a proper sidecar  | [#13422](https://github.com/kubevirt/kubevirt/pull/13422) | [mhenriks](https://github.com/mhenriks) |
 | Added kubevirt_vmi_migrations_in_unset_phase, instead of including it in kubevirt_vmi_migration_failed.  | [#14426](https://github.com/kubevirt/kubevirt/pull/14426) | [avlitman](https://github.com/avlitman) |
