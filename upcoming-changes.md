@@ -11,6 +11,7 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| Ensure stricter check for valid machine type when validating VMI  | [#14437](https://github.com/kubevirt/kubevirt/pull/14437) | [jschintag](https://github.com/jschintag) |
 | VirtHandlerRESTErrorsHigh, VirtOperatorRESTErrorsHigh, VirtAPIRESTErrorsHigh and VirtControllerRESTErrorsHigh alerts removed.  | [#13911](https://github.com/kubevirt/kubevirt/pull/13911) | [avlitman](https://github.com/avlitman) |
 | Enable Watchdog device support on s390x using the Diag288 device model.  | [#14277](https://github.com/kubevirt/kubevirt/pull/14277) | [HarshithaMS005](https://github.com/HarshithaMS005) |
 | guest console log: make virt-tail a proper sidecar  | [#13422](https://github.com/kubevirt/kubevirt/pull/13422) | [mhenriks](https://github.com/mhenriks) |
