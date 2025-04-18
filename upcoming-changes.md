@@ -11,6 +11,9 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| Network conformance tests are now marked using the `Conformance` decorator. Use `--ginkgo.label-filter '(sig-network && conformance)` to select them.  | [#14509](https://github.com/kubevirt/kubevirt/pull/14509) | [phoracek](https://github.com/phoracek) |
+| Bug fix: MaxSockets is limited so maximum of vcpus doesn't go over 512.  | [#14338](https://github.com/kubevirt/kubevirt/pull/14338) | [dasionov](https://github.com/dasionov) |
+| Handle lowercase instancetypes/preference keys in VM monitoring  | [#14327](https://github.com/kubevirt/kubevirt/pull/14327) | [machadovilaca](https://github.com/machadovilaca) |
 | Ensure stricter check for valid machine type when validating VMI  | [#14437](https://github.com/kubevirt/kubevirt/pull/14437) | [jschintag](https://github.com/jschintag) |
 | VirtHandlerRESTErrorsHigh, VirtOperatorRESTErrorsHigh, VirtAPIRESTErrorsHigh and VirtControllerRESTErrorsHigh alerts removed.  | [#13911](https://github.com/kubevirt/kubevirt/pull/13911) | [avlitman](https://github.com/avlitman) |
 | Enable Watchdog device support on s390x using the Diag288 device model.  | [#14277](https://github.com/kubevirt/kubevirt/pull/14277) | [HarshithaMS005](https://github.com/HarshithaMS005) |
