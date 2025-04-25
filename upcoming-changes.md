@@ -11,6 +11,7 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| Trigger VMCannotBeEvicted only for running VMIs  | [#14203](https://github.com/kubevirt/kubevirt/pull/14203) | [machadovilaca](https://github.com/machadovilaca) |
 | The 64-Bit PCI hole can now be disabled by adding the kubevirt.io/disablePCIHole annotation to VirtualMachineInstances. This allows legacy OSes such as Windows XP or Server 2003 to boot on KubeVirt using the Q35 machine type.  | [#14449](https://github.com/kubevirt/kubevirt/pull/14449) | [0xFelix](https://github.com/0xFelix) |
 | hotplug volume: Boot from hotpluggable disk  | [#13297](https://github.com/kubevirt/kubevirt/pull/13297) | [mhenriks](https://github.com/mhenriks) |
 | Network conformance tests are now marked using the `Conformance` decorator. Use `--ginkgo.label-filter '(sig-network && conformance)` to select them.  | [#14509](https://github.com/kubevirt/kubevirt/pull/14509) | [phoracek](https://github.com/phoracek) |
