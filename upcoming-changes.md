@@ -11,6 +11,8 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| Implement container disk functionality using ImageVolume, protected by the ImageVolume feature gate.  | [#14267](https://github.com/kubevirt/kubevirt/pull/14267) | [Barakmor1](https://github.com/Barakmor1) |
+| Enable vhost-user mode for passt network binding plugin  | [#14539](https://github.com/kubevirt/kubevirt/pull/14539) | [nirdothan](https://github.com/nirdothan) |
 | Enable node-labeller for ARM64 clusters, supporting machine-type labels.  | [#14520](https://github.com/kubevirt/kubevirt/pull/14520) | [dasionov](https://github.com/dasionov) |
 | Trigger VMCannotBeEvicted only for running VMIs  | [#14203](https://github.com/kubevirt/kubevirt/pull/14203) | [machadovilaca](https://github.com/machadovilaca) |
 | The 64-Bit PCI hole can now be disabled by adding the kubevirt.io/disablePCIHole annotation to VirtualMachineInstances. This allows legacy OSes such as Windows XP or Server 2003 to boot on KubeVirt using the Q35 machine type.  | [#14449](https://github.com/kubevirt/kubevirt/pull/14449) | [0xFelix](https://github.com/0xFelix) |
