@@ -11,6 +11,9 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| Label backend PVC to support CDI WebhookPvcRendering  | [#14637](https://github.com/kubevirt/kubevirt/pull/14637) | [alromeros](https://github.com/alromeros) |
+| add CloudCasa by Catalogic to integrations in the adopters.md  | [#14440](https://github.com/kubevirt/kubevirt/pull/14440) | [pstaniec-catalogicsoftware](https://github.com/pstaniec-catalogicsoftware) |
+| The "RestartRequired" condition is not set on VM objects for live-updatable network fields  | [#14602](https://github.com/kubevirt/kubevirt/pull/14602) | [orelmisan](https://github.com/orelmisan) |
 | Implement container disk functionality using ImageVolume, protected by the ImageVolume feature gate.  | [#14267](https://github.com/kubevirt/kubevirt/pull/14267) | [Barakmor1](https://github.com/Barakmor1) |
 | Enable vhost-user mode for passt network binding plugin  | [#14539](https://github.com/kubevirt/kubevirt/pull/14539) | [nirdothan](https://github.com/nirdothan) |
 | Enable node-labeller for ARM64 clusters, supporting machine-type labels.  | [#14520](https://github.com/kubevirt/kubevirt/pull/14520) | [dasionov](https://github.com/dasionov) |
