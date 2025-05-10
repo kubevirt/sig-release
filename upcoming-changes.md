@@ -11,6 +11,10 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| Build KubeVirt with go v1.23.9  | [#14664](https://github.com/kubevirt/kubevirt/pull/14664) | [brianmcarey](https://github.com/brianmcarey) |
+| Enabled watchdog validation on watchdog device models  | [#14599](https://github.com/kubevirt/kubevirt/pull/14599) | [HarshithaMS005](https://github.com/HarshithaMS005) |
+| Dirty rate is reported as part of a new `GetDomainDirtyRateStats()` gRPC method and by a Prometheus metric: `kubevirt_vmi_dirty_rate_bytes_per_second`.  | [#13806](https://github.com/kubevirt/kubevirt/pull/13806) | [iholder101](https://github.com/iholder101) |
+| Added support for custom JSON patches in VirtualMachineClones.<br>A new property `patches` was added to the VirtualMachineClones CRD.  | [#14617](https://github.com/kubevirt/kubevirt/pull/14617) | [SkalaNetworks](https://github.com/SkalaNetworks) |
 | Label backend PVC to support CDI WebhookPvcRendering  | [#14637](https://github.com/kubevirt/kubevirt/pull/14637) | [alromeros](https://github.com/alromeros) |
 | add CloudCasa by Catalogic to integrations in the adopters.md  | [#14440](https://github.com/kubevirt/kubevirt/pull/14440) | [pstaniec-catalogicsoftware](https://github.com/pstaniec-catalogicsoftware) |
 | The "RestartRequired" condition is not set on VM objects for live-updatable network fields  | [#14602](https://github.com/kubevirt/kubevirt/pull/14602) | [orelmisan](https://github.com/orelmisan) |
