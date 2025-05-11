@@ -11,6 +11,7 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| ARM: CPU pinning don't panic now  | [#14640](https://github.com/kubevirt/kubevirt/pull/14640) | [xpivarc](https://github.com/xpivarc) |
 | Build KubeVirt with go v1.23.9  | [#14664](https://github.com/kubevirt/kubevirt/pull/14664) | [brianmcarey](https://github.com/brianmcarey) |
 | Enabled watchdog validation on watchdog device models  | [#14599](https://github.com/kubevirt/kubevirt/pull/14599) | [HarshithaMS005](https://github.com/HarshithaMS005) |
 | Dirty rate is reported as part of a new `GetDomainDirtyRateStats()` gRPC method and by a Prometheus metric: `kubevirt_vmi_dirty_rate_bytes_per_second`.  | [#13806](https://github.com/kubevirt/kubevirt/pull/13806) | [iholder101](https://github.com/iholder101) |
