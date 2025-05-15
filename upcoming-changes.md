@@ -11,6 +11,8 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| virtctl vnc command now supports user provided VNC clients.  | [#14619](https://github.com/kubevirt/kubevirt/pull/14619) | [cloud-j-luna](https://github.com/cloud-j-luna) |
+| bug-fix: persist VM's firmware UUID for existing VMs  | [#14130](https://github.com/kubevirt/kubevirt/pull/14130) | [dasionov](https://github.com/dasionov) |
 | ARM: CPU pinning don't panic now  | [#14640](https://github.com/kubevirt/kubevirt/pull/14640) | [xpivarc](https://github.com/xpivarc) |
 | Build KubeVirt with go v1.23.9  | [#14664](https://github.com/kubevirt/kubevirt/pull/14664) | [brianmcarey](https://github.com/brianmcarey) |
 | Enabled watchdog validation on watchdog device models  | [#14599](https://github.com/kubevirt/kubevirt/pull/14599) | [HarshithaMS005](https://github.com/HarshithaMS005) |
