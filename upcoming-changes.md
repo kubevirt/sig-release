@@ -11,6 +11,7 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| VirtualMachineInstanceMigrations can now express that they are source or target migrations  | [#14616](https://github.com/kubevirt/kubevirt/pull/14616) | [awels](https://github.com/awels) |
 | virtctl vnc command now supports user provided VNC clients.  | [#14619](https://github.com/kubevirt/kubevirt/pull/14619) | [cloud-j-luna](https://github.com/cloud-j-luna) |
 | bug-fix: persist VM's firmware UUID for existing VMs  | [#14130](https://github.com/kubevirt/kubevirt/pull/14130) | [dasionov](https://github.com/dasionov) |
 | ARM: CPU pinning don't panic now  | [#14640](https://github.com/kubevirt/kubevirt/pull/14640) | [xpivarc](https://github.com/xpivarc) |
