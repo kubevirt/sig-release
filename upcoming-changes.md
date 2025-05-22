@@ -11,6 +11,8 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| virt-Freeze: skip freeze if domain is not in running state  | [#14737](https://github.com/kubevirt/kubevirt/pull/14737) | [ShellyKa13](https://github.com/ShellyKa13) |
+| Node  | [#14732](https://github.com/kubevirt/kubevirt/pull/14732) | [vladikr](https://github.com/vladikr) |
 | CPU hotplug with net multi-queue is now allowed  | [#14728](https://github.com/kubevirt/kubevirt/pull/14728) | [orelmisan](https://github.com/orelmisan) |
 | VirtualMachineInstanceMigrations can now express that they are source or target migrations  | [#14616](https://github.com/kubevirt/kubevirt/pull/14616) | [awels](https://github.com/awels) |
 | virtctl vnc command now supports user provided VNC clients.  | [#14619](https://github.com/kubevirt/kubevirt/pull/14619) | [cloud-j-luna](https://github.com/cloud-j-luna) |
