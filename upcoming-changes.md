@@ -11,13 +11,14 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| Bugfix: Fix online expansion by requeuing VMIs on PVC size change  | [#14695](https://github.com/kubevirt/kubevirt/pull/14695) | [alromeros](https://github.com/alromeros) |
+| Clean absent interfaces and their relative networks from stopped VMs.  | [#14738](https://github.com/kubevirt/kubevirt/pull/14738) | [oshoval](https://github.com/oshoval) |
 | virt-Freeze: skip freeze if domain is not in running state  | [#14737](https://github.com/kubevirt/kubevirt/pull/14737) | [ShellyKa13](https://github.com/ShellyKa13) |
-| Node  | [#14732](https://github.com/kubevirt/kubevirt/pull/14732) | [vladikr](https://github.com/vladikr) |
 | CPU hotplug with net multi-queue is now allowed  | [#14728](https://github.com/kubevirt/kubevirt/pull/14728) | [orelmisan](https://github.com/orelmisan) |
 | VirtualMachineInstanceMigrations can now express that they are source or target migrations  | [#14616](https://github.com/kubevirt/kubevirt/pull/14616) | [awels](https://github.com/awels) |
 | virtctl vnc command now supports user provided VNC clients.  | [#14619](https://github.com/kubevirt/kubevirt/pull/14619) | [cloud-j-luna](https://github.com/cloud-j-luna) |
 | bug-fix: persist VM's firmware UUID for existing VMs  | [#14130](https://github.com/kubevirt/kubevirt/pull/14130) | [dasionov](https://github.com/dasionov) |
-| ARM: CPU pinning don't panic now  | [#14640](https://github.com/kubevirt/kubevirt/pull/14640) | [xpivarc](https://github.com/xpivarc) |
+| ARM: CPU pinning doesn't panic now  | [#14640](https://github.com/kubevirt/kubevirt/pull/14640) | [xpivarc](https://github.com/xpivarc) |
 | Build KubeVirt with go v1.23.9  | [#14664](https://github.com/kubevirt/kubevirt/pull/14664) | [brianmcarey](https://github.com/brianmcarey) |
 | Enabled watchdog validation on watchdog device models  | [#14599](https://github.com/kubevirt/kubevirt/pull/14599) | [HarshithaMS005](https://github.com/HarshithaMS005) |
 | Dirty rate is reported as part of a new `GetDomainDirtyRateStats()` gRPC method and by a Prometheus metric: `kubevirt_vmi_dirty_rate_bytes_per_second`.  | [#13806](https://github.com/kubevirt/kubevirt/pull/13806) | [iholder101](https://github.com/iholder101) |
