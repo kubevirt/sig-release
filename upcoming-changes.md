@@ -11,6 +11,7 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| Add maxUnavailable support to VirtualMachinePool<br>Adds support for controlling the maximum number of unavailable VMIs during pool updates. This helps maintain service availability by limiting how many VMs can be updated simultaneously.<br>- Defaults to 100% of total replicas for backward compatibility<br>- Can be configured as percentage (e.g. "25%") or absolute number<br>- Prevents updates if current unavailable VMs exceed the limit<br>- Similar to Kubernetes Deployment's maxUnavailable behavior  | [#14183](https://github.com/kubevirt/kubevirt/pull/14183) | [aqilbeig](https://github.com/aqilbeig) |
 | Bugfix: Fix online expansion by requeuing VMIs on PVC size change  | [#14695](https://github.com/kubevirt/kubevirt/pull/14695) | [alromeros](https://github.com/alromeros) |
 | Clean absent interfaces and their relative networks from stopped VMs.  | [#14738](https://github.com/kubevirt/kubevirt/pull/14738) | [oshoval](https://github.com/oshoval) |
 | virt-Freeze: skip freeze if domain is not in running state  | [#14737](https://github.com/kubevirt/kubevirt/pull/14737) | [ShellyKa13](https://github.com/ShellyKa13) |
