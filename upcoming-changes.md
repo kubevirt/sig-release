@@ -11,6 +11,8 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| Move cgroup v1 to maintenance mode  | [#14538](https://github.com/kubevirt/kubevirt/pull/14538) | [iholder101](https://github.com/iholder101) |
+| Adding Isovalent to Adopters  | [#14823](https://github.com/kubevirt/kubevirt/pull/14823) | [xmulligan](https://github.com/xmulligan) |
 | Expose CONTAINER_NAME on hook sidecars.  | [#14768](https://github.com/kubevirt/kubevirt/pull/14768) | [oshoval](https://github.com/oshoval) |
 | Add maxUnavailable support to VirtualMachinePool<br>Adds support for controlling the maximum number of unavailable VMIs during pool updates. This helps maintain service availability by limiting how many VMs can be updated simultaneously.<br>- Defaults to 100% of total replicas for backward compatibility<br>- Can be configured as percentage (e.g. "25%") or absolute number<br>- Prevents updates if current unavailable VMs exceed the limit<br>- Similar to Kubernetes Deployment's maxUnavailable behavior  | [#14183](https://github.com/kubevirt/kubevirt/pull/14183) | [aqilbeig](https://github.com/aqilbeig) |
 | Bugfix: Fix online expansion by requeuing VMIs on PVC size change  | [#14695](https://github.com/kubevirt/kubevirt/pull/14695) | [alromeros](https://github.com/alromeros) |
