@@ -11,6 +11,7 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| Fix network setup when emulation is enabled  | [#14827](https://github.com/kubevirt/kubevirt/pull/14827) | [orelmisan](https://github.com/orelmisan) |
 | Move cgroup v1 to maintenance mode  | [#14538](https://github.com/kubevirt/kubevirt/pull/14538) | [iholder101](https://github.com/iholder101) |
 | Adding Isovalent to Adopters  | [#14823](https://github.com/kubevirt/kubevirt/pull/14823) | [xmulligan](https://github.com/xmulligan) |
 | Expose CONTAINER_NAME on hook sidecars.  | [#14768](https://github.com/kubevirt/kubevirt/pull/14768) | [oshoval](https://github.com/oshoval) |
