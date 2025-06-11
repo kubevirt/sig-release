@@ -11,6 +11,8 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| Failed post-copy migrations now always end in VMI failure  | [#14793](https://github.com/kubevirt/kubevirt/pull/14793) | [jean-edouard](https://github.com/jean-edouard) |
+| virt-handler: Reduce Get() calls for KSM handling  | [#14632](https://github.com/kubevirt/kubevirt/pull/14632) | [iholder101](https://github.com/iholder101) |
 | Bugfix: Update backend-storage logic so it works with PVCs with non-standard naming convention  | [#14658](https://github.com/kubevirt/kubevirt/pull/14658) | [alromeros](https://github.com/alromeros) |
 | Fix network setup when emulation is enabled  | [#14827](https://github.com/kubevirt/kubevirt/pull/14827) | [orelmisan](https://github.com/orelmisan) |
 | Move cgroup v1 to maintenance mode  | [#14538](https://github.com/kubevirt/kubevirt/pull/14538) | [iholder101](https://github.com/iholder101) |
