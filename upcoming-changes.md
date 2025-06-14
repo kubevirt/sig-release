@@ -11,6 +11,7 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| Declarative Volume Hotplug with CD-ROM Inject/Eject  | [#13847](https://github.com/kubevirt/kubevirt/pull/13847) | [mhenriks](https://github.com/mhenriks) |
 | Add Object Graph subresource  | [#14807](https://github.com/kubevirt/kubevirt/pull/14807) | [alromeros](https://github.com/alromeros) |
 | Failed post-copy migrations now always end in VMI failure  | [#14793](https://github.com/kubevirt/kubevirt/pull/14793) | [jean-edouard](https://github.com/jean-edouard) |
 | virt-handler: Reduce Get() calls for KSM handling  | [#14632](https://github.com/kubevirt/kubevirt/pull/14632) | [iholder101](https://github.com/iholder101) |
