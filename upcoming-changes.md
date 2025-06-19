@@ -11,6 +11,9 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| KubeVirt doesn't use PDBs anymore  | [#13764](https://github.com/kubevirt/kubevirt/pull/13764) | [xpivarc](https://github.com/xpivarc) |
+| VirtualMachinePool now supports a `.ScaleInStrategy.Proactive.SelectionPolicy.BasePolicy` field to control scale-down behavior. The new `"DescendingOrder"` strategy deletes VMs by descending ordinal index, offering predictable downscale behavior. Defaults to `"random"` if not specified.  | [#14801](https://github.com/kubevirt/kubevirt/pull/14801) | [arsiesys](https://github.com/arsiesys) |
+| Integrate NIC hotplug with LiveUpdate rollout strategy  | [#14259](https://github.com/kubevirt/kubevirt/pull/14259) | [orelmisan](https://github.com/orelmisan) |
 | Add Video Configuration Field for VMs to Enable Explicit Video Device Selection  | [#14673](https://github.com/kubevirt/kubevirt/pull/14673) | [dasionov](https://github.com/dasionov) |
 | Windows offline activation with ACPI MSDM table  | [#14681](https://github.com/kubevirt/kubevirt/pull/14681) | [victortoso](https://github.com/victortoso) |
 | Add VolumeRestorePolicies and VolumeRestoreOverrides to VMRestores  | [#14723](https://github.com/kubevirt/kubevirt/pull/14723) | [SkalaNetworks](https://github.com/SkalaNetworks) |
