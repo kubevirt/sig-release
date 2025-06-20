@@ -11,6 +11,7 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| The migration controller in virt-handler has been re-architected, migrations should be more stable  | [#14705](https://github.com/kubevirt/kubevirt/pull/14705) | [jean-edouard](https://github.com/jean-edouard) |
 | KubeVirt doesn't use PDBs anymore  | [#13764](https://github.com/kubevirt/kubevirt/pull/13764) | [xpivarc](https://github.com/xpivarc) |
 | VirtualMachinePool now supports a `.ScaleInStrategy.Proactive.SelectionPolicy.BasePolicy` field to control scale-down behavior. The new `"DescendingOrder"` strategy deletes VMs by descending ordinal index, offering predictable downscale behavior. Defaults to `"random"` if not specified.  | [#14801](https://github.com/kubevirt/kubevirt/pull/14801) | [arsiesys](https://github.com/arsiesys) |
 | Integrate NIC hotplug with LiveUpdate rollout strategy  | [#14259](https://github.com/kubevirt/kubevirt/pull/14259) | [orelmisan](https://github.com/orelmisan) |
