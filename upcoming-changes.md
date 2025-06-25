@@ -11,6 +11,10 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| Add virtctl objectgraph command  | [#14935](https://github.com/kubevirt/kubevirt/pull/14935) | [alromeros](https://github.com/alromeros) |
+| A few dynamic annotations are synced from VMs template to VMIs and to virt-launcher pods  | [#14744](https://github.com/kubevirt/kubevirt/pull/14744) | [tiraboschi](https://github.com/tiraboschi) |
+| Allow virtio bus for hotplugged disks  | [#14907](https://github.com/kubevirt/kubevirt/pull/14907) | [mhenriks](https://github.com/mhenriks) |
+| Allocate more PCI ports for hotplug  | [#14754](https://github.com/kubevirt/kubevirt/pull/14754) | [mhenriks](https://github.com/mhenriks) |
 | Feature: Support for defining panic devices in VirtualMachineInstances to catch crash signals from the guest.  | [#13103](https://github.com/kubevirt/kubevirt/pull/13103) | [varunrsekar](https://github.com/varunrsekar) |
 | BugFix: Can't LiveMigrate Windows VM after Storage Migration from HPP to OCS  | [#14961](https://github.com/kubevirt/kubevirt/pull/14961) | [akalenyu](https://github.com/akalenyu) |
 | Added CRC to ADOPTERS document.  | [#14956](https://github.com/kubevirt/kubevirt/pull/14956) | [RobertoMachorro](https://github.com/RobertoMachorro) |
