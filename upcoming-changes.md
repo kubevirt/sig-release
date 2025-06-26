@@ -11,6 +11,10 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| Possible to trust additional CAs for verifying kubevirt infra structure components  | [#14986](https://github.com/kubevirt/kubevirt/pull/14986) | [awels](https://github.com/awels) |
+| Support seamless TCP migration with passt (alpha)  | [#14875](https://github.com/kubevirt/kubevirt/pull/14875) | [nirdothan](https://github.com/nirdothan) |
+| Release passt CNI image, instead the CNI binary itself.  | [#14887](https://github.com/kubevirt/kubevirt/pull/14887) | [oshoval](https://github.com/oshoval) |
+| Changed the time unit conversion in the kubevirt_vmi_vcpu_seconds_total metric from microseconds to nanoseconds.  | [#13898](https://github.com/kubevirt/kubevirt/pull/13898) | [brandboat](https://github.com/brandboat) |
 | Add virtctl objectgraph command  | [#14935](https://github.com/kubevirt/kubevirt/pull/14935) | [alromeros](https://github.com/alromeros) |
 | A few dynamic annotations are synced from VMs template to VMIs and to virt-launcher pods  | [#14744](https://github.com/kubevirt/kubevirt/pull/14744) | [tiraboschi](https://github.com/tiraboschi) |
 | Allow virtio bus for hotplugged disks  | [#14907](https://github.com/kubevirt/kubevirt/pull/14907) | [mhenriks](https://github.com/mhenriks) |
