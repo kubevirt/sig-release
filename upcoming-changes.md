@@ -11,6 +11,8 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| Decentralized live migration is available to allow migration across namespaces and clusters  | [#14882](https://github.com/kubevirt/kubevirt/pull/14882) | [awels](https://github.com/awels) |
+| Beta: NodeRestriction  | [#14964](https://github.com/kubevirt/kubevirt/pull/14964) | [xpivarc](https://github.com/xpivarc) |
 | Possible to trust additional CAs for verifying kubevirt infra structure components  | [#14986](https://github.com/kubevirt/kubevirt/pull/14986) | [awels](https://github.com/awels) |
 | Support seamless TCP migration with passt (alpha)  | [#14875](https://github.com/kubevirt/kubevirt/pull/14875) | [nirdothan](https://github.com/nirdothan) |
 | Release passt CNI image, instead the CNI binary itself.  | [#14887](https://github.com/kubevirt/kubevirt/pull/14887) | [oshoval](https://github.com/oshoval) |
