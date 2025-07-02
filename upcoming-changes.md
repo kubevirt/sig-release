@@ -11,6 +11,7 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| Decentralized migration resource now shows the synchronization address  | [#15021](https://github.com/kubevirt/kubevirt/pull/15021) | [awels](https://github.com/awels) |
 | Add support for DRA devices such as GPUs and HostDevices.  | [#14365](https://github.com/kubevirt/kubevirt/pull/14365) | [alaypatel07](https://github.com/alaypatel07) |
 | Decentralized live migration is available to allow migration across namespaces and clusters  | [#14882](https://github.com/kubevirt/kubevirt/pull/14882) | [awels](https://github.com/awels) |
 | Beta: NodeRestriction  | [#14964](https://github.com/kubevirt/kubevirt/pull/14964) | [xpivarc](https://github.com/xpivarc) |
