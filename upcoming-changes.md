@@ -11,6 +11,8 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| HostDisk: KubeVirt no longer performs chown/chmod to compensate for storage that doesn't support fsGroup  | [#15037](https://github.com/kubevirt/kubevirt/pull/15037) | [jean-edouard](https://github.com/jean-edouard) |
+| Added support for architecture-specific configuration of `s390x` (IBM Z) in KubeVirt cluster config.  | [#15017](https://github.com/kubevirt/kubevirt/pull/15017) | [nekkunti](https://github.com/nekkunti) |
 | The synchronization controller migration network IP address is advertised by the KubeVirt CR  | [#15022](https://github.com/kubevirt/kubevirt/pull/15022) | [awels](https://github.com/awels) |
 | Decentralized migration resource now shows the synchronization address  | [#15021](https://github.com/kubevirt/kubevirt/pull/15021) | [awels](https://github.com/awels) |
 | Add support for DRA devices such as GPUs and HostDevices.  | [#14365](https://github.com/kubevirt/kubevirt/pull/14365) | [alaypatel07](https://github.com/alaypatel07) |
