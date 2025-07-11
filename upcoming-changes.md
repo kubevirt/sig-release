@@ -11,6 +11,7 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| Cleanup: libvmi: add consistently named cpu/mem setters  | [#14888](https://github.com/kubevirt/kubevirt/pull/14888) | [akalenyu](https://github.com/akalenyu) |
 | Bugfix: Label upload PVCs to support CDI WebhookPvcRendering  | [#15067](https://github.com/kubevirt/kubevirt/pull/15067) | [alromeros](https://github.com/alromeros) |
 | HostDisk: KubeVirt no longer performs chown/chmod to compensate for storage that doesn't support fsGroup  | [#15037](https://github.com/kubevirt/kubevirt/pull/15037) | [jean-edouard](https://github.com/jean-edouard) |
 | Added support for architecture-specific configuration of `s390x` (IBM Z) in KubeVirt cluster config.  | [#15017](https://github.com/kubevirt/kubevirt/pull/15017) | [nekkunti](https://github.com/nekkunti) |
