@@ -11,6 +11,8 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| BugFix: export fails when VMExport has dots in name  | [#15099](https://github.com/kubevirt/kubevirt/pull/15099) | [akalenyu](https://github.com/akalenyu) |
+| allows virtual machine instances with an instance type to specify memory fields that do not conflict with the instance type  | [#14685](https://github.com/kubevirt/kubevirt/pull/14685) | [seanbanko](https://github.com/seanbanko) |
 | Cleanup: libvmi: add consistently named cpu/mem setters  | [#14888](https://github.com/kubevirt/kubevirt/pull/14888) | [akalenyu](https://github.com/akalenyu) |
 | Bugfix: Label upload PVCs to support CDI WebhookPvcRendering  | [#15067](https://github.com/kubevirt/kubevirt/pull/15067) | [alromeros](https://github.com/alromeros) |
 | HostDisk: KubeVirt no longer performs chown/chmod to compensate for storage that doesn't support fsGroup  | [#15037](https://github.com/kubevirt/kubevirt/pull/15037) | [jean-edouard](https://github.com/jean-edouard) |
