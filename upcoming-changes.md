@@ -11,6 +11,9 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| Drop an arbitrary limitation on VM's domain.firmaware.serial. Any string is passed verbatim to smbios. Illegal may be tweaked or ignored based on qemu/smbios version.  | [#15118](https://github.com/kubevirt/kubevirt/pull/15118) | [dankenigsberg](https://github.com/dankenigsberg) |
+| Update dependecy golang.org/x/oauth2 to v0.27.0  | [#15098](https://github.com/kubevirt/kubevirt/pull/15098) | [dominikholler](https://github.com/dominikholler) |
+| Fix postcopy multifd compatibility during upgrade  | [#15016](https://github.com/kubevirt/kubevirt/pull/15016) | [fossedihelm](https://github.com/fossedihelm) |
 | Update dependecy golang.org/x/net to v0.38.0  | [#15100](https://github.com/kubevirt/kubevirt/pull/15100) | [dominikholler](https://github.com/dominikholler) |
 | BugFix: export fails when VMExport has dots in name  | [#15099](https://github.com/kubevirt/kubevirt/pull/15099) | [akalenyu](https://github.com/akalenyu) |
 | allows virtual machine instances with an instance type to specify memory fields that do not conflict with the instance type  | [#14685](https://github.com/kubevirt/kubevirt/pull/14685) | [seanbanko](https://github.com/seanbanko) |
