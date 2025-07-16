@@ -11,6 +11,8 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| Support for all `*_SHASUM` environment variables has been removed from the `virt-operator` component. Users should instead use the remaining `*_IMAGE` environment variables to request a specific image version using a tag, digest or both.  | [#15061](https://github.com/kubevirt/kubevirt/pull/15061) | [lyarwood](https://github.com/lyarwood) |
+| virt-operator won't schedule on worker nodes  | [#15157](https://github.com/kubevirt/kubevirt/pull/15157) | [jean-edouard](https://github.com/jean-edouard) |
 | Drop an arbitrary limitation on VM's domain.firmaware.serial. Any string is passed verbatim to smbios. Illegal may be tweaked or ignored based on qemu/smbios version.  | [#15118](https://github.com/kubevirt/kubevirt/pull/15118) | [dankenigsberg](https://github.com/dankenigsberg) |
 | Update dependecy golang.org/x/oauth2 to v0.27.0  | [#15098](https://github.com/kubevirt/kubevirt/pull/15098) | [dominikholler](https://github.com/dominikholler) |
 | Fix postcopy multifd compatibility during upgrade  | [#15016](https://github.com/kubevirt/kubevirt/pull/15016) | [fossedihelm](https://github.com/fossedihelm) |
