@@ -11,6 +11,7 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| Bumped the bundled common-instancetypes to v1.4.0 which add new preferences.  | [#15253](https://github.com/kubevirt/kubevirt/pull/15253) | [0xFelix](https://github.com/0xFelix) |
 | BugFix: export fails when VMExport has dots in secret  | [#15182](https://github.com/kubevirt/kubevirt/pull/15182) | [akalenyu](https://github.com/akalenyu) |
 | Support for all `*_SHASUM` environment variables has been removed from the `virt-operator` component. Users should instead use the remaining `*_IMAGE` environment variables to request a specific image version using a tag, digest or both.  | [#15061](https://github.com/kubevirt/kubevirt/pull/15061) | [lyarwood](https://github.com/lyarwood) |
 | virt-operator won't schedule on worker nodes  | [#15157](https://github.com/kubevirt/kubevirt/pull/15157) | [jean-edouard](https://github.com/jean-edouard) |
