@@ -4,3 +4,6 @@ filters:
     - sig-release-reviewers
     approvers:
     - sig-release-approvers
+
+emeritus_approvers:
+- acardace # 2025-07-25

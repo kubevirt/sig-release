@@ -1,7 +1,6 @@
 aliases:
   sig-release-approvers:
   - aburdenthehand
-  - acardace
   - davidvossel
   - dhiller
   - fabiand
@@ -12,7 +11,6 @@ aliases:
   - aburdenthehand
   sig-release-reviewers:
   - aburdenthehand
-  - acardace
   - dhiller
   - fabiand
   - fossedihelm
