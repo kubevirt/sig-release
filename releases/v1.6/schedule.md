@@ -16,8 +16,8 @@
 | **June**   |                        |             |                                  |                                                                                                                                         |
 | 2025/06/25 | KubeVirt Code Freeze   | KubeVirt    | Branch release-1.6               | Review [list of quarantined tests](https://storage.googleapis.com/kubevirt-prow/reports/quarantined-tests/kubevirt/kubevirt/index.html) |
 | **July**   |                        |             |                                  |                                                                                                                                         |
-| 2025/07/09 | KubeVirt RC 0          | KubeVirt    | Tag v1.6.0-rc.0 on release-1.6   |                                                                                                                                         |
-| 2025/07/16 | KubeVirt RC 1          | KubeVirt    | Tag v1.6.0-rc.1 on release-1.6   |                                                                                                                                         |
-| 2025/07/24 | **KubeVirt GA**        | KubeVirt    | Tag v1.6.0 on release-1.6        |                                                                                                                                         |
+| 2025/07/18 | KubeVirt RC 0          | KubeVirt    | Tag v1.6.0-rc.0 on release-1.6   |                                                                                                                                         |
+| 2025/07/25 | KubeVirt RC 1          | KubeVirt    | Tag v1.6.0-rc.1 on release-1.6   |                                                                                                                                         |
+| 2025/07/30 | **KubeVirt GA**        | KubeVirt    | Tag v1.6.0 on release-1.6        |                                                                                                                                         |
 | 2025/07/31 | **CDI GA**             | CDI         | v1.63.0 release                  | [CDI](https://github.com/kubevirt/containerized-data-importer) aims to release approximately a week following KubeVirt                  |
 
