@@ -8,7 +8,8 @@ A KubeVirt release entails a variety of tasks to complete in concert with the re
 |                                   | Update common-instancetypes bundle in KubeVirt repo          | SIG-compute                                | 
 | Code Freeze                       | Gather scale & performance data                              | SIG-scale                                  |
 |                                   | Prepare schedule for subsequent version                      | SIG-release                                |
-| After CF                          | Unconference                                                 | All SIGs                                   |
+| After CF                          | Update api testdata for compatibility                        | SIG-compute                                |
+|                                   | Unconference                                                 | All SIGs                                   |
 | RC 0                              | Categorise release notes and create User Guide PR with /hold | Docs                                       |
 |                                   | Draft release highlights blog                                | Community                                  |
 |                                   | - Check for outstanding feature docs PRs                     | Docs and relevant SIGs                     |
