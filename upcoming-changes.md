@@ -11,6 +11,7 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| bugfix: snapshot and restore now works correctly for VMs after a storage volume migration  | [#15305](https://github.com/kubevirt/kubevirt/pull/15305) | [Acedus](https://github.com/Acedus) |
 | Common Names are now enforce for aggregated API  | [#15314](https://github.com/kubevirt/kubevirt/pull/15314) | [xpivarc](https://github.com/xpivarc) |
 | Bumped the bundled common-instancetypes to v1.4.0 which add new preferences.  | [#15253](https://github.com/kubevirt/kubevirt/pull/15253) | [0xFelix](https://github.com/0xFelix) |
 | BugFix: export fails when VMExport has dots in secret  | [#15182](https://github.com/kubevirt/kubevirt/pull/15182) | [akalenyu](https://github.com/akalenyu) |
