@@ -11,6 +11,7 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| bugfix: Enable vmsnapshot for paused VMs  | [#15001](https://github.com/kubevirt/kubevirt/pull/15001) | [noamasu](https://github.com/noamasu) |
 | bugfix: volume hotplug pod is no longer evicted when associated VM can live migrate.  | [#15093](https://github.com/kubevirt/kubevirt/pull/15093) | [Acedus](https://github.com/Acedus) |
 | Add GuestAgentInfo info metrics  | [#14879](https://github.com/kubevirt/kubevirt/pull/14879) | [machadovilaca](https://github.com/machadovilaca) |
 | bugfix: snapshot and restore now works correctly for VMs after a storage volume migration  | [#15305](https://github.com/kubevirt/kubevirt/pull/15305) | [Acedus](https://github.com/Acedus) |
