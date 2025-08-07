@@ -11,6 +11,8 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| Aligning descheduler opt-out annotation name  | [#15365](https://github.com/kubevirt/kubevirt/pull/15365) | [tiraboschi](https://github.com/tiraboschi) |
+| This PR adds the following alerts: GuestPeakVCPUQueueHighWarning, GuestPeakVCPUQueueHighCritical  | [#14983](https://github.com/kubevirt/kubevirt/pull/14983) | [sradco](https://github.com/sradco) |
 | The `foregroundDeleteVirtualMachine` has been deprecated and replaced with the domain-qualified `kubevirt.io/foregroundDeleteVirtualMachine`.  | [#15096](https://github.com/kubevirt/kubevirt/pull/15096) | [lyarwood](https://github.com/lyarwood) |
 | bugfix: Enable vmsnapshot for paused VMs  | [#15001](https://github.com/kubevirt/kubevirt/pull/15001) | [noamasu](https://github.com/noamasu) |
 | bugfix: volume hotplug pod is no longer evicted when associated VM can live migrate.  | [#15093](https://github.com/kubevirt/kubevirt/pull/15093) | [Acedus](https://github.com/Acedus) |
