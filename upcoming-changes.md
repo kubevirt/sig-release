@@ -11,6 +11,7 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| Add Command line flag to disable Node Labeller service  | [#15167](https://github.com/kubevirt/kubevirt/pull/15167) | [Sreeja1725](https://github.com/Sreeja1725) |
 | Aligning descheduler opt-out annotation name  | [#15365](https://github.com/kubevirt/kubevirt/pull/15365) | [tiraboschi](https://github.com/tiraboschi) |
 | This PR adds the following alerts: GuestPeakVCPUQueueHighWarning, GuestPeakVCPUQueueHighCritical  | [#14983](https://github.com/kubevirt/kubevirt/pull/14983) | [sradco](https://github.com/sradco) |
 | The `foregroundDeleteVirtualMachine` has been deprecated and replaced with the domain-qualified `kubevirt.io/foregroundDeleteVirtualMachine`.  | [#15096](https://github.com/kubevirt/kubevirt/pull/15096) | [lyarwood](https://github.com/lyarwood) |
