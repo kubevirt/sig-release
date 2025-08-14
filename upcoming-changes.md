@@ -11,6 +11,7 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| bugfix: ensure grace period metadata cache is synced in virt-launcher  | [#15170](https://github.com/kubevirt/kubevirt/pull/15170) | [dasionov](https://github.com/dasionov) |
 | bugfix: prevent VMSnapshotContent repeated update with the same error message  | [#15397](https://github.com/kubevirt/kubevirt/pull/15397) | [ShellyKa13](https://github.com/ShellyKa13) |
 | Add Command line flag to disable Node Labeller service  | [#15167](https://github.com/kubevirt/kubevirt/pull/15167) | [Sreeja1725](https://github.com/Sreeja1725) |
 | Aligning descheduler opt-out annotation name  | [#15365](https://github.com/kubevirt/kubevirt/pull/15365) | [tiraboschi](https://github.com/tiraboschi) |
