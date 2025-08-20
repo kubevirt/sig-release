@@ -11,6 +11,7 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| virtctl (portfoward|ssh|scp): Drop support for legacy dot syntax. In case the old dot syntax was used virtctl could ask for verification of the host key again. In some cases the known_hosts file might need to be updated manually.  | [#15475](https://github.com/kubevirt/kubevirt/pull/15475) | [0xFelix](https://github.com/0xFelix) |
 | bugfix: ensure grace period metadata cache is synced in virt-launcher  | [#15170](https://github.com/kubevirt/kubevirt/pull/15170) | [dasionov](https://github.com/dasionov) |
 | bugfix: prevent VMSnapshotContent repeated update with the same error message  | [#15397](https://github.com/kubevirt/kubevirt/pull/15397) | [ShellyKa13](https://github.com/ShellyKa13) |
 | Add Command line flag to disable Node Labeller service  | [#15167](https://github.com/kubevirt/kubevirt/pull/15167) | [Sreeja1725](https://github.com/Sreeja1725) |
