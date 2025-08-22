@@ -11,6 +11,8 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| ensure default Firmware.Serial value on newly created vms  | [#15357](https://github.com/kubevirt/kubevirt/pull/15357) | [dasionov](https://github.com/dasionov) |
+| BugFix: Unable to delete source VM on failed decentralized live migration  | [#15470](https://github.com/kubevirt/kubevirt/pull/15470) | [awels](https://github.com/awels) |
 | Derive eviction-in-progress annotation from VMI eviction status  | [#15423](https://github.com/kubevirt/kubevirt/pull/15423) | [tiraboschi](https://github.com/tiraboschi) |
 | virtctl (portfoward|ssh|scp): Drop support for legacy dot syntax. In case the old dot syntax was used virtctl could ask for verification of the host key again. In some cases the known_hosts file might need to be updated manually.  | [#15475](https://github.com/kubevirt/kubevirt/pull/15475) | [0xFelix](https://github.com/0xFelix) |
 | bugfix: ensure grace period metadata cache is synced in virt-launcher  | [#15170](https://github.com/kubevirt/kubevirt/pull/15170) | [dasionov](https://github.com/dasionov) |
