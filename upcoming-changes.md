@@ -11,6 +11,8 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| Added virt-launcher to kubevirt_memory_delta_from_requested_bytes metric and cnv_abnormal metrics.  | [#15464](https://github.com/kubevirt/kubevirt/pull/15464) | [avlitman](https://github.com/avlitman) |
+| Add `preserve session` option to VNC endpoint  | [#15267](https://github.com/kubevirt/kubevirt/pull/15267) | [victortoso](https://github.com/victortoso) |
 | ensure default Firmware.Serial value on newly created vms  | [#15357](https://github.com/kubevirt/kubevirt/pull/15357) | [dasionov](https://github.com/dasionov) |
 | BugFix: Unable to delete source VM on failed decentralized live migration  | [#15470](https://github.com/kubevirt/kubevirt/pull/15470) | [awels](https://github.com/awels) |
 | Derive eviction-in-progress annotation from VMI eviction status  | [#15423](https://github.com/kubevirt/kubevirt/pull/15423) | [tiraboschi](https://github.com/tiraboschi) |
