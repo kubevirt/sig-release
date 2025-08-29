@@ -11,6 +11,7 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| Fix incorrect metric name kubevirt_vmi_migration_disk_transfer_rate_bytes to kubevirt_vmi_migration_memory_transfer_rate_bytes  | [#13500](https://github.com/kubevirt/kubevirt/pull/13500) | [brandboat](https://github.com/brandboat) |
 | Added virt-launcher to kubevirt_memory_delta_from_requested_bytes metric and cnv_abnormal metrics.  | [#15464](https://github.com/kubevirt/kubevirt/pull/15464) | [avlitman](https://github.com/avlitman) |
 | Add `preserve session` option to VNC endpoint  | [#15267](https://github.com/kubevirt/kubevirt/pull/15267) | [victortoso](https://github.com/victortoso) |
 | ensure default Firmware.Serial value on newly created vms  | [#15357](https://github.com/kubevirt/kubevirt/pull/15357) | [dasionov](https://github.com/dasionov) |
