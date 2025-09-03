@@ -11,6 +11,8 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| Fix: grpc client in handler rest requests are properly closed  | [#15557](https://github.com/kubevirt/kubevirt/pull/15557) | [fossedihelm](https://github.com/fossedihelm) |
+| New VM alerts - VirtualMachineStuckInUnhealthyState, VirtualMachineStuckOnNode  | [#15227](https://github.com/kubevirt/kubevirt/pull/15227) | [sradco](https://github.com/sradco) |
 | virtctl: The --local-ssh flag and native ssh and scp clients are removed from virtctl. From now on the local ssh and scp clients on a host are always wrapped by virtctl ssh and scp.  | [#15478](https://github.com/kubevirt/kubevirt/pull/15478) | [0xFelix](https://github.com/0xFelix) |
 | Fix incorrect metric name kubevirt_vmi_migration_disk_transfer_rate_bytes to kubevirt_vmi_migration_memory_transfer_rate_bytes  | [#13500](https://github.com/kubevirt/kubevirt/pull/13500) | [brandboat](https://github.com/brandboat) |
 | Added virt-launcher to kubevirt_memory_delta_from_requested_bytes metric and cnv_abnormal metrics.  | [#15464](https://github.com/kubevirt/kubevirt/pull/15464) | [avlitman](https://github.com/avlitman) |
