@@ -11,6 +11,7 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| Bugfix: Exclude lost+found from export server  | [#15509](https://github.com/kubevirt/kubevirt/pull/15509) | [alromeros](https://github.com/alromeros) |
 | Fix: grpc client in handler rest requests are properly closed  | [#15557](https://github.com/kubevirt/kubevirt/pull/15557) | [fossedihelm](https://github.com/fossedihelm) |
 | New VM alerts - VirtualMachineStuckInUnhealthyState, VirtualMachineStuckOnNode  | [#15227](https://github.com/kubevirt/kubevirt/pull/15227) | [sradco](https://github.com/sradco) |
 | virtctl: The --local-ssh flag and native ssh and scp clients are removed from virtctl. From now on the local ssh and scp clients on a host are always wrapped by virtctl ssh and scp.  | [#15478](https://github.com/kubevirt/kubevirt/pull/15478) | [0xFelix](https://github.com/0xFelix) |
