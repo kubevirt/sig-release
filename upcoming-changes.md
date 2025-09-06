@@ -11,6 +11,8 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| Added VolumeOwnershipPolicy to decide how volumes are owned once they are restored.  | [#15344](https://github.com/kubevirt/kubevirt/pull/15344) | [SkalaNetworks](https://github.com/SkalaNetworks) |
+| remove ppc64le architecture configuration support  | [#14976](https://github.com/kubevirt/kubevirt/pull/14976) | [dasionov](https://github.com/dasionov) |
 | Bugfix: Exclude lost+found from export server  | [#15509](https://github.com/kubevirt/kubevirt/pull/15509) | [alromeros](https://github.com/alromeros) |
 | Fix: grpc client in handler rest requests are properly closed  | [#15557](https://github.com/kubevirt/kubevirt/pull/15557) | [fossedihelm](https://github.com/fossedihelm) |
 | New VM alerts - VirtualMachineStuckInUnhealthyState, VirtualMachineStuckOnNode  | [#15227](https://github.com/kubevirt/kubevirt/pull/15227) | [sradco](https://github.com/sradco) |
