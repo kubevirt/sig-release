@@ -11,6 +11,9 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| Allow decentralized live migration on L3 networks  | [#15630](https://github.com/kubevirt/kubevirt/pull/15630) | [awels](https://github.com/awels) |
+| Fixed priority escalation bug in migration controller  | [#15513](https://github.com/kubevirt/kubevirt/pull/15513) | [jean-edouard](https://github.com/jean-edouard) |
+| BugFix: Fix volume migration for VMs with long name  | [#15603](https://github.com/kubevirt/kubevirt/pull/15603) | [akalenyu](https://github.com/akalenyu) |
 | Added VolumeOwnershipPolicy to decide how volumes are owned once they are restored.  | [#15344](https://github.com/kubevirt/kubevirt/pull/15344) | [SkalaNetworks](https://github.com/SkalaNetworks) |
 | remove ppc64le architecture configuration support  | [#14976](https://github.com/kubevirt/kubevirt/pull/14976) | [dasionov](https://github.com/dasionov) |
 | Bugfix: Exclude lost+found from export server  | [#15509](https://github.com/kubevirt/kubevirt/pull/15509) | [alromeros](https://github.com/alromeros) |
