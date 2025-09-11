@@ -11,6 +11,8 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| BugFix: Windows VM with vTPM that was previously Storage Migrated cannot live migrate  | [#15642](https://github.com/kubevirt/kubevirt/pull/15642) | [akalenyu](https://github.com/akalenyu) |
+| Add kubevirt_vm_labels metric which shows vm labels converted to Prometheus labels, and can be configured using config map with ignore and allow lists.  | [#15181](https://github.com/kubevirt/kubevirt/pull/15181) | [avlitman](https://github.com/avlitman) |
 | Allow decentralized live migration on L3 networks  | [#15630](https://github.com/kubevirt/kubevirt/pull/15630) | [awels](https://github.com/awels) |
 | Fixed priority escalation bug in migration controller  | [#15513](https://github.com/kubevirt/kubevirt/pull/15513) | [jean-edouard](https://github.com/jean-edouard) |
 | BugFix: Fix volume migration for VMs with long name  | [#15603](https://github.com/kubevirt/kubevirt/pull/15603) | [akalenyu](https://github.com/akalenyu) |
