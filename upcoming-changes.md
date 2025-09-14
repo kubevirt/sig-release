@@ -11,6 +11,7 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| Enhance VMPool unit tests to make use of fake client  | [#15503](https://github.com/kubevirt/kubevirt/pull/15503) | [Sreeja1725](https://github.com/Sreeja1725) |
 | The `DefaultVirtWebhookClient{QPS,Burst}` values are aligned with `DefaultVirtWebhookClient{QPS,Burst}` to help avoid saturating the webhook client with requests it is unable to serve during mass eviction events  | [#15422](https://github.com/kubevirt/kubevirt/pull/15422) | [lyarwood](https://github.com/lyarwood) |
 | Add WithUploadSource builder to libdv  | [#15651](https://github.com/kubevirt/kubevirt/pull/15651) | [dcarrier](https://github.com/dcarrier) |
 | BugFix: Windows VM with vTPM that was previously Storage Migrated cannot live migrate  | [#15642](https://github.com/kubevirt/kubevirt/pull/15642) | [akalenyu](https://github.com/akalenyu) |
