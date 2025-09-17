@@ -11,6 +11,7 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| BugFix: Able to cancel in flight decentralized live migrations properly  | [#15605](https://github.com/kubevirt/kubevirt/pull/15605) | [awels](https://github.com/awels) |
 | Does Screenshot without the usage of VNC  | [#15238](https://github.com/kubevirt/kubevirt/pull/15238) | [victortoso](https://github.com/victortoso) |
 | Update metric kubevirt_vm_container_free_memory_bytes_based_on_rss and kubevirt_vm_container_free_memory_bytes_based_on_working_set_bytes names to kubevirt_vm_container_memory_request_margin_based_on_rss_bytes and kubevirt_vm_container_memory_request_margin_based_on_working_set_bytes so they will be clearer  | [#15504](https://github.com/kubevirt/kubevirt/pull/15504) | [sradco](https://github.com/sradco) |
 | Enhance VMPool unit tests to make use of fake client  | [#15503](https://github.com/kubevirt/kubevirt/pull/15503) | [Sreeja1725](https://github.com/Sreeja1725) |
