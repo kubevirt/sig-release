@@ -11,6 +11,10 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| Normalise iface status to ensure test stability of hotplug and hotunplug tests  | [#15669](https://github.com/kubevirt/kubevirt/pull/15669) | [HarshithaMS005](https://github.com/HarshithaMS005) |
+| ChangedBlockTracking: enable add/remove of qcow2 overlay if vm matches label selector  | [#14772](https://github.com/kubevirt/kubevirt/pull/14772) | [ShellyKa13](https://github.com/ShellyKa13) |
+| Support Istio versions 1.25 and above.  | [#15661](https://github.com/kubevirt/kubevirt/pull/15661) | [nirdothan](https://github.com/nirdothan) |
+| bump prometheus operator to 0.80.1  | [#15531](https://github.com/kubevirt/kubevirt/pull/15531) | [Yu-Jack](https://github.com/Yu-Jack) |
 | BugFix: Able to cancel in flight decentralized live migrations properly  | [#15605](https://github.com/kubevirt/kubevirt/pull/15605) | [awels](https://github.com/awels) |
 | Does Screenshot without the usage of VNC  | [#15238](https://github.com/kubevirt/kubevirt/pull/15238) | [victortoso](https://github.com/victortoso) |
 | Update metric kubevirt_vm_container_free_memory_bytes_based_on_rss and kubevirt_vm_container_free_memory_bytes_based_on_working_set_bytes names to kubevirt_vm_container_memory_request_margin_based_on_rss_bytes and kubevirt_vm_container_memory_request_margin_based_on_working_set_bytes so they will be clearer  | [#15504](https://github.com/kubevirt/kubevirt/pull/15504) | [sradco](https://github.com/sradco) |
