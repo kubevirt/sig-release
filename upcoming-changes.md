@@ -11,6 +11,8 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| Memory overcommit is now recalculated on migration.<br>Important: deployments that set a memoryOvercommit value below 10 need to bump to 10+ before upgrading.  | [#15681](https://github.com/kubevirt/kubevirt/pull/15681) | [jean-edouard](https://github.com/jean-edouard) |
+| build: update to bazel v6.5.0 and rules_oci  | [#13111](https://github.com/kubevirt/kubevirt/pull/13111) | [brianmcarey](https://github.com/brianmcarey) |
 | Add VMpool finalizer to ensure proper cleanup  | [#15406](https://github.com/kubevirt/kubevirt/pull/15406) | [Sreeja1725](https://github.com/Sreeja1725) |
 | Normalise iface status to ensure test stability of hotplug and hotunplug tests  | [#15669](https://github.com/kubevirt/kubevirt/pull/15669) | [HarshithaMS005](https://github.com/HarshithaMS005) |
 | ChangedBlockTracking: enable add/remove of qcow2 overlay if vm matches label selector  | [#14772](https://github.com/kubevirt/kubevirt/pull/14772) | [ShellyKa13](https://github.com/ShellyKa13) |
