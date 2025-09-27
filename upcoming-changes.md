@@ -11,6 +11,8 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| Only a single `Signaled Graceful Shutdown` event is now sent to avoid spamming the event recorder during long graceful shutdown attempts  | [#15759](https://github.com/kubevirt/kubevirt/pull/15759) | [lyarwood](https://github.com/lyarwood) |
+| The deprecated `instancetype.kubevirt.io/v1alpha{1,2}` API and CRDs have been removed  | [#15400](https://github.com/kubevirt/kubevirt/pull/15400) | [lyarwood](https://github.com/lyarwood) |
 | Memory overcommit is now recalculated on migration.<br>Important: deployments that set a memoryOvercommit value below 10 need to bump to 10+ before upgrading.  | [#15681](https://github.com/kubevirt/kubevirt/pull/15681) | [jean-edouard](https://github.com/jean-edouard) |
 | build: update to bazel v6.5.0 and rules_oci  | [#13111](https://github.com/kubevirt/kubevirt/pull/13111) | [brianmcarey](https://github.com/brianmcarey) |
 | Add VMpool finalizer to ensure proper cleanup  | [#15406](https://github.com/kubevirt/kubevirt/pull/15406) | [Sreeja1725](https://github.com/Sreeja1725) |
