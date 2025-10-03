@@ -11,6 +11,7 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| Replicas of `virt-api` are now scaled depending on the number of nodes within the environment with the `kubevirt.io/schedulable=true` label.  | [#15690](https://github.com/kubevirt/kubevirt/pull/15690) | [lyarwood](https://github.com/lyarwood) |
 | BugFix: Restoring naked PVCs from a VMSnapshot are now properly owned by the VM if the restore policy is set to VM  | [#15692](https://github.com/kubevirt/kubevirt/pull/15692) | [awels](https://github.com/awels) |
 | Only a single `Signaled Graceful Shutdown` event is now sent to avoid spamming the event recorder during long graceful shutdown attempts  | [#15759](https://github.com/kubevirt/kubevirt/pull/15759) | [lyarwood](https://github.com/lyarwood) |
 | The deprecated `instancetype.kubevirt.io/v1alpha{1,2}` API and CRDs have been removed  | [#15400](https://github.com/kubevirt/kubevirt/pull/15400) | [lyarwood](https://github.com/lyarwood) |
