@@ -11,6 +11,9 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| Object Graph: Include NADs and ServiceAccounts  | [#15615](https://github.com/kubevirt/kubevirt/pull/15615) | [alromeros](https://github.com/alromeros) |
+| Preferences can now express preferred and required architecture values for use within VirtualMachines  | [#15398](https://github.com/kubevirt/kubevirt/pull/15398) | [lyarwood](https://github.com/lyarwood) |
+| Bug fix, virt-launcher is properly reaped  | [#15676](https://github.com/kubevirt/kubevirt/pull/15676) | [xpivarc](https://github.com/xpivarc) |
 | Replicas of `virt-api` are now scaled depending on the number of nodes within the environment with the `kubevirt.io/schedulable=true` label.  | [#15690](https://github.com/kubevirt/kubevirt/pull/15690) | [lyarwood](https://github.com/lyarwood) |
 | BugFix: Restoring naked PVCs from a VMSnapshot are now properly owned by the VM if the restore policy is set to VM  | [#15692](https://github.com/kubevirt/kubevirt/pull/15692) | [awels](https://github.com/awels) |
 | Only a single `Signaled Graceful Shutdown` event is now sent to avoid spamming the event recorder during long graceful shutdown attempts  | [#15759](https://github.com/kubevirt/kubevirt/pull/15759) | [lyarwood](https://github.com/lyarwood) |
