@@ -11,6 +11,7 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| fix: prioritize expired cert removal over 50-cert limit in MergeCABundle  | [#15706](https://github.com/kubevirt/kubevirt/pull/15706) | [ksimon1](https://github.com/ksimon1) |
 | Support for the `ioThreads` VMI configurable is added to the `instancetype.kubevirt.io/v1beta1` API allowing `supplementalPoolThreadCount` to now be provided by an instance type.  | [#15798](https://github.com/kubevirt/kubevirt/pull/15798) | [lyarwood](https://github.com/lyarwood) |
 | Object Graph: Include NADs and ServiceAccounts  | [#15615](https://github.com/kubevirt/kubevirt/pull/15615) | [alromeros](https://github.com/alromeros) |
 | Preferences can now express preferred and required architecture values for use within VirtualMachines  | [#15398](https://github.com/kubevirt/kubevirt/pull/15398) | [lyarwood](https://github.com/lyarwood) |
