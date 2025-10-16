@@ -11,6 +11,8 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| Fix RestartRequired handling for hotplug volumes  | [#15788](https://github.com/kubevirt/kubevirt/pull/15788) | [mhenriks](https://github.com/mhenriks) |
+| Add VirtualMachineInstanceEvictionRequested condition for eviction tracking  | [#15539](https://github.com/kubevirt/kubevirt/pull/15539) | [tiraboschi](https://github.com/tiraboschi) |
 | The list of annotations and labels synced from VM.spec.template.metadata to VMI and then to virt-launcher pods can be extended  | [#14902](https://github.com/kubevirt/kubevirt/pull/14902) | [tiraboschi](https://github.com/tiraboschi) |
 | Build KubeVirt with go v1.24.7  | [#15784](https://github.com/kubevirt/kubevirt/pull/15784) | [brianmcarey](https://github.com/brianmcarey) |
 | fix: prioritize expired cert removal over 50-cert limit in MergeCABundle  | [#15706](https://github.com/kubevirt/kubevirt/pull/15706) | [ksimon1](https://github.com/ksimon1) |
