@@ -11,6 +11,8 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| NONR  | [#15552](https://github.com/kubevirt/kubevirt/pull/15552) | [nirdothan](https://github.com/nirdothan) |
+| The `DefaultVirtHandler{QPS,Burst}` values are increased to ensure no bottleneck forms within `virt-handler`  | [#15712](https://github.com/kubevirt/kubevirt/pull/15712) | [lyarwood](https://github.com/lyarwood) |
 | Fix RestartRequired handling for hotplug volumes  | [#15788](https://github.com/kubevirt/kubevirt/pull/15788) | [mhenriks](https://github.com/mhenriks) |
 | Add VirtualMachineInstanceEvictionRequested condition for eviction tracking  | [#15539](https://github.com/kubevirt/kubevirt/pull/15539) | [tiraboschi](https://github.com/tiraboschi) |
 | The list of annotations and labels synced from VM.spec.template.metadata to VMI and then to virt-launcher pods can be extended  | [#14902](https://github.com/kubevirt/kubevirt/pull/14902) | [tiraboschi](https://github.com/tiraboschi) |
