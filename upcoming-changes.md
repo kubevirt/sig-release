@@ -11,6 +11,10 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| Updated common-instancetypes bundles to v1.5.1  | [#15936](https://github.com/kubevirt/kubevirt/pull/15936) | [kubevirt-bot](https://github.com/kubevirt-bot) |
+| Fix possible nil pointer caused by migration during kv upgrade  | [#15008](https://github.com/kubevirt/kubevirt/pull/15008) | [fossedihelm](https://github.com/fossedihelm) |
+| Experimental support for AMD SEV-SNP that is behind the `WorkloadEncruptionSEV` feature gate.  | [#14845](https://github.com/kubevirt/kubevirt/pull/14845) | [alancaldelas](https://github.com/alancaldelas) |
+| Specify correct label selection when creating a service via virtctl expose. The expose command on virtctl v1.7 and above will not work with older KubeVirt versions.  | [#15783](https://github.com/kubevirt/kubevirt/pull/15783) | [orelmisan](https://github.com/orelmisan) |
 | Beta: PanicDevices  | [#15830](https://github.com/kubevirt/kubevirt/pull/15830) | [varunrsekar](https://github.com/varunrsekar) |
 | It is now possible to configure discard_granularity for VM disks.  | [#15698](https://github.com/kubevirt/kubevirt/pull/15698) | [Acedus](https://github.com/Acedus) |
 | Bug fix: Thousands of migrations should not cause failures of active migrations  | [#15867](https://github.com/kubevirt/kubevirt/pull/15867) | [xpivarc](https://github.com/xpivarc) |
