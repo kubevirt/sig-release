@@ -11,6 +11,7 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| Add v1.6.0 perf and scale benchmarks data  | [#15878](https://github.com/kubevirt/kubevirt/pull/15878) | [Sreeja1725](https://github.com/Sreeja1725) |
 | Updated common-instancetypes bundles to v1.5.1  | [#15936](https://github.com/kubevirt/kubevirt/pull/15936) | [kubevirt-bot](https://github.com/kubevirt-bot) |
 | Fix possible nil pointer caused by migration during kv upgrade  | [#15008](https://github.com/kubevirt/kubevirt/pull/15008) | [fossedihelm](https://github.com/fossedihelm) |
 | Experimental support for AMD SEV-SNP that is behind the `WorkloadEncruptionSEV` feature gate.  | [#14845](https://github.com/kubevirt/kubevirt/pull/14845) | [alancaldelas](https://github.com/alancaldelas) |
