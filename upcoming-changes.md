@@ -11,6 +11,8 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| Bump k8s v1.33  | [#15718](https://github.com/kubevirt/kubevirt/pull/15718) | [Vicente-Cheng](https://github.com/Vicente-Cheng) |
+| VMpool: Add UpdateStrategy support with Proactive, Opportunistic modes and Selection policies  | [#15123](https://github.com/kubevirt/kubevirt/pull/15123) | [Sreeja1725](https://github.com/Sreeja1725) |
 | Add v1.6.0 perf and scale benchmarks data  | [#15878](https://github.com/kubevirt/kubevirt/pull/15878) | [Sreeja1725](https://github.com/Sreeja1725) |
 | Updated common-instancetypes bundles to v1.5.1  | [#15936](https://github.com/kubevirt/kubevirt/pull/15936) | [kubevirt-bot](https://github.com/kubevirt-bot) |
 | Fix possible nil pointer caused by migration during kv upgrade  | [#15008](https://github.com/kubevirt/kubevirt/pull/15008) | [fossedihelm](https://github.com/fossedihelm) |
