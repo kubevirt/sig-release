@@ -11,6 +11,9 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| Beta: VideoConfig  | [#15939](https://github.com/kubevirt/kubevirt/pull/15939) | [dasionov](https://github.com/dasionov) |
+| Alpha: Generalized Migration Priority in KubeVirt  | [#15887](https://github.com/kubevirt/kubevirt/pull/15887) | [fossedihelm](https://github.com/fossedihelm) |
+| Experimental support of Intel TDX  | [#14575](https://github.com/kubevirt/kubevirt/pull/14575) | [zhencliu](https://github.com/zhencliu) |
 | Bump k8s v1.33  | [#15718](https://github.com/kubevirt/kubevirt/pull/15718) | [Vicente-Cheng](https://github.com/Vicente-Cheng) |
 | VMpool: Add UpdateStrategy support with Proactive, Opportunistic modes and Selection policies  | [#15123](https://github.com/kubevirt/kubevirt/pull/15123) | [Sreeja1725](https://github.com/Sreeja1725) |
 | Add v1.6.0 perf and scale benchmarks data  | [#15878](https://github.com/kubevirt/kubevirt/pull/15878) | [Sreeja1725](https://github.com/Sreeja1725) |
