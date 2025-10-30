@@ -11,6 +11,9 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| VMpool: Add Scale-in strategy support with Proactive, opportunistic modes and statePreservation  | [#15604](https://github.com/kubevirt/kubevirt/pull/15604) | [Sreeja1725](https://github.com/Sreeja1725) |
+| support v0.32.5 code generator  | [#15529](https://github.com/kubevirt/kubevirt/pull/15529) | [Yu-Jack](https://github.com/Yu-Jack) |
+| support live migration for ImageVolume with modified container disk images  | [#14973](https://github.com/kubevirt/kubevirt/pull/14973) | [Barakmor1](https://github.com/Barakmor1) |
 | Beta: VideoConfig  | [#15939](https://github.com/kubevirt/kubevirt/pull/15939) | [dasionov](https://github.com/dasionov) |
 | Alpha: Generalized Migration Priority in KubeVirt  | [#15887](https://github.com/kubevirt/kubevirt/pull/15887) | [fossedihelm](https://github.com/fossedihelm) |
 | Experimental support of Intel TDX  | [#14575](https://github.com/kubevirt/kubevirt/pull/14575) | [zhencliu](https://github.com/zhencliu) |
