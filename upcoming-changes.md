@@ -11,6 +11,10 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| BugFix: The migration limit was not accurately being used with decentralized live migrations  | [#15767](https://github.com/kubevirt/kubevirt/pull/15767) | [awels](https://github.com/awels) |
+| The KubevirtSeccompProfile feature is now in Beta  | [#15970](https://github.com/kubevirt/kubevirt/pull/15970) | [jean-edouard](https://github.com/jean-edouard) |
+| promote ImageVolume FG to Beta  | [#15960](https://github.com/kubevirt/kubevirt/pull/15960) | [Barakmor1](https://github.com/Barakmor1) |
+| VMPool: Add support for auto-healing startegy  | [#15638](https://github.com/kubevirt/kubevirt/pull/15638) | [Sreeja1725](https://github.com/Sreeja1725) |
 | VMpool: Add Scale-in strategy support with Proactive, opportunistic modes and statePreservation  | [#15604](https://github.com/kubevirt/kubevirt/pull/15604) | [Sreeja1725](https://github.com/Sreeja1725) |
 | support v0.32.5 code generator  | [#15529](https://github.com/kubevirt/kubevirt/pull/15529) | [Yu-Jack](https://github.com/Yu-Jack) |
 | support live migration for ImageVolume with modified container disk images  | [#14973](https://github.com/kubevirt/kubevirt/pull/14973) | [Barakmor1](https://github.com/Barakmor1) |
