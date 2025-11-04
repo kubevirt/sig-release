@@ -11,6 +11,7 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| Promote IBM Secure Execution Feature to Beta stage.  | [#15934](https://github.com/kubevirt/kubevirt/pull/15934) | [jschintag](https://github.com/jschintag) |
 | BugFix: The migration limit was not accurately being used with decentralized live migrations  | [#15767](https://github.com/kubevirt/kubevirt/pull/15767) | [awels](https://github.com/awels) |
 | The KubevirtSeccompProfile feature is now in Beta  | [#15970](https://github.com/kubevirt/kubevirt/pull/15970) | [jean-edouard](https://github.com/jean-edouard) |
 | promote ImageVolume FG to Beta  | [#15960](https://github.com/kubevirt/kubevirt/pull/15960) | [Barakmor1](https://github.com/Barakmor1) |
