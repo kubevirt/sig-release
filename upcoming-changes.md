@@ -11,6 +11,8 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| Recording rule kubevirt_vmi_vcpu_count name changes to vmi:kubevirt_vmi_vcpu:count  | [#15968](https://github.com/kubevirt/kubevirt/pull/15968) | [sradco](https://github.com/sradco) |
+| Introduce pool.kubevirt.io/v1beta1  | [#15166](https://github.com/kubevirt/kubevirt/pull/15166) | [Sreeja1725](https://github.com/Sreeja1725) |
 | VMSnapshot: add SourceIndications status field to list snapshot indications with descriptions for clearer meaning.  | [#15409](https://github.com/kubevirt/kubevirt/pull/15409) | [noamasu](https://github.com/noamasu) |
 | Promote IBM Secure Execution Feature to Beta stage.  | [#15934](https://github.com/kubevirt/kubevirt/pull/15934) | [jschintag](https://github.com/jschintag) |
 | BugFix: The migration limit was not accurately being used with decentralized live migrations  | [#15767](https://github.com/kubevirt/kubevirt/pull/15767) | [awels](https://github.com/awels) |
