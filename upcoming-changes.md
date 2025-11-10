@@ -11,6 +11,7 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| Bug fix: KubeVirt.spec.imagetag installation is working again  | [#16050](https://github.com/kubevirt/kubevirt/pull/16050) | [xpivarc](https://github.com/xpivarc) |
 | Recording rule kubevirt_vmi_vcpu_count name changes to vmi:kubevirt_vmi_vcpu:count  | [#15968](https://github.com/kubevirt/kubevirt/pull/15968) | [sradco](https://github.com/sradco) |
 | Introduce pool.kubevirt.io/v1beta1  | [#15166](https://github.com/kubevirt/kubevirt/pull/15166) | [Sreeja1725](https://github.com/Sreeja1725) |
 | VMSnapshot: add SourceIndications status field to list snapshot indications with descriptions for clearer meaning.  | [#15409](https://github.com/kubevirt/kubevirt/pull/15409) | [noamasu](https://github.com/noamasu) |
