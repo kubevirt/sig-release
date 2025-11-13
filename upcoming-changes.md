@@ -11,6 +11,9 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| The `MultiArchitecture` feature gate has been deprecated and is no longer used to determine if VirtualMachines with a differing architecture to the control plane should be rejected by the admission webhooks  | [#16023](https://github.com/kubevirt/kubevirt/pull/16023) | [lyarwood](https://github.com/lyarwood) |
+| Reject stop requests for paused VMIs.  A paused VMI must be unpaused before it can be stopped.  | [#15405](https://github.com/kubevirt/kubevirt/pull/15405) | [dasionov](https://github.com/dasionov) |
+| A decentralized live migration failure is properly propagates between source and target  | [#15716](https://github.com/kubevirt/kubevirt/pull/15716) | [awels](https://github.com/awels) |
 | NodeRestriction: Source of node update is now verified  | [#15374](https://github.com/kubevirt/kubevirt/pull/15374) | [xpivarc](https://github.com/xpivarc) |
 | Bug fix: KubeVirt.spec.imagetag installation is working again  | [#16050](https://github.com/kubevirt/kubevirt/pull/16050) | [xpivarc](https://github.com/xpivarc) |
 | Recording rule kubevirt_vmi_vcpu_count name changes to vmi:kubevirt_vmi_vcpu:count  | [#15968](https://github.com/kubevirt/kubevirt/pull/15968) | [sradco](https://github.com/sradco) |
