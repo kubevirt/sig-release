@@ -11,6 +11,7 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| Introduce a new subresource `/evacuate/cancel` and `virtctl evacuate-cancel` command to allow users to cancel the evacuation process for a VirtualMachineInstance (VMI). This clears the `evacuationNodeName` field in the VMI's status, stopping the automatic creation of migration resources and fully aborting the eviction cycle.  | [#15957](https://github.com/kubevirt/kubevirt/pull/15957) | [xpivarc](https://github.com/xpivarc) |
 | The `MultiArchitecture` feature gate has been deprecated and is no longer used to determine if VirtualMachines with a differing architecture to the control plane should be rejected by the admission webhooks  | [#16023](https://github.com/kubevirt/kubevirt/pull/16023) | [lyarwood](https://github.com/lyarwood) |
 | Reject stop requests for paused VMIs.  A paused VMI must be unpaused before it can be stopped.  | [#15405](https://github.com/kubevirt/kubevirt/pull/15405) | [dasionov](https://github.com/dasionov) |
 | A decentralized live migration failure is properly propagates between source and target  | [#15716](https://github.com/kubevirt/kubevirt/pull/15716) | [awels](https://github.com/awels) |
