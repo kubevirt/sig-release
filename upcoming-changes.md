@@ -11,6 +11,7 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| Introduce new API - UtilityVolumes - direct virt-launcher attachment mechanism  | [#15922](https://github.com/kubevirt/kubevirt/pull/15922) | [ShellyKa13](https://github.com/ShellyKa13) |
 | kubevirt.io/cpumanager label is advertised for nodes capable of running dedicated VMs.  | [#14892](https://github.com/kubevirt/kubevirt/pull/14892) | [xpivarc](https://github.com/xpivarc) |
 | Allow migration when host model changes after libvirt upgrade.  | [#15694](https://github.com/kubevirt/kubevirt/pull/15694) | [Barakmor1](https://github.com/Barakmor1) |
 | Add RestartRequired when detaching CD-ROMs from a running VM  | [#15969](https://github.com/kubevirt/kubevirt/pull/15969) | [Dsanatar](https://github.com/Dsanatar) |
