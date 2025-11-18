@@ -46,7 +46,6 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 | Beta: PanicDevices  | [#15830](https://github.com/kubevirt/kubevirt/pull/15830) | [varunrsekar](https://github.com/varunrsekar) |
 | It is now possible to configure discard_granularity for VM disks.  | [#15698](https://github.com/kubevirt/kubevirt/pull/15698) | [Acedus](https://github.com/Acedus) |
 | Bug fix: Thousands of migrations should not cause failures of active migrations  | [#15867](https://github.com/kubevirt/kubevirt/pull/15867) | [xpivarc](https://github.com/xpivarc) |
-| NONR  | [#15552](https://github.com/kubevirt/kubevirt/pull/15552) | [nirdothan](https://github.com/nirdothan) |
 | The `DefaultVirtHandler{QPS,Burst}` values are increased to ensure no bottleneck forms within `virt-handler`  | [#15712](https://github.com/kubevirt/kubevirt/pull/15712) | [lyarwood](https://github.com/lyarwood) |
 | Fix RestartRequired handling for hotplug volumes  | [#15788](https://github.com/kubevirt/kubevirt/pull/15788) | [mhenriks](https://github.com/mhenriks) |
 | Add VirtualMachineInstanceEvictionRequested condition for eviction tracking  | [#15539](https://github.com/kubevirt/kubevirt/pull/15539) | [tiraboschi](https://github.com/tiraboschi) |
