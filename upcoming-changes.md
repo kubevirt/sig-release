@@ -11,6 +11,8 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| Don't use attachment pods marked for deletion for hotplug volume status updates.  | [#16159](https://github.com/kubevirt/kubevirt/pull/16159) | [Dsanatar](https://github.com/Dsanatar) |
+| Allow VMExport with PVCs from Completed Pods  | [#15442](https://github.com/kubevirt/kubevirt/pull/15442) | [Dsanatar](https://github.com/Dsanatar) |
 | Migration is using dedicated certificate for mTLS.  | [#15949](https://github.com/kubevirt/kubevirt/pull/15949) | [xpivarc](https://github.com/xpivarc) |
 | fix: KSM is enabled in case of node pressure within 3 minutes  | [#16049](https://github.com/kubevirt/kubevirt/pull/16049) | [fossedihelm](https://github.com/fossedihelm) |
 | Introduce new API - UtilityVolumes - direct virt-launcher attachment mechanism  | [#15922](https://github.com/kubevirt/kubevirt/pull/15922) | [ShellyKa13](https://github.com/ShellyKa13) |
