@@ -11,6 +11,8 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| VirtualMachinePool now correctly appends index to CloudInit secret references when appendIndexToSecretRefs: true is set, enabling unique cloud-init configurations for each VM in the pool.  | [#15868](https://github.com/kubevirt/kubevirt/pull/15868) | [frank-gen](https://github.com/frank-gen) |
+| The `EnableVirtioFsConfigVolumes` feature has graduated to GA and no longer requires the associated feature gate to be enabled.  | [#15913](https://github.com/kubevirt/kubevirt/pull/15913) | [germag](https://github.com/germag) |
 | Test Fix: make Alpine ISO mount checks architecture-agnostic  | [#15863](https://github.com/kubevirt/kubevirt/pull/15863) | [HarshithaMS005](https://github.com/HarshithaMS005) |
 | Document allowed values for `spec.runStrategy`.  | [#16122](https://github.com/kubevirt/kubevirt/pull/16122) | [dasionov](https://github.com/dasionov) |
 | Don't use attachment pods marked for deletion for hotplug volume status updates.  | [#16159](https://github.com/kubevirt/kubevirt/pull/16159) | [Dsanatar](https://github.com/Dsanatar) |
