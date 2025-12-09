@@ -11,6 +11,7 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| Update dependecy github.com/opencontainers/selinux to v1.13.0  | [#16173](https://github.com/kubevirt/kubevirt/pull/16173) | [dominikholler](https://github.com/dominikholler) |
 | bugfix: prevent cross-vendor migrations  | [#16060](https://github.com/kubevirt/kubevirt/pull/16060) | [dasionov](https://github.com/dasionov) |
 | Add event logging for pause and unpause VM operations to align with other VM lifecycle events such as reset  | [#15821](https://github.com/kubevirt/kubevirt/pull/15821) | [SamAlber](https://github.com/SamAlber) |
 | VirtualMachinePool now correctly appends index to CloudInit secret references when appendIndexToSecretRefs: true is set, enabling unique cloud-init configurations for each VM in the pool.  | [#15868](https://github.com/kubevirt/kubevirt/pull/15868) | [frank-gen](https://github.com/frank-gen) |
