@@ -11,6 +11,7 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| Omit LLA from the status report when using masquerade binding.  | [#16242](https://github.com/kubevirt/kubevirt/pull/16242) | [orelmisan](https://github.com/orelmisan) |
 | VMBackup: introduce new VM backup API  | [#16081](https://github.com/kubevirt/kubevirt/pull/16081) | [ShellyKa13](https://github.com/ShellyKa13) |
 | Update dependecy github.com/opencontainers/selinux to v1.13.0  | [#16173](https://github.com/kubevirt/kubevirt/pull/16173) | [dominikholler](https://github.com/dominikholler) |
 | bugfix: prevent cross-vendor migrations  | [#16060](https://github.com/kubevirt/kubevirt/pull/16060) | [dasionov](https://github.com/dasionov) |
