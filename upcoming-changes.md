@@ -11,6 +11,7 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| BugFix: Don't modify VMI CBT status when feature gate is disabled  | [#16343](https://github.com/kubevirt/kubevirt/pull/16343) | [ShellyKa13](https://github.com/ShellyKa13) |
 | fix: ensure VMI CBT state remains disabled when the VM has no CBT matcher.  | [#16333](https://github.com/kubevirt/kubevirt/pull/16333) | [Acedus](https://github.com/Acedus) |
 | Update dependecy golang.org/x/crypto to v0.45.0  | [#16174](https://github.com/kubevirt/kubevirt/pull/16174) | [dominikholler](https://github.com/dominikholler) |
 | Omit LLA from the status report when using masquerade binding.  | [#16242](https://github.com/kubevirt/kubevirt/pull/16242) | [orelmisan](https://github.com/orelmisan) |
