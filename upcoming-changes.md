@@ -11,6 +11,7 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| Add support for incremental VM backups  | [#16285](https://github.com/kubevirt/kubevirt/pull/16285) | [ShellyKa13](https://github.com/ShellyKa13) |
 | Add Ephemeral Hotplug Volume Metric and Alert  | [#15815](https://github.com/kubevirt/kubevirt/pull/15815) | [Dsanatar](https://github.com/Dsanatar) |
 | Maintenance: windows lane: W/A wrong nfs image SEEK_DATA impl  | [#16354](https://github.com/kubevirt/kubevirt/pull/16354) | [akalenyu](https://github.com/akalenyu) |
 | * Fixed a bug in socket devices that resulted in clusters making use of the Persistent Reservations feature not properly updating their current health.<br>* Fixed a bug in mediated devices that was causing health checks for those devices to not update.  | [#15992](https://github.com/kubevirt/kubevirt/pull/15992) | [Aseeef](https://github.com/Aseeef) |
