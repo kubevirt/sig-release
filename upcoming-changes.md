@@ -11,6 +11,7 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| Maintenance: fix release branches potentially failing over identical remote images existing on nodes  | [#16336](https://github.com/kubevirt/kubevirt/pull/16336) | [akalenyu](https://github.com/akalenyu) |
 | deprecate --persist flag from virtctl add/remove volume  | [#16280](https://github.com/kubevirt/kubevirt/pull/16280) | [Dsanatar](https://github.com/Dsanatar) |
 | Add support for incremental VM backups  | [#16285](https://github.com/kubevirt/kubevirt/pull/16285) | [ShellyKa13](https://github.com/ShellyKa13) |
 | Add Ephemeral Hotplug Volume Metric and Alert  | [#15815](https://github.com/kubevirt/kubevirt/pull/15815) | [Dsanatar](https://github.com/Dsanatar) |
