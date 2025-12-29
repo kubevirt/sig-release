@@ -11,6 +11,9 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| New VirtLauncherPodsStuckFailed alert  | [#16342](https://github.com/kubevirt/kubevirt/pull/16342) | [sradco](https://github.com/sradco) |
+| The KubeVirtVMGuestMemoryPressure<br>and KubeVirtVMGuestMemoryAvailableLow alerts were added to alert when a VM memory is in pressure.  | [#15237](https://github.com/kubevirt/kubevirt/pull/15237) | [sradco](https://github.com/sradco) |
+| Fix bug in GuestFilesystemAlmostOutOfSpace, that fired for non relevant file system types.  | [#16351](https://github.com/kubevirt/kubevirt/pull/16351) | [sradco](https://github.com/sradco) |
 | Limits the number of guest only interfaces reported on the VMI status to 10. This does not affect the interfaces specified on the spec.  | [#16391](https://github.com/kubevirt/kubevirt/pull/16391) | [frenzyfriday](https://github.com/frenzyfriday) |
 | Maintenance: fix release branches potentially failing over identical remote images existing on nodes  | [#16336](https://github.com/kubevirt/kubevirt/pull/16336) | [akalenyu](https://github.com/akalenyu) |
 | deprecate --persist flag from virtctl add/remove volume  | [#16280](https://github.com/kubevirt/kubevirt/pull/16280) | [Dsanatar](https://github.com/Dsanatar) |
