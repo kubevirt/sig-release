@@ -11,6 +11,8 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| The discontinued core SLIRP binding has been completely removed.  | [#16456](https://github.com/kubevirt/kubevirt/pull/16456) | [orelmisan](https://github.com/orelmisan) |
+| Prevent false restart-required conditions when the VM and corresponding VMI already share the same firmware UUID.  | [#16329](https://github.com/kubevirt/kubevirt/pull/16329) | [dasionov](https://github.com/dasionov) |
 | fix: DataVolumeTemplates with a sourceRef of a DataSource that points to another DataSource now correctly resolves the backing source.  | [#16429](https://github.com/kubevirt/kubevirt/pull/16429) | [Acedus](https://github.com/Acedus) |
 | kubevirt_vmi_migration_data_total_bytes is deprecated in favor of kubevirt_vmi_migration_data_bytes_total, in order to comply with the metrics naming conventions.  | [#15975](https://github.com/kubevirt/kubevirt/pull/15975) | [sradco](https://github.com/sradco) |
 |   | [#15278](https://github.com/kubevirt/kubevirt/pull/15278) | [sradco](https://github.com/sradco) |
