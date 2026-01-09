@@ -11,6 +11,8 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| BugFix: migration metrics missing  | [#16463](https://github.com/kubevirt/kubevirt/pull/16463) | [akalenyu](https://github.com/akalenyu) |
+| Scale up KWOK performance test and add virt-controller queue metrics  | [#16024](https://github.com/kubevirt/kubevirt/pull/16024) | [Sreeja1725](https://github.com/Sreeja1725) |
 | Macvtap core binding has been removed.  | [#16453](https://github.com/kubevirt/kubevirt/pull/16453) | [nirdothan](https://github.com/nirdothan) |
 | The discontinued core SLIRP binding has been completely removed.  | [#16456](https://github.com/kubevirt/kubevirt/pull/16456) | [orelmisan](https://github.com/orelmisan) |
 | Prevent false restart-required conditions when the VM and corresponding VMI already share the same firmware UUID.  | [#16329](https://github.com/kubevirt/kubevirt/pull/16329) | [dasionov](https://github.com/dasionov) |
