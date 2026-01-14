@@ -11,6 +11,7 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| Label memory-dump PVCs to support CDI WebhookPvcRendering  | [#15113](https://github.com/kubevirt/kubevirt/pull/15113) | [alromeros](https://github.com/alromeros) |
 | BugFix: migration metrics missing  | [#16463](https://github.com/kubevirt/kubevirt/pull/16463) | [akalenyu](https://github.com/akalenyu) |
 | Scale up KWOK performance test and add virt-controller queue metrics  | [#16024](https://github.com/kubevirt/kubevirt/pull/16024) | [Sreeja1725](https://github.com/Sreeja1725) |
 | Macvtap core binding has been removed.  | [#16453](https://github.com/kubevirt/kubevirt/pull/16453) | [nirdothan](https://github.com/nirdothan) |
