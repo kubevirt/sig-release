@@ -11,6 +11,7 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| VirtualMachineClone API now includes `VolumeNamePolicy` field to control volume cloning behavior.<br>Currently supports `RandomizeNames` policy which creates new volumes with randomized names (default behavior).<br>This provides an abstraction layer for future flexibility in cloning implementations.  | [#16488](https://github.com/kubevirt/kubevirt/pull/16488) | [lyarwood](https://github.com/lyarwood) |
 | Add tolerations for unschedulable taints to hot-plug pods  | [#14661](https://github.com/kubevirt/kubevirt/pull/14661) | [oujonny](https://github.com/oujonny) |
 | Label memory-dump PVCs to support CDI WebhookPvcRendering  | [#15113](https://github.com/kubevirt/kubevirt/pull/15113) | [alromeros](https://github.com/alromeros) |
 | BugFix: migration metrics missing  | [#16463](https://github.com/kubevirt/kubevirt/pull/16463) | [akalenyu](https://github.com/akalenyu) |
