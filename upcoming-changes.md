@@ -11,6 +11,8 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| Refactor doc-generator  | [#16511](https://github.com/kubevirt/kubevirt/pull/16511) | [Ronilerr](https://github.com/Ronilerr) |
+| Fix ResourceVersion conflicts in VM reconciliation when instancetype controller modifies Status. The instancetype controller now properly propagates ResourceVersion from PatchStatus responses, preventing conflicts in subsequent UpdateStatus calls.  | [#16498](https://github.com/kubevirt/kubevirt/pull/16498) | [lyarwood](https://github.com/lyarwood) |
 | The `DisableMDEVConfiguration` feature gate is now deprecated ahead of removal in a future release in favour of a new `kubevirt.spec.configuration.mediatedDevicesConfiguration.enabled` configurable  | [#16220](https://github.com/kubevirt/kubevirt/pull/16220) | [lyarwood](https://github.com/lyarwood) |
 | VirtualMachineClone API now includes `VolumeNamePolicy` field to control volume cloning behavior.<br>Currently supports `RandomizeNames` policy which creates new volumes with randomized names (default behavior).<br>This provides an abstraction layer for future flexibility in cloning implementations.  | [#16488](https://github.com/kubevirt/kubevirt/pull/16488) | [lyarwood](https://github.com/lyarwood) |
 | Add tolerations for unschedulable taints to hot-plug pods  | [#14661](https://github.com/kubevirt/kubevirt/pull/14661) | [oujonny](https://github.com/oujonny) |
