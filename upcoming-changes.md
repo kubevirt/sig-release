@@ -11,6 +11,7 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| Add target-side premigration hook system  | [#16212](https://github.com/kubevirt/kubevirt/pull/16212) | [Barakmor1](https://github.com/Barakmor1) |
 | Refactor doc-generator  | [#16511](https://github.com/kubevirt/kubevirt/pull/16511) | [Ronilerr](https://github.com/Ronilerr) |
 | Fix ResourceVersion conflicts in VM reconciliation when instancetype controller modifies Status. The instancetype controller now properly propagates ResourceVersion from PatchStatus responses, preventing conflicts in subsequent UpdateStatus calls.  | [#16498](https://github.com/kubevirt/kubevirt/pull/16498) | [lyarwood](https://github.com/lyarwood) |
 | The `DisableMDEVConfiguration` feature gate is now deprecated ahead of removal in a future release in favour of a new `kubevirt.spec.configuration.mediatedDevicesConfiguration.enabled` configurable  | [#16220](https://github.com/kubevirt/kubevirt/pull/16220) | [lyarwood](https://github.com/lyarwood) |
