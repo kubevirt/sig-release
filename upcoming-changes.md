@@ -11,6 +11,8 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| Fixed missing object context in client-go log output after changing verbosity.  | [#16527](https://github.com/kubevirt/kubevirt/pull/16527) | [lukashes](https://github.com/lukashes) |
+| Apply CBT to a hotplug volume  | [#16510](https://github.com/kubevirt/kubevirt/pull/16510) | [ShellyKa13](https://github.com/ShellyKa13) |
 | Add target-side premigration hook system  | [#16212](https://github.com/kubevirt/kubevirt/pull/16212) | [Barakmor1](https://github.com/Barakmor1) |
 | Refactor doc-generator  | [#16511](https://github.com/kubevirt/kubevirt/pull/16511) | [Ronilerr](https://github.com/Ronilerr) |
 | Fix ResourceVersion conflicts in VM reconciliation when instancetype controller modifies Status. The instancetype controller now properly propagates ResourceVersion from PatchStatus responses, preventing conflicts in subsequent UpdateStatus calls.  | [#16498](https://github.com/kubevirt/kubevirt/pull/16498) | [lyarwood](https://github.com/lyarwood) |
