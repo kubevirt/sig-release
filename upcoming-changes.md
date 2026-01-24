@@ -11,6 +11,9 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| The MigrationPriorityQueue feature gate has been promoted from Alpha to Beta.  | [#16558](https://github.com/kubevirt/kubevirt/pull/16558) | [fossedihelm](https://github.com/fossedihelm) |
+| Preserve VM Specific fields during update  | [#16585](https://github.com/kubevirt/kubevirt/pull/16585) | [Sreeja1725](https://github.com/Sreeja1725) |
+| Introduce `HypervisorConfigurations` field in the `KubevirtConfiguration` CRD.  | [#16326](https://github.com/kubevirt/kubevirt/pull/16326) | [harshitgupta1337](https://github.com/harshitgupta1337) |
 | Fixed missing object context in client-go log output after changing verbosity.  | [#16527](https://github.com/kubevirt/kubevirt/pull/16527) | [lukashes](https://github.com/lukashes) |
 | Apply CBT to a hotplug volume  | [#16510](https://github.com/kubevirt/kubevirt/pull/16510) | [ShellyKa13](https://github.com/ShellyKa13) |
 | Add target-side premigration hook system  | [#16212](https://github.com/kubevirt/kubevirt/pull/16212) | [Barakmor1](https://github.com/Barakmor1) |
