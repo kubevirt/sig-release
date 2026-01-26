@@ -11,6 +11,8 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| Fix block volume hotplug breaking autoattachVSOCK  | [#16600](https://github.com/kubevirt/kubevirt/pull/16600) | [woojoong88](https://github.com/woojoong88) |
+| Network downward API network-info includes mac addresses  | [#15898](https://github.com/kubevirt/kubevirt/pull/15898) | [bgartzi](https://github.com/bgartzi) |
 | The MigrationPriorityQueue feature gate has been promoted from Alpha to Beta.  | [#16558](https://github.com/kubevirt/kubevirt/pull/16558) | [fossedihelm](https://github.com/fossedihelm) |
 | Preserve VM Specific fields during update  | [#16585](https://github.com/kubevirt/kubevirt/pull/16585) | [Sreeja1725](https://github.com/Sreeja1725) |
 | Introduce `HypervisorConfigurations` field in the `KubevirtConfiguration` CRD.  | [#16326](https://github.com/kubevirt/kubevirt/pull/16326) | [harshitgupta1337](https://github.com/harshitgupta1337) |
