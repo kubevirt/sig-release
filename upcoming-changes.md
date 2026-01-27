@@ -11,6 +11,7 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| virt-operator now configures client rate limiting (default: 200 QPS / 400 burst) to improve reconciliation performance when processing large numbers of objects. Rate limits can be customized via --client-qps and --client-burst flags or VIRT_OPERATOR_CLIENT_QPS and VIRT_OPERATOR_CLIENT_BURST environment variables.  | [#16491](https://github.com/kubevirt/kubevirt/pull/16491) | [lyarwood](https://github.com/lyarwood) |
 | Fix block volume hotplug breaking autoattachVSOCK  | [#16600](https://github.com/kubevirt/kubevirt/pull/16600) | [woojoong88](https://github.com/woojoong88) |
 | Network downward API network-info includes mac addresses  | [#15898](https://github.com/kubevirt/kubevirt/pull/15898) | [bgartzi](https://github.com/bgartzi) |
 | The MigrationPriorityQueue feature gate has been promoted from Alpha to Beta.  | [#16558](https://github.com/kubevirt/kubevirt/pull/16558) | [fossedihelm](https://github.com/fossedihelm) |
