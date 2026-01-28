@@ -11,6 +11,8 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| Add new `PrefixTargetName` VolumeRestorePolicy for VirtualMachineRestore that creates restored volume names using the format `{targetVMName}-{volumeName}`. This provides predictable, readable names while avoiding collisions when restoring snapshots to different target VMs.  | [#16489](https://github.com/kubevirt/kubevirt/pull/16489) | [lyarwood](https://github.com/lyarwood) |
+| Add missing "Direct" and "Extended" options to Hyperv TLBFlush  | [#16404](https://github.com/kubevirt/kubevirt/pull/16404) | [iholder101](https://github.com/iholder101) |
 | virt-operator now configures client rate limiting (default: 200 QPS / 400 burst) to improve reconciliation performance when processing large numbers of objects. Rate limits can be customized via --client-qps and --client-burst flags or VIRT_OPERATOR_CLIENT_QPS and VIRT_OPERATOR_CLIENT_BURST environment variables.  | [#16491](https://github.com/kubevirt/kubevirt/pull/16491) | [lyarwood](https://github.com/lyarwood) |
 | Fix block volume hotplug breaking autoattachVSOCK  | [#16600](https://github.com/kubevirt/kubevirt/pull/16600) | [woojoong88](https://github.com/woojoong88) |
 | Network downward API network-info includes mac addresses  | [#15898](https://github.com/kubevirt/kubevirt/pull/15898) | [bgartzi](https://github.com/bgartzi) |
