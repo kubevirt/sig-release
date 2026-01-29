@@ -1,0 +1,37 @@
+- when: 2023-11-16
+  who: Kubernetes
+  what: 1.29.0-beta.0
+- when: 2023-11-23
+  who: KubeVirt CI
+  what: Start the 1.29 provider
+- when: 2023-12-13
+  milestone: Kubernetes Release
+  who: Kubernetes
+  what: 1.29.0 release
+- when: 2023-12-20
+  milestone: Alpha 0 (1.2)
+  who: KubeVirt
+  what: Tag v1.2.0-alpha.0
+- when: 2024-01-16
+  who: KubeVirt CI
+  what: CI lanes for provider are voting
+- when: 2024-01-23
+  milestone: Beta 0 (1.2)
+  who: KubeVirt
+  what: Tag v1.2.0-beta.0
+- when: 2024-02-06
+  milestone: Feature Freeze
+  who: KubeVirt
+  what: Branch release-1.2
+- when: 2024-02-13
+  milestone: RC 0
+  who: KubeVirt
+  what: Tag v1.2.0-rc.0 on release-1.2
+- when: 2024-02-20
+  milestone: RC 1
+  who: KubeVirt
+  what: Tag v1.2.0-rc.1 on release-1.2
+- when: 2024-03-05
+  milestone: GA
+  who: KubeVirt
+  what: Tag v1.2.0 on release-1.2

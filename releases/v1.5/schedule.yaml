@@ -1,0 +1,42 @@
+- when: 2024-11-05
+  who: Kubernetes
+  what: Tag 1.32.0-beta.0
+- when: 2024-11-19
+  who: KubeVirt CI
+  what: Start the 1.32 provider
+- when: 2024-12-11
+  milestone: Kubernetes Release
+  who: Kubernetes
+  what: 1.32.0 release
+- when: 2024-12-18
+  milestone: Alpha 0 (1.5)
+  who: KubeVirt
+  what: Tag v1.5.0-alpha.0
+- when: 2025-01-08
+  who: KubeVirt CI
+  what: CI lanes for provider are voting
+- when: 2025-01-15
+  milestone: Beta 0
+  who: KubeVirt
+  what: Tag v1.5.0-beta.0
+- when: 2025-02-12
+  milestone: Feature Freeze
+  who: KubeVirt
+  what: Branch release-1.5
+- when: 2025-02-19
+  milestone: RC 0
+  who: KubeVirt
+  what: Tag v1.5.0-rc.0 on release-1.5
+- when: 2025-02-26
+  milestone: RC 1
+  who: KubeVirt
+  what: Tag v1.5.0-rc.1 on release-1.5
+- when: 2025-03-05
+  milestone: GA
+  who: KubeVirt
+  what: Tag v1.5.0 on release-1.5
+- when: 2025-03-05
+  who: CDI
+  what: v1.62.0 release
+  notes: '[CDI](https://github.com/kubevirt/containerized-data-importer) aims to
+    release approximately a week following KubeVirt'
