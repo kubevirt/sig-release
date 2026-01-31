@@ -11,6 +11,7 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| Decentralized Live Migration now has a separate condition in VMI and VMIM to indicate any issues  | [#16512](https://github.com/kubevirt/kubevirt/pull/16512) | [awels](https://github.com/awels) |
 | Add new `PrefixTargetName` VolumeRestorePolicy for VirtualMachineRestore that creates restored volume names using the format `{targetVMName}-{volumeName}`. This provides predictable, readable names while avoiding collisions when restoring snapshots to different target VMs.  | [#16489](https://github.com/kubevirt/kubevirt/pull/16489) | [lyarwood](https://github.com/lyarwood) |
 | Add missing "Direct" and "Extended" options to Hyperv TLBFlush  | [#16404](https://github.com/kubevirt/kubevirt/pull/16404) | [iholder101](https://github.com/iholder101) |
 | virt-operator now configures client rate limiting (default: 200 QPS / 400 burst) to improve reconciliation performance when processing large numbers of objects. Rate limits can be customized via --client-qps and --client-burst flags or VIRT_OPERATOR_CLIENT_QPS and VIRT_OPERATOR_CLIENT_BURST environment variables.  | [#16491](https://github.com/kubevirt/kubevirt/pull/16491) | [lyarwood](https://github.com/lyarwood) |
