@@ -1,0 +1,62 @@
+- when: 2025/11/19
+  milestone: null
+  who: Kubernetes
+  what: Tag 1.35.0-beta.0
+  notes: null
+- when: 2025/11/26
+  milestone: null
+  who: KubeVirt CI
+  what: Start the 1.35 provider
+  notes: Add on-demand pre-submit
+- when: 2025/12/17
+  milestone: Kubernetes Release
+  who: Kubernetes
+  what: 1.35.0 release
+  notes: null
+- when: 2026/01/07
+  milestone: KubeVirt Alpha 0
+  who: KubeVirt
+  what: Tag v1.8.0-alpha.0
+  notes: null
+- when: 2026/01/07
+  milestone: KubeVirt Alpha 0
+  who: KubeVirt
+  what: Virtualization Enhancement Proposal (VEP) Freeze
+  notes: null
+- when: 2026/01/21
+  milestone: null
+  who: KubeVirt CI
+  what: CI lanes for provider are voting
+  notes: null
+- when: 2026/01/28
+  milestone: KubeVirt Beta 0
+  who: KubeVirt
+  what: Tag v1.8.0-beta.0
+  notes: Begin [release checklist](../release-checklist.md)
+- when: 2026/01/28
+  milestone: KubeVirt Beta 0
+  who: KubeVirt CI
+  what: Mandatory pre-submit
+  notes: Non-standard lanes (i.e. migrations, multus, ipv6) are to be bumped by
+    stakeholder
+- when: 2026/02/25
+  milestone: KubeVirt Code Freeze
+  who: KubeVirt
+  what: Branch release-1.8 and tag v1.8.0-rc.0 on release-1.8
+  notes: Enter stabilization phase, review [list of quarantined tests](https://storage.googleapis.com/kubevirt-prow/reports/quarantined-tests/kubevirt/kubevirt/index.html)
+- when: 2026/03/11
+  milestone: KubeVirt RC 1
+  who: KubeVirt
+  what: Tag v1.8.0-rc.1 on release-1.8
+  notes: null
+- when: 2026/03/18
+  milestone: "**KubeVirt GA**"
+  who: KubeVirt
+  what: Tag v1.8.0 on release-1.8
+  notes: null
+- when: 2026/03/25
+  milestone: "**CDI GA**"
+  who: CDI
+  what: v1.65.0 release
+  notes: '[CDI](https://github.com/kubevirt/containerized-data-importer) aims to
+    release approximately a week following KubeVirt'
