@@ -11,6 +11,7 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| BugFix: Decentralized live migration between volumes with different volumeModes now successfully completes  | [#16637](https://github.com/kubevirt/kubevirt/pull/16637) | [awels](https://github.com/awels) |
 | Updated common-instancetypes bundles to v1.6.0  | [#16705](https://github.com/kubevirt/kubevirt/pull/16705) | [kubevirt-bot](https://github.com/kubevirt-bot) |
 | Decentralized Live Migration now has a separate condition in VMI and VMIM to indicate any issues  | [#16512](https://github.com/kubevirt/kubevirt/pull/16512) | [awels](https://github.com/awels) |
 | Add new `PrefixTargetName` VolumeRestorePolicy for VirtualMachineRestore that creates restored volume names using the format `{targetVMName}-{volumeName}`. This provides predictable, readable names while avoiding collisions when restoring snapshots to different target VMs.  | [#16489](https://github.com/kubevirt/kubevirt/pull/16489) | [lyarwood](https://github.com/lyarwood) |
