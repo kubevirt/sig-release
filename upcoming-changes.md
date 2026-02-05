@@ -11,6 +11,9 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| Fix grammar mistakes  | [#16645](https://github.com/kubevirt/kubevirt/pull/16645) | [Ronilerr](https://github.com/Ronilerr) |
+| Feature gates can now become explicitly disabled using `kv.spec.configuration.developerConfiguration.disabledFeatureGates`.  | [#16370](https://github.com/kubevirt/kubevirt/pull/16370) | [iholder101](https://github.com/iholder101) |
+| Let libvirt lookup the actual disk size if block device to ensure compatibility with encrypted disks.  | [#16366](https://github.com/kubevirt/kubevirt/pull/16366) | [elliot-gustafsson](https://github.com/elliot-gustafsson) |
 | Bugfix: Label memorydump-created PVCs to support CDI WebhookPvcRendering  | [#16229](https://github.com/kubevirt/kubevirt/pull/16229) | [noamasu](https://github.com/noamasu) |
 | BugFix: Decentralized live migration between volumes with different volumeModes now successfully completes  | [#16637](https://github.com/kubevirt/kubevirt/pull/16637) | [awels](https://github.com/awels) |
 | Updated common-instancetypes bundles to v1.6.0  | [#16705](https://github.com/kubevirt/kubevirt/pull/16705) | [kubevirt-bot](https://github.com/kubevirt-bot) |
