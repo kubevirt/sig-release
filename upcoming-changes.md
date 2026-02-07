@@ -11,6 +11,7 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| Existing VMs that retain the legacy ordinal naming scheme for secondary interfaces are automatically upgraded without a reboot.  | [#16642](https://github.com/kubevirt/kubevirt/pull/16642) | [orelmisan](https://github.com/orelmisan) |
 | Incremental backups supported after VM restart by redefining checkpoints metadata in libvirt  | [#16448](https://github.com/kubevirt/kubevirt/pull/16448) | [ShellyKa13](https://github.com/ShellyKa13) |
 | BugFix: vmsnapshot: report volumes being deleted  | [#16621](https://github.com/kubevirt/kubevirt/pull/16621) | [akalenyu](https://github.com/akalenyu) |
 | Fix grammar mistakes  | [#16645](https://github.com/kubevirt/kubevirt/pull/16645) | [Ronilerr](https://github.com/Ronilerr) |
