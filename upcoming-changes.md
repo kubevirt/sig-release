@@ -11,6 +11,8 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| An admin can disable the NAD query logic and use network-resources-injector instead to have less API calls  | [#16734](https://github.com/kubevirt/kubevirt/pull/16734) | [orelmisan](https://github.com/orelmisan) |
+| Replaced QuiesceFailed with QuiesceTimeout indication and added 60s Velero pre-backup hook timeout to better handle Windows VSS limitations.  | [#16653](https://github.com/kubevirt/kubevirt/pull/16653) | [noamasu](https://github.com/noamasu) |
 | Existing VMs that retain the legacy ordinal naming scheme for secondary interfaces are automatically upgraded without a reboot.  | [#16642](https://github.com/kubevirt/kubevirt/pull/16642) | [orelmisan](https://github.com/orelmisan) |
 | Incremental backups supported after VM restart by redefining checkpoints metadata in libvirt  | [#16448](https://github.com/kubevirt/kubevirt/pull/16448) | [ShellyKa13](https://github.com/ShellyKa13) |
 | BugFix: vmsnapshot: report volumes being deleted  | [#16621](https://github.com/kubevirt/kubevirt/pull/16621) | [akalenyu](https://github.com/akalenyu) |
