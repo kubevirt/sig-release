@@ -11,6 +11,7 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| `PrefixTargetName` is now allowed as a `VolumeNamePolicy` for `VirtualMachineClone`  | [#16802](https://github.com/kubevirt/kubevirt/pull/16802) | [lyarwood](https://github.com/lyarwood) |
 | fix: domain job completion events would not be processed if the domain was paused due to an I/O error.  | [#16778](https://github.com/kubevirt/kubevirt/pull/16778) | [Acedus](https://github.com/Acedus) |
 | A VMI.spec.domain.rebootPolicy field can be used to control the method the domain uses to handle reboots originating from inside the VM. Either the hypervisor processes the reboot silently behind the scenes (default) or the user can opt-in to a more visible behavior, where the hypervisor terminates the domain and lets kubevirt to handle the restart according to the runStrategy rules.  | [#16579](https://github.com/kubevirt/kubevirt/pull/16579) | [MarSik](https://github.com/MarSik) |
 | Fix LowReadyVirtOperatorsCount use running instead of up and changing kubevirt_virt_operator_ready to use sum and * instead of count and +  | [#16466](https://github.com/kubevirt/kubevirt/pull/16466) | [Ronilerr](https://github.com/Ronilerr) |
