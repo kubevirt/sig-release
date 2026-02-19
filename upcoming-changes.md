@@ -11,6 +11,7 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| Support seamless migration with core passt binding (beta).  | [#16820](https://github.com/kubevirt/kubevirt/pull/16820) | [nirdothan](https://github.com/nirdothan) |
 | Support for the deployment of virt-template through virt-operator was added (VEP76)  | [#16655](https://github.com/kubevirt/kubevirt/pull/16655) | [0xFelix](https://github.com/0xFelix) |
 | Expose guest panic as a Kubernetes event  | [#16666](https://github.com/kubevirt/kubevirt/pull/16666) | [iholder101](https://github.com/iholder101) |
 | Bug fix: VIRT_*_IMAGE environment variable overrides on the virt-operator deployment are now correctly propagated to component deployments (virt-controller, virt-handler, etc.). Previously, changing these env vars had no effect due to the image values being excluded from the install strategy deployment ID hash.  | [#16791](https://github.com/kubevirt/kubevirt/pull/16791) | [lyarwood](https://github.com/lyarwood) |
