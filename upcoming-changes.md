@@ -11,6 +11,7 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| BugFix: storage migration fails with Google Cloud NetApp Volumes  | [#16833](https://github.com/kubevirt/kubevirt/pull/16833) | [akalenyu](https://github.com/akalenyu) |
 | Support seamless migration with core passt binding (beta).  | [#16820](https://github.com/kubevirt/kubevirt/pull/16820) | [nirdothan](https://github.com/nirdothan) |
 | Support for the deployment of virt-template through virt-operator was added (VEP76)  | [#16655](https://github.com/kubevirt/kubevirt/pull/16655) | [0xFelix](https://github.com/0xFelix) |
 | Expose guest panic as a Kubernetes event  | [#16666](https://github.com/kubevirt/kubevirt/pull/16666) | [iholder101](https://github.com/iholder101) |
