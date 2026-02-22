@@ -11,6 +11,7 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| Add initial CentOS Stream 10 build support with KUBEVIRT_CENTOS_STREAM_VERSION environment variable, these builds will be untested until v1.9.0 and beyond  | [#16582](https://github.com/kubevirt/kubevirt/pull/16582) | [lyarwood](https://github.com/lyarwood) |
 | BugFix: storage migration fails with Google Cloud NetApp Volumes  | [#16833](https://github.com/kubevirt/kubevirt/pull/16833) | [akalenyu](https://github.com/akalenyu) |
 | Support seamless migration with core passt binding (beta).  | [#16820](https://github.com/kubevirt/kubevirt/pull/16820) | [nirdothan](https://github.com/nirdothan) |
 | Support for the deployment of virt-template through virt-operator was added (VEP76)  | [#16655](https://github.com/kubevirt/kubevirt/pull/16655) | [0xFelix](https://github.com/0xFelix) |
