@@ -11,6 +11,7 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| Fix: live-migration with CBT no longer fails on virtual disk size evaluation errors.  | [#16528](https://github.com/kubevirt/kubevirt/pull/16528) | [Acedus](https://github.com/Acedus) |
 | Handle CBT backup abort requests and failures  | [#16426](https://github.com/kubevirt/kubevirt/pull/16426) | [Acedus](https://github.com/Acedus) |
 | Add initial CentOS Stream 10 build support with KUBEVIRT_CENTOS_STREAM_VERSION environment variable, these builds will be untested until v1.9.0 and beyond  | [#16582](https://github.com/kubevirt/kubevirt/pull/16582) | [lyarwood](https://github.com/lyarwood) |
 | BugFix: storage migration fails with Google Cloud NetApp Volumes  | [#16833](https://github.com/kubevirt/kubevirt/pull/16833) | [akalenyu](https://github.com/akalenyu) |
