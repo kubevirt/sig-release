@@ -49,12 +49,12 @@
   who: KubeVirt
   what: Tag v1.8.0-rc.1 on release-1.8
   notes: null
-- when: 2026/03/18
+- when: 2026/03/25
   milestone: "**KubeVirt GA**"
   who: KubeVirt
   what: Tag v1.8.0 on release-1.8
   notes: null
-- when: 2026/03/25
+- when: 2026/04/01
   milestone: "**CDI GA**"
   who: CDI
   what: v1.65.0 release
