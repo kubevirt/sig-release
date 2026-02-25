@@ -11,6 +11,10 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| feat: virtctl gained new virt-template / VirtualMachineTemplate related commands (process, create and convert)  | [#16687](https://github.com/kubevirt/kubevirt/pull/16687) | [0xFelix](https://github.com/0xFelix) |
+| VEP 165: Containerpath Volumes  | [#16662](https://github.com/kubevirt/kubevirt/pull/16662) | [mhenriks](https://github.com/mhenriks) |
+| Remove network-attachment-definition get permissions from virt-controller ClusterRole conditioned by a feature gate.  | [#16821](https://github.com/kubevirt/kubevirt/pull/16821) | [nirdothan](https://github.com/nirdothan) |
+| Bug-fix: Correctly detect CDI and Prometheus crds, preventing to misinterpret with different objects.  | [#16643](https://github.com/kubevirt/kubevirt/pull/16643) | [kwonkwonn](https://github.com/kwonkwonn) |
 | Fix: live-migration with CBT no longer fails on virtual disk size evaluation errors.  | [#16528](https://github.com/kubevirt/kubevirt/pull/16528) | [Acedus](https://github.com/Acedus) |
 | Handle CBT backup abort requests and failures  | [#16426](https://github.com/kubevirt/kubevirt/pull/16426) | [Acedus](https://github.com/Acedus) |
 | Add initial CentOS Stream 10 build support with KUBEVIRT_CENTOS_STREAM_VERSION environment variable, these builds will be untested until v1.9.0 and beyond  | [#16582](https://github.com/kubevirt/kubevirt/pull/16582) | [lyarwood](https://github.com/lyarwood) |
