@@ -11,6 +11,7 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| Allow disabling Velero hooks in virt-launcher via Annotation  | [#16786](https://github.com/kubevirt/kubevirt/pull/16786) | [alromeros](https://github.com/alromeros) |
 | feat: virtctl gained new virt-template / VirtualMachineTemplate related commands (process, create and convert)  | [#16687](https://github.com/kubevirt/kubevirt/pull/16687) | [0xFelix](https://github.com/0xFelix) |
 | VEP 165: Containerpath Volumes  | [#16662](https://github.com/kubevirt/kubevirt/pull/16662) | [mhenriks](https://github.com/mhenriks) |
 | Remove network-attachment-definition get permissions from virt-controller ClusterRole conditioned by a feature gate.  | [#16821](https://github.com/kubevirt/kubevirt/pull/16821) | [nirdothan](https://github.com/nirdothan) |
