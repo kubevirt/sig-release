@@ -11,6 +11,14 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| Use defined deployment number of replicas as base to fire low count alerts  | [#16806](https://github.com/kubevirt/kubevirt/pull/16806) | [machadovilaca](https://github.com/machadovilaca) |
+| Graduate ExpandDisk Feature Gate  | [#16604](https://github.com/kubevirt/kubevirt/pull/16604) | [Dsanatar](https://github.com/Dsanatar) |
+| Added support for attestation on the Intel TDX Confidential Computing Platform  | [#15958](https://github.com/kubevirt/kubevirt/pull/15958) | [Aseeef](https://github.com/Aseeef) |
+| Handle migration during backup according to migration priority  | [#16877](https://github.com/kubevirt/kubevirt/pull/16877) | [ShellyKa13](https://github.com/ShellyKa13) |
+| BugFix: VMs requiring enlightenment are now able to be live migrated after a decentralized live migration  | [#16871](https://github.com/kubevirt/kubevirt/pull/16871) | [awels](https://github.com/awels) |
+| Subtract non-schedulable nodes from kubevirt_allocatable_nodes  | [#16865](https://github.com/kubevirt/kubevirt/pull/16865) | [machadovilaca](https://github.com/machadovilaca) |
+| fix VMExport failure with long PVC names  | [#16846](https://github.com/kubevirt/kubevirt/pull/16846) | [Aneesh-Hegde](https://github.com/Aneesh-Hegde) |
+| fix: Prevent stale VMI backup status update when reusing backup names  | [#16399](https://github.com/kubevirt/kubevirt/pull/16399) | [Acedus](https://github.com/Acedus) |
 | Allow disabling Velero hooks in virt-launcher via Annotation  | [#16786](https://github.com/kubevirt/kubevirt/pull/16786) | [alromeros](https://github.com/alromeros) |
 | feat: virtctl gained new virt-template / VirtualMachineTemplate related commands (process, create and convert)  | [#16687](https://github.com/kubevirt/kubevirt/pull/16687) | [0xFelix](https://github.com/0xFelix) |
 | VEP 165: Containerpath Volumes  | [#16662](https://github.com/kubevirt/kubevirt/pull/16662) | [mhenriks](https://github.com/mhenriks) |
