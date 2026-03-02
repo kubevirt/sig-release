@@ -11,6 +11,8 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| Expose Memory Overhead on VMI Status behind VmiMemoryOverheadReport feature gate  | [#16746](https://github.com/kubevirt/kubevirt/pull/16746) | [Barakmor1](https://github.com/Barakmor1) |
+| Add a new config option to opt-out RBAC aggregation  | [#16350](https://github.com/kubevirt/kubevirt/pull/16350) | [orenc1](https://github.com/orenc1) |
 | Use defined deployment number of replicas as base to fire low count alerts  | [#16806](https://github.com/kubevirt/kubevirt/pull/16806) | [machadovilaca](https://github.com/machadovilaca) |
 | Graduate ExpandDisk Feature Gate  | [#16604](https://github.com/kubevirt/kubevirt/pull/16604) | [Dsanatar](https://github.com/Dsanatar) |
 | Added support for attestation on the Intel TDX Confidential Computing Platform  | [#15958](https://github.com/kubevirt/kubevirt/pull/15958) | [Aseeef](https://github.com/Aseeef) |
