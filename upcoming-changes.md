@@ -11,6 +11,8 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| Add MSHV backend for multi-hypervisor support interfaces.  | [#16927](https://github.com/kubevirt/kubevirt/pull/16927) | [harshitgupta1337](https://github.com/harshitgupta1337) |
+| Handle migration with CBT and backup checkpoints  | [#16817](https://github.com/kubevirt/kubevirt/pull/16817) | [ShellyKa13](https://github.com/ShellyKa13) |
 | Add PCIe NUMA-aware topology placement for GPU and host devices behind the PCINUMAAwareTopology feature gate (Alpha). When enabled, devices are automatically placed on PCIe expander buses matching their NUMA affinity for improved performance.  | [#16632](https://github.com/kubevirt/kubevirt/pull/16632) | [mresvanis](https://github.com/mresvanis) |
 | 'virtctl expose' creates now services with an ownerReference pointing to the exposed resource.  | [#16884](https://github.com/kubevirt/kubevirt/pull/16884) | [EdDev](https://github.com/EdDev) |
 | Allows the user to update the NAD reference (networkName) of a network on a running VM through Live Migration.  | [#16412](https://github.com/kubevirt/kubevirt/pull/16412) | [frenzyfriday](https://github.com/frenzyfriday) |
