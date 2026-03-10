@@ -11,6 +11,7 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| VEP-10: Update DRA devices implementation to read from metadata file instead of VMI status  | [#16556](https://github.com/kubevirt/kubevirt/pull/16556) | [alaypatel07](https://github.com/alaypatel07) |
 | Introduce incremental backup pull mode support  | [#16930](https://github.com/kubevirt/kubevirt/pull/16930) | [Acedus](https://github.com/Acedus) |
 | Add MSHV backend for multi-hypervisor support interfaces.  | [#16927](https://github.com/kubevirt/kubevirt/pull/16927) | [harshitgupta1337](https://github.com/harshitgupta1337) |
 | Handle migration with CBT and backup checkpoints  | [#16817](https://github.com/kubevirt/kubevirt/pull/16817) | [ShellyKa13](https://github.com/ShellyKa13) |
