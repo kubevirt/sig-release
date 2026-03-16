@@ -11,6 +11,7 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| Fix virt-handler hotplug mount target record growth by preventing duplicate TargetFile entries.  | [#16737](https://github.com/kubevirt/kubevirt/pull/16737) | [keinsword](https://github.com/keinsword) |
 | Fixed an infinite VMI status update loop between virt-controller and virt-handler that occurred when the VMI spec listed the primary network interface after a secondary one.  | [#17041](https://github.com/kubevirt/kubevirt/pull/17041) | [orelmisan](https://github.com/orelmisan) |
 | Fixed SMBIOS system information not being visible inside ARM64 guest VMs  | [#16783](https://github.com/kubevirt/kubevirt/pull/16783) | [dasionov](https://github.com/dasionov) |
 | VEP-10: Update DRA devices implementation to read from metadata file instead of VMI status  | [#16556](https://github.com/kubevirt/kubevirt/pull/16556) | [alaypatel07](https://github.com/alaypatel07) |
