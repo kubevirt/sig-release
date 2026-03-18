@@ -11,6 +11,8 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| Allow multifd (parallel migration threads) with post-copy migration  | [#17106](https://github.com/kubevirt/kubevirt/pull/17106) | [iholder101](https://github.com/iholder101) |
+| bugfix: Online snapshots now correctly include live-changes applied to a VM.  | [#15298](https://github.com/kubevirt/kubevirt/pull/15298) | [Acedus](https://github.com/Acedus) |
 | Fix virt-handler hotplug mount target record growth by preventing duplicate TargetFile entries.  | [#16737](https://github.com/kubevirt/kubevirt/pull/16737) | [keinsword](https://github.com/keinsword) |
 | Fixed an infinite VMI status update loop between virt-controller and virt-handler that occurred when the VMI spec listed the primary network interface after a secondary one.  | [#17041](https://github.com/kubevirt/kubevirt/pull/17041) | [orelmisan](https://github.com/orelmisan) |
 | Fixed SMBIOS system information not being visible inside ARM64 guest VMs  | [#16783](https://github.com/kubevirt/kubevirt/pull/16783) | [dasionov](https://github.com/dasionov) |
