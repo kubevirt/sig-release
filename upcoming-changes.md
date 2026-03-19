@@ -11,6 +11,7 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| vGPU (mdev) now supports live migration (limited to one device)  | [#16675](https://github.com/kubevirt/kubevirt/pull/16675) | [csomani1](https://github.com/csomani1) |
 | Allow multifd (parallel migration threads) with post-copy migration  | [#17106](https://github.com/kubevirt/kubevirt/pull/17106) | [iholder101](https://github.com/iholder101) |
 | bugfix: Online snapshots now correctly include live-changes applied to a VM.  | [#15298](https://github.com/kubevirt/kubevirt/pull/15298) | [Acedus](https://github.com/Acedus) |
 | Fix virt-handler hotplug mount target record growth by preventing duplicate TargetFile entries.  | [#16737](https://github.com/kubevirt/kubevirt/pull/16737) | [keinsword](https://github.com/keinsword) |
