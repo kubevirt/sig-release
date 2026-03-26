@@ -11,6 +11,8 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| multiple recording rules are deprecated in favor of new names, in order to comply with the recording rules naming conventions. kubevirt_vm_created_total recording rule and kubevirt_vm_created_by_pod_total metric are deprecated completely  | [#17065](https://github.com/kubevirt/kubevirt/pull/17065) | [avlitman](https://github.com/avlitman) |
+| Maintenance: revert bazel server network change monitoring  | [#17285](https://github.com/kubevirt/kubevirt/pull/17285) | [dhiller](https://github.com/dhiller) |
 | Make --vnc-path optional for --vnc-type, allowing VNC viewer binary lookup from $PATH automatically  | [#17071](https://github.com/kubevirt/kubevirt/pull/17071) | [samt-ai](https://github.com/samt-ai) |
 | bug-fix: restart virt-handler's domain-notify server on unexpected exit.  | [#17109](https://github.com/kubevirt/kubevirt/pull/17109) | [dasionov](https://github.com/dasionov) |
 | Maintenance: make the bazel server container reload on network changes  | [#16885](https://github.com/kubevirt/kubevirt/pull/16885) | [akalenyu](https://github.com/akalenyu) |
