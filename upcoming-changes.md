@@ -11,6 +11,9 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| Fixed VM startup failure under software emulation when /dev/kvm is absent, caused by cgroup device rules not accounting for the emulation case.  | [#17251](https://github.com/kubevirt/kubevirt/pull/17251) | [iholder101](https://github.com/iholder101) |
+| Fixed migration not reporting succeeded when doing compute migration after decentralized live migration  | [#17042](https://github.com/kubevirt/kubevirt/pull/17042) | [awels](https://github.com/awels) |
+| OpenApi V3 paths for subresources.kubevirt.io is present  | [#16842](https://github.com/kubevirt/kubevirt/pull/16842) | [ksimon1](https://github.com/ksimon1) |
 | multiple recording rules are deprecated in favor of new names, in order to comply with the recording rules naming conventions. kubevirt_vm_created_total recording rule and kubevirt_vm_created_by_pod_total metric are deprecated completely  | [#17065](https://github.com/kubevirt/kubevirt/pull/17065) | [avlitman](https://github.com/avlitman) |
 | Maintenance: revert bazel server network change monitoring  | [#17285](https://github.com/kubevirt/kubevirt/pull/17285) | [dhiller](https://github.com/dhiller) |
 | Make --vnc-path optional for --vnc-type, allowing VNC viewer binary lookup from $PATH automatically  | [#17071](https://github.com/kubevirt/kubevirt/pull/17071) | [samt-ai](https://github.com/samt-ai) |
