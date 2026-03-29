@@ -11,6 +11,7 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| fix hotplug volume status being stuck in Detaching phase  | [#17139](https://github.com/kubevirt/kubevirt/pull/17139) | [Dsanatar](https://github.com/Dsanatar) |
 | The `PanicDevices` feature has graduated to GA and no longer requires the associated feature gate to be enabled.  | [#16514](https://github.com/kubevirt/kubevirt/pull/16514) | [varunrsekar](https://github.com/varunrsekar) |
 | Fixed VM startup failure under software emulation when /dev/kvm is absent, caused by cgroup device rules not accounting for the emulation case.  | [#17251](https://github.com/kubevirt/kubevirt/pull/17251) | [iholder101](https://github.com/iholder101) |
 | Fixed migration not reporting succeeded when doing compute migration after decentralized live migration  | [#17042](https://github.com/kubevirt/kubevirt/pull/17042) | [awels](https://github.com/awels) |
