@@ -85,6 +85,7 @@ The issue should be kept open for the entirety of the release cycle until all ta
 
 - [ ] Update KubeVirt Enhancements Tracking board link in [ROADMAP](https://github.com/kubevirt/sig-release/blob/main/ROADMAP.md).
 - [ ] Update [label-approved-veps script](https://github.com/kubevirt/kubevirt/blob/main/.github/workflows/label_approved_veps.yaml) with the new `TARGET_PROJECT_URL`.
+- [ ] After CDI GA: Pin release-1.XX branch to associated CDI version via `KUBEVIRT_CUSTOM_CDI_VERSION` in `automation/test.sh`.
 
 ## Further comments
 
