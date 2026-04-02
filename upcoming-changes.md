@@ -11,6 +11,9 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| Fixes bug in Live NAD Ref Update feature where a VM with no interfaces/networks is unable to start when LiveNADRefUpdate FG is enabled.  | [#17315](https://github.com/kubevirt/kubevirt/pull/17315) | [frenzyfriday](https://github.com/frenzyfriday) |
+| Bug fix: sync-controller healthz server and virt-exportserver now respect TLSConfiguration from the KubeVirt CR.  | [#17102](https://github.com/kubevirt/kubevirt/pull/17102) | [Barakmor1](https://github.com/Barakmor1) |
+| GA VMExport feature gate  | [#16730](https://github.com/kubevirt/kubevirt/pull/16730) | [alromeros](https://github.com/alromeros) |
 | fix hotplug volume status being stuck in Detaching phase  | [#17139](https://github.com/kubevirt/kubevirt/pull/17139) | [Dsanatar](https://github.com/Dsanatar) |
 | The `PanicDevices` feature has graduated to GA and no longer requires the associated feature gate to be enabled.  | [#16514](https://github.com/kubevirt/kubevirt/pull/16514) | [varunrsekar](https://github.com/varunrsekar) |
 | Fixed VM startup failure under software emulation when /dev/kvm is absent, caused by cgroup device rules not accounting for the emulation case.  | [#17251](https://github.com/kubevirt/kubevirt/pull/17251) | [iholder101](https://github.com/iholder101) |
