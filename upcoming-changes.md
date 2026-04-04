@@ -11,6 +11,7 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| VMs with backend storage volume use and report the volume name as `persistent-state-for-this-vm` rather than trying to embed the vm name in the volume name.<br>Persistent TPM, EFI, snapshot, export and CBT features now work with VM names of all lengths up to 63 chars.  | [#16853](https://github.com/kubevirt/kubevirt/pull/16853) | [dankenigsberg](https://github.com/dankenigsberg) |
 | Fixes bug in Live NAD Ref Update feature where a VM with no interfaces/networks is unable to start when LiveNADRefUpdate FG is enabled.  | [#17315](https://github.com/kubevirt/kubevirt/pull/17315) | [frenzyfriday](https://github.com/frenzyfriday) |
 | Bug fix: sync-controller healthz server and virt-exportserver now respect TLSConfiguration from the KubeVirt CR.  | [#17102](https://github.com/kubevirt/kubevirt/pull/17102) | [Barakmor1](https://github.com/Barakmor1) |
 | GA VMExport feature gate  | [#16730](https://github.com/kubevirt/kubevirt/pull/16730) | [alromeros](https://github.com/alromeros) |
