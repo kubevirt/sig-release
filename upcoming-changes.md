@@ -11,6 +11,7 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| preserve annotation for restore pvc  | [#17407](https://github.com/kubevirt/kubevirt/pull/17407) | [Dsanatar](https://github.com/Dsanatar) |
 | fix: correctly handle source resolution for disks with a qcow2 overlay, preventing incorrect disk expansion and wrong cache/IO mode detection.  | [#17297](https://github.com/kubevirt/kubevirt/pull/17297) | [Acedus](https://github.com/Acedus) |
 | Improve Unmount() cleanup by processing all entries and preserving failed paths for retry.  | [#16742](https://github.com/kubevirt/kubevirt/pull/16742) | [keinsword](https://github.com/keinsword) |
 | VMs with backend storage volume use and report the volume name as `persistent-state-for-this-vm` rather than trying to embed the vm name in the volume name.<br>Persistent TPM, EFI, snapshot, export and CBT features now work with VM names of all lengths up to 63 chars.  | [#16853](https://github.com/kubevirt/kubevirt/pull/16853) | [dankenigsberg](https://github.com/dankenigsberg) |
