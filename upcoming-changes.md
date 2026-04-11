@@ -11,6 +11,8 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| KubeVirt's PCI device plugin now supports passing of pre-setup VF (vGPU)  | [#16890](https://github.com/kubevirt/kubevirt/pull/16890) | [xpivarc](https://github.com/xpivarc) |
+| fix: VirtualMachineBackup printer columns (Type, CheckpointName) now display correctly in kubectl output  | [#17425](https://github.com/kubevirt/kubevirt/pull/17425) | [shubham-pampattiwar](https://github.com/shubham-pampattiwar) |
 | preserve annotation for restore pvc  | [#17407](https://github.com/kubevirt/kubevirt/pull/17407) | [Dsanatar](https://github.com/Dsanatar) |
 | fix: correctly handle source resolution for disks with a qcow2 overlay, preventing incorrect disk expansion and wrong cache/IO mode detection.  | [#17297](https://github.com/kubevirt/kubevirt/pull/17297) | [Acedus](https://github.com/Acedus) |
 | Improve Unmount() cleanup by processing all entries and preserving failed paths for retry.  | [#16742](https://github.com/kubevirt/kubevirt/pull/16742) | [keinsword](https://github.com/keinsword) |
