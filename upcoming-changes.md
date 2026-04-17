@@ -11,6 +11,7 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| Snapshot: Add PartialSnapshot indication for excluded volumes  | [#16882](https://github.com/kubevirt/kubevirt/pull/16882) | [alromeros](https://github.com/alromeros) |
 | Bug-fix: virt-handler now detects when `domain-notify.sock` is deleted and automatically restarts the notify server.  | [#17398](https://github.com/kubevirt/kubevirt/pull/17398) | [dasionov](https://github.com/dasionov) |
 | KubeVirt's PCI device plugin now supports passing of pre-setup VF (vGPU)  | [#16890](https://github.com/kubevirt/kubevirt/pull/16890) | [xpivarc](https://github.com/xpivarc) |
 | fix: VirtualMachineBackup printer columns (Type, CheckpointName) now display correctly in kubectl output  | [#17425](https://github.com/kubevirt/kubevirt/pull/17425) | [shubham-pampattiwar](https://github.com/shubham-pampattiwar) |
