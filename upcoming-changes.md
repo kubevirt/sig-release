@@ -11,6 +11,7 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| new metric kubevirt_vmi_sync_total added in order to track number of times a controller has synced a VMI.  | [#17295](https://github.com/kubevirt/kubevirt/pull/17295) | [avlitman](https://github.com/avlitman) |
 | Remove vnc/screenshot from kubevirt.io:edit  | [#17512](https://github.com/kubevirt/kubevirt/pull/17512) | [0xFelix](https://github.com/0xFelix) |
 | Snapshot: Add PartialSnapshot indication for excluded volumes  | [#16882](https://github.com/kubevirt/kubevirt/pull/16882) | [alromeros](https://github.com/alromeros) |
 | Bug-fix: virt-handler now detects when `domain-notify.sock` is deleted and automatically restarts the notify server.  | [#17398](https://github.com/kubevirt/kubevirt/pull/17398) | [dasionov](https://github.com/dasionov) |
