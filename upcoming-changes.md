@@ -11,6 +11,7 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| VEP-10: bug fixes for DRA Devices to align kubevirt implementation to KEP-5304  | [#17028](https://github.com/kubevirt/kubevirt/pull/17028) | [alaypatel07](https://github.com/alaypatel07) |
 | Fixed GuestPanicked event details for non-root virt-launcher  | [#17557](https://github.com/kubevirt/kubevirt/pull/17557) | [dshchedr](https://github.com/dshchedr) |
 | Fix: GuestAgentPing liveness/readiness probes no longer cause Kubernetes to restart the virt-launcher pod when the guest agent is temporarily unreachable for a non-fault reason; suppression covers live migration (both pre-copy target and post-copy source) and any intentional or transient VM pause such  as user pause, snapshot, save, or dump.  | [#17235](https://github.com/kubevirt/kubevirt/pull/17235) | [tiraboschi](https://github.com/tiraboschi) |
 | Remediate CVE-2026-33186 by bumping grpc to 1.79.3  | [#17497](https://github.com/kubevirt/kubevirt/pull/17497) | [sbiradar10](https://github.com/sbiradar10) |
