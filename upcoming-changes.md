@@ -11,6 +11,8 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| Fix VirtualMachineStuckOnNode and VMCannotBeEvicted alerts failing during live migration due to duplicate kubevirt_vmi_info series  | [#17130](https://github.com/kubevirt/kubevirt/pull/17130) | [sradco](https://github.com/sradco) |
+| change /var/lib/kubelet mount from Bidirectional to HostToContainer  | [#17488](https://github.com/kubevirt/kubevirt/pull/17488) | [alaypatel07](https://github.com/alaypatel07) |
 | VEP-10: bug fixes for DRA Devices to align kubevirt implementation to KEP-5304  | [#17028](https://github.com/kubevirt/kubevirt/pull/17028) | [alaypatel07](https://github.com/alaypatel07) |
 | Fixed GuestPanicked event details for non-root virt-launcher  | [#17557](https://github.com/kubevirt/kubevirt/pull/17557) | [dshchedr](https://github.com/dshchedr) |
 | Fix: GuestAgentPing liveness/readiness probes no longer cause Kubernetes to restart the virt-launcher pod when the guest agent is temporarily unreachable for a non-fault reason; suppression covers live migration (both pre-copy target and post-copy source) and any intentional or transient VM pause such  as user pause, snapshot, save, or dump.  | [#17235](https://github.com/kubevirt/kubevirt/pull/17235) | [tiraboschi](https://github.com/tiraboschi) |
