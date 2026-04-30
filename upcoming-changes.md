@@ -11,6 +11,9 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| Bugfix: Added enum validation for the targetReadinessPolicy field for restore resources.  | [#17576](https://github.com/kubevirt/kubevirt/pull/17576) | [ema-aka-young](https://github.com/ema-aka-young) |
+| Fixed virt-api truncating deep subresources (vnc/screenshot, sev/*, evacuate/cancel) when constructing SubjectAccessReviews, causing authorization checks against incorrect subresource names.  | [#17571](https://github.com/kubevirt/kubevirt/pull/17571) | [0xFelix](https://github.com/0xFelix) |
+| Adding missing metrics, recording rules and alerts for virt components  | [#17015](https://github.com/kubevirt/kubevirt/pull/17015) | [Ronilerr](https://github.com/Ronilerr) |
 | Fix VirtualMachineStuckOnNode and VMCannotBeEvicted alerts failing during live migration due to duplicate kubevirt_vmi_info series  | [#17130](https://github.com/kubevirt/kubevirt/pull/17130) | [sradco](https://github.com/sradco) |
 | change /var/lib/kubelet mount from Bidirectional to HostToContainer  | [#17488](https://github.com/kubevirt/kubevirt/pull/17488) | [alaypatel07](https://github.com/alaypatel07) |
 | VEP-10: bug fixes for DRA Devices to align kubevirt implementation to KEP-5304  | [#17028](https://github.com/kubevirt/kubevirt/pull/17028) | [alaypatel07](https://github.com/alaypatel07) |
