@@ -11,6 +11,8 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| Graduates LiveUpdateNADRef feature gate  | [#17049](https://github.com/kubevirt/kubevirt/pull/17049) | [frenzyfriday](https://github.com/frenzyfriday) |
+| Fixed DHCP failure after live migration followed by guest reboot when using bridge binding without a specified MAC address.  | [#16697](https://github.com/kubevirt/kubevirt/pull/16697) | [dippydocus](https://github.com/dippydocus) |
 | Add release 1.8 perf-scale benchmarks data  | [#17599](https://github.com/kubevirt/kubevirt/pull/17599) | [Sreeja1725](https://github.com/Sreeja1725) |
 | Bugfix: Added enum validation for the targetReadinessPolicy field for restore resources.  | [#17576](https://github.com/kubevirt/kubevirt/pull/17576) | [ema-aka-young](https://github.com/ema-aka-young) |
 | Fixed virt-api truncating deep subresources (vnc/screenshot, sev/*, evacuate/cancel) when constructing SubjectAccessReviews, causing authorization checks against incorrect subresource names.  | [#17571](https://github.com/kubevirt/kubevirt/pull/17571) | [0xFelix](https://github.com/0xFelix) |
