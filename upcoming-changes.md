@@ -11,6 +11,7 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| NA  | [#17691](https://github.com/kubevirt/kubevirt/pull/17691) | [vishnuchalla](https://github.com/vishnuchalla) |
 | Graduates LiveUpdateNADRef feature gate  | [#17049](https://github.com/kubevirt/kubevirt/pull/17049) | [frenzyfriday](https://github.com/frenzyfriday) |
 | Fixed DHCP failure after live migration followed by guest reboot when using bridge binding without a specified MAC address.  | [#16697](https://github.com/kubevirt/kubevirt/pull/16697) | [dippydocus](https://github.com/dippydocus) |
 | Add release 1.8 perf-scale benchmarks data  | [#17599](https://github.com/kubevirt/kubevirt/pull/17599) | [Sreeja1725](https://github.com/Sreeja1725) |
