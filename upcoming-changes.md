@@ -11,6 +11,8 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| Fix VM with PCI hostdev failing to restart after hotplug block volume  | [#17527](https://github.com/kubevirt/kubevirt/pull/17527) | [mhenriks](https://github.com/mhenriks) |
+| Bug fix: virt-operator error messages no longer dump entire resource structs via %+v, preventing the KubeVirt CR from exceeding the etcd 3MB object size limit when resource creation fails  | [#17573](https://github.com/kubevirt/kubevirt/pull/17573) | [lyarwood](https://github.com/lyarwood) |
 | NA  | [#17691](https://github.com/kubevirt/kubevirt/pull/17691) | [vishnuchalla](https://github.com/vishnuchalla) |
 | Graduates LiveUpdateNADRef feature gate  | [#17049](https://github.com/kubevirt/kubevirt/pull/17049) | [frenzyfriday](https://github.com/frenzyfriday) |
 | Fixed DHCP failure after live migration followed by guest reboot when using bridge binding without a specified MAC address.  | [#16697](https://github.com/kubevirt/kubevirt/pull/16697) | [dippydocus](https://github.com/dippydocus) |
