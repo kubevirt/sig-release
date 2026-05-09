@@ -11,6 +11,7 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| Fixed virt-controller DRA claim rendering for GPU/HostDevice resources by preserving per-device claim/request tuples (including shared claim names with different requests).  | [#17490](https://github.com/kubevirt/kubevirt/pull/17490) | [oshoval](https://github.com/oshoval) |
 | Fix VM with PCI hostdev failing to restart after hotplug block volume  | [#17527](https://github.com/kubevirt/kubevirt/pull/17527) | [mhenriks](https://github.com/mhenriks) |
 | Bug fix: virt-operator error messages no longer dump entire resource structs via %+v, preventing the KubeVirt CR from exceeding the etcd 3MB object size limit when resource creation fails  | [#17573](https://github.com/kubevirt/kubevirt/pull/17573) | [lyarwood](https://github.com/lyarwood) |
 | NA  | [#17691](https://github.com/kubevirt/kubevirt/pull/17691) | [vishnuchalla](https://github.com/vishnuchalla) |
