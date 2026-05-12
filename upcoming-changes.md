@@ -11,6 +11,7 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| fix: cross-namespace live migration now works on IPv6 clusters  | [#17755](https://github.com/kubevirt/kubevirt/pull/17755) | [dasionov](https://github.com/dasionov) |
 | Fixed virt-controller DRA claim rendering for GPU/HostDevice resources by preserving per-device claim/request tuples (including shared claim names with different requests).  | [#17490](https://github.com/kubevirt/kubevirt/pull/17490) | [oshoval](https://github.com/oshoval) |
 | Fix VM with PCI hostdev failing to restart after hotplug block volume  | [#17527](https://github.com/kubevirt/kubevirt/pull/17527) | [mhenriks](https://github.com/mhenriks) |
 | Bug fix: virt-operator error messages no longer dump entire resource structs via %+v, preventing the KubeVirt CR from exceeding the etcd 3MB object size limit when resource creation fails  | [#17573](https://github.com/kubevirt/kubevirt/pull/17573) | [lyarwood](https://github.com/lyarwood) |
@@ -33,14 +34,14 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 | Bug-fix: virt-handler now detects when `domain-notify.sock` is deleted and automatically restarts the notify server.  | [#17398](https://github.com/kubevirt/kubevirt/pull/17398) | [dasionov](https://github.com/dasionov) |
 | KubeVirt's PCI device plugin now supports passing of pre-setup VF (vGPU)  | [#16890](https://github.com/kubevirt/kubevirt/pull/16890) | [xpivarc](https://github.com/xpivarc) |
 | fix: VirtualMachineBackup printer columns (Type, CheckpointName) now display correctly in kubectl output  | [#17425](https://github.com/kubevirt/kubevirt/pull/17425) | [shubham-pampattiwar](https://github.com/shubham-pampattiwar) |
-| preserve annotation for restore pvc  | [#17407](https://github.com/kubevirt/kubevirt/pull/17407) | [Dsanatar](https://github.com/Dsanatar) |
+| preserve annotation for restore pvc  | [#17407](https://github.com/kubevirt/kubevirt/pull/17407) | [dsanatar](https://github.com/dsanatar) |
 | fix: correctly handle source resolution for disks with a qcow2 overlay, preventing incorrect disk expansion and wrong cache/IO mode detection.  | [#17297](https://github.com/kubevirt/kubevirt/pull/17297) | [Acedus](https://github.com/Acedus) |
 | Improve Unmount() cleanup by processing all entries and preserving failed paths for retry.  | [#16742](https://github.com/kubevirt/kubevirt/pull/16742) | [keinsword](https://github.com/keinsword) |
 | VMs with backend storage volume use and report the volume name as `persistent-state-for-this-vm` rather than trying to embed the vm name in the volume name.<br>Persistent TPM, EFI, snapshot, export and CBT features now work with VM names of all lengths up to 63 chars.  | [#16853](https://github.com/kubevirt/kubevirt/pull/16853) | [dankenigsberg](https://github.com/dankenigsberg) |
 | Fixes bug in Live NAD Ref Update feature where a VM with no interfaces/networks is unable to start when LiveNADRefUpdate FG is enabled.  | [#17315](https://github.com/kubevirt/kubevirt/pull/17315) | [frenzyfriday](https://github.com/frenzyfriday) |
 | Bug fix: sync-controller healthz server and virt-exportserver now respect TLSConfiguration from the KubeVirt CR.  | [#17102](https://github.com/kubevirt/kubevirt/pull/17102) | [Barakmor1](https://github.com/Barakmor1) |
 | GA VMExport feature gate  | [#16730](https://github.com/kubevirt/kubevirt/pull/16730) | [alromeros](https://github.com/alromeros) |
-| fix hotplug volume status being stuck in Detaching phase  | [#17139](https://github.com/kubevirt/kubevirt/pull/17139) | [Dsanatar](https://github.com/Dsanatar) |
+| fix hotplug volume status being stuck in Detaching phase  | [#17139](https://github.com/kubevirt/kubevirt/pull/17139) | [dsanatar](https://github.com/dsanatar) |
 | The `PanicDevices` feature has graduated to GA and no longer requires the associated feature gate to be enabled.  | [#16514](https://github.com/kubevirt/kubevirt/pull/16514) | [varunrsekar](https://github.com/varunrsekar) |
 | Fixed VM startup failure under software emulation when /dev/kvm is absent, caused by cgroup device rules not accounting for the emulation case.  | [#17251](https://github.com/kubevirt/kubevirt/pull/17251) | [iholder101](https://github.com/iholder101) |
 | Fixed migration not reporting succeeded when doing compute migration after decentralized live migration  | [#17042](https://github.com/kubevirt/kubevirt/pull/17042) | [awels](https://github.com/awels) |
@@ -66,7 +67,7 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 | Expose Memory Overhead on VMI Status behind VmiMemoryOverheadReport feature gate  | [#16746](https://github.com/kubevirt/kubevirt/pull/16746) | [Barakmor1](https://github.com/Barakmor1) |
 | Add a new config option to opt-out RBAC aggregation  | [#16350](https://github.com/kubevirt/kubevirt/pull/16350) | [orenc1](https://github.com/orenc1) |
 | Use defined deployment number of replicas as base to fire low count alerts  | [#16806](https://github.com/kubevirt/kubevirt/pull/16806) | [machadovilaca](https://github.com/machadovilaca) |
-| Graduate ExpandDisk Feature Gate  | [#16604](https://github.com/kubevirt/kubevirt/pull/16604) | [Dsanatar](https://github.com/Dsanatar) |
+| Graduate ExpandDisk Feature Gate  | [#16604](https://github.com/kubevirt/kubevirt/pull/16604) | [dsanatar](https://github.com/dsanatar) |
 | Added support for attestation on the Intel TDX Confidential Computing Platform  | [#15958](https://github.com/kubevirt/kubevirt/pull/15958) | [Aseeef](https://github.com/Aseeef) |
 | Handle migration during backup according to migration priority  | [#16877](https://github.com/kubevirt/kubevirt/pull/16877) | [ShellyKa13](https://github.com/ShellyKa13) |
 | BugFix: VMs requiring enlightenment are now able to be live migrated after a decentralized live migration  | [#16871](https://github.com/kubevirt/kubevirt/pull/16871) | [awels](https://github.com/awels) |
