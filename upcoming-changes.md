@@ -11,6 +11,7 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| Add container-level SecurityContext to virt-exportproxy and virt-synchronization-controller deployments  | [#17548](https://github.com/kubevirt/kubevirt/pull/17548) | [Barakmor1](https://github.com/Barakmor1) |
 | fix: cross-namespace live migration now works on IPv6 clusters  | [#17755](https://github.com/kubevirt/kubevirt/pull/17755) | [dasionov](https://github.com/dasionov) |
 | Fixed virt-controller DRA claim rendering for GPU/HostDevice resources by preserving per-device claim/request tuples (including shared claim names with different requests).  | [#17490](https://github.com/kubevirt/kubevirt/pull/17490) | [oshoval](https://github.com/oshoval) |
 | Fix VM with PCI hostdev failing to restart after hotplug block volume  | [#17527](https://github.com/kubevirt/kubevirt/pull/17527) | [mhenriks](https://github.com/mhenriks) |
