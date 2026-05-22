@@ -11,6 +11,10 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| only populate vmexport with a vm manifest if source is not pvc  | [#17699](https://github.com/kubevirt/kubevirt/pull/17699) | [dsanatar](https://github.com/dsanatar) |
+| Fixed a gRPC connection leak in virt-handler's GetLauncherClient that caused unbounded memory growth, socket accumulation, and goroutine leaks when multiple controllers raced to create connections for the same VMI.  | [#17798](https://github.com/kubevirt/kubevirt/pull/17798) | [SamAlber](https://github.com/SamAlber) |
+| Updated virt-template to v0.1.8  | [#17644](https://github.com/kubevirt/kubevirt/pull/17644) | [kubevirt-bot](https://github.com/kubevirt-bot) |
+| Feat: Record K8s event on VMI when GuestAgentPing probe fails  | [#17272](https://github.com/kubevirt/kubevirt/pull/17272) | [ksimon1](https://github.com/ksimon1) |
 | Fixed VMI status reporting the pod's IPv6 address instead of the guest's when using bridge binding on a network with IPv6 IPAM.  | [#17536](https://github.com/kubevirt/kubevirt/pull/17536) | [nirdothan](https://github.com/nirdothan) |
 | Enable all Beta feature gates by default. Users can opt out of individual Beta features by adding them to `spec.configuration.developerConfiguration.disabledFeatureGates` in the KubeVirt CR. A feature gate report with all non-GA feature gates will be added to each release's artifacts.  | [#17405](https://github.com/kubevirt/kubevirt/pull/17405) | [iholder101](https://github.com/iholder101) |
 | Fixed multi-device VFIO passthrough VMs failing to start with "cannot limit locked memory" by scaling virt-handler's memlock rlimit to account for per-device memory locking, matching libvirt's calculation introduced in v8.7.0.  | [#17805](https://github.com/kubevirt/kubevirt/pull/17805) | [lyarwood](https://github.com/lyarwood) |
