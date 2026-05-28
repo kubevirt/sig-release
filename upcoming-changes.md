@@ -11,6 +11,7 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| Fix: Handle disks with qcow2 overlay in migration related code  | [#17757](https://github.com/kubevirt/kubevirt/pull/17757) | [Acedus](https://github.com/Acedus) |
 | BugFix: endless cycle of attachment pod deletion/creation  | [#17825](https://github.com/kubevirt/kubevirt/pull/17825) | [akalenyu](https://github.com/akalenyu) |
 | only populate vmexport with a vm manifest if source is not pvc  | [#17699](https://github.com/kubevirt/kubevirt/pull/17699) | [dsanatar](https://github.com/dsanatar) |
 | Fixed a gRPC connection leak in virt-handler's GetLauncherClient that caused unbounded memory growth, socket accumulation, and goroutine leaks when multiple controllers raced to create connections for the same VMI.  | [#17798](https://github.com/kubevirt/kubevirt/pull/17798) | [SamAlber](https://github.com/SamAlber) |
