@@ -11,6 +11,9 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| Fix symlink traversal in VMExport dir handler  | [#17959](https://github.com/kubevirt/kubevirt/pull/17959) | [mhenriks](https://github.com/mhenriks) |
+| Persistent Reservation GA  | [#16674](https://github.com/kubevirt/kubevirt/pull/16674) | [akalenyu](https://github.com/akalenyu) |
+| Add GetVMStats unified gRPC RPC for monitoring data collection  | [#17550](https://github.com/kubevirt/kubevirt/pull/17550) | [machadovilaca](https://github.com/machadovilaca) |
 | Fix: Handle disks with qcow2 overlay in migration related code  | [#17757](https://github.com/kubevirt/kubevirt/pull/17757) | [Acedus](https://github.com/Acedus) |
 | BugFix: endless cycle of attachment pod deletion/creation  | [#17825](https://github.com/kubevirt/kubevirt/pull/17825) | [akalenyu](https://github.com/akalenyu) |
 | only populate vmexport with a vm manifest if source is not pvc  | [#17699](https://github.com/kubevirt/kubevirt/pull/17699) | [dsanatar](https://github.com/dsanatar) |
