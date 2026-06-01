@@ -11,6 +11,7 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| Add kubevirt_vmi_guest_os_panic_total Prometheus counter metric to track guest OS panic events per VMI, with labels for panic type and hyper-v bugcheck code  | [#17836](https://github.com/kubevirt/kubevirt/pull/17836) | [iholder101](https://github.com/iholder101) |
 | Fix symlink traversal in VMExport dir handler  | [#17959](https://github.com/kubevirt/kubevirt/pull/17959) | [mhenriks](https://github.com/mhenriks) |
 | Persistent Reservation GA  | [#16674](https://github.com/kubevirt/kubevirt/pull/16674) | [akalenyu](https://github.com/akalenyu) |
 | Add GetVMStats unified gRPC RPC for monitoring data collection  | [#17550](https://github.com/kubevirt/kubevirt/pull/17550) | [machadovilaca](https://github.com/machadovilaca) |
