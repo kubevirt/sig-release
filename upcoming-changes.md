@@ -11,6 +11,7 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| Fixed a target-side hotplug mount leak that could remain after failed or canceled live migration.  | [#17883](https://github.com/kubevirt/kubevirt/pull/17883) | [yaroslavborbat](https://github.com/yaroslavborbat) |
 | Add kubevirt_vmi_guest_os_panic_total Prometheus counter metric to track guest OS panic events per VMI, with labels for panic type and hyper-v bugcheck code  | [#17836](https://github.com/kubevirt/kubevirt/pull/17836) | [iholder101](https://github.com/iholder101) |
 | Fix symlink traversal in VMExport dir handler  | [#17959](https://github.com/kubevirt/kubevirt/pull/17959) | [mhenriks](https://github.com/mhenriks) |
 | Persistent Reservation GA  | [#16674](https://github.com/kubevirt/kubevirt/pull/16674) | [akalenyu](https://github.com/akalenyu) |
