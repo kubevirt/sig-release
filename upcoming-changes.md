@@ -11,6 +11,7 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| Bump github.com/moby/spdystream from v0.5.0 to v0.5.1 to address CVE-2026-35469 (GHSA-pc3f-x583-g7j2).  | [#17989](https://github.com/kubevirt/kubevirt/pull/17989) | [UdayYendva](https://github.com/UdayYendva) |
 | Promote `VideoConfig` FG to General Availability  | [#16599](https://github.com/kubevirt/kubevirt/pull/16599) | [dasionov](https://github.com/dasionov) |
 | Add alpha support for DRA SR-IOV networks via `spec.networks[].resourceClaim` behind `NetworkDevicesWithDRA`, with webhook validation and virt-launcher hostdev generation from DRA metadata.  | [#17661](https://github.com/kubevirt/kubevirt/pull/17661) | [oshoval](https://github.com/oshoval) |
 | Graduate HotplugVolumes and DeclarativeHotplugVolumes to Beta  | [#16932](https://github.com/kubevirt/kubevirt/pull/16932) | [dsanatar](https://github.com/dsanatar) |
