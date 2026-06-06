@@ -11,6 +11,8 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| Use --expand-cpu-features and --supported-cpu-features in node-labeller for<br>complete CPU feature reporting when available  | [#17947](https://github.com/kubevirt/kubevirt/pull/17947) | [Barakmor1](https://github.com/Barakmor1) |
+| Add OCI artifact export support behind the OCIExport feature gate. Use `virtctl vmexport download --format=oci` to export a VM as an OCI image layout TAR.  | [#17944](https://github.com/kubevirt/kubevirt/pull/17944) | [0xFelix](https://github.com/0xFelix) |
 | Bump github.com/moby/spdystream from v0.5.0 to v0.5.1 to address CVE-2026-35469 (GHSA-pc3f-x583-g7j2).  | [#17989](https://github.com/kubevirt/kubevirt/pull/17989) | [UdayYendva](https://github.com/UdayYendva) |
 | Promote `VideoConfig` FG to General Availability  | [#16599](https://github.com/kubevirt/kubevirt/pull/16599) | [dasionov](https://github.com/dasionov) |
 | Add alpha support for DRA SR-IOV networks via `spec.networks[].resourceClaim` behind `NetworkDevicesWithDRA`, with webhook validation and virt-launcher hostdev generation from DRA metadata.  | [#17661](https://github.com/kubevirt/kubevirt/pull/17661) | [oshoval](https://github.com/oshoval) |
