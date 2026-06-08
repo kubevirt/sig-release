@@ -11,6 +11,7 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| Introduce the Plugin CRD (plugin.kubevirt.io/v1alpha1) behind the Plugins feature gate (Alpha), enabling declarative VM extension via domain hooks, node hooks, and admission references (VEP-190).  | [#17790](https://github.com/kubevirt/kubevirt/pull/17790) | [iholder101](https://github.com/iholder101) |
 | Use --expand-cpu-features and --supported-cpu-features in node-labeller for<br>complete CPU feature reporting when available  | [#17947](https://github.com/kubevirt/kubevirt/pull/17947) | [Barakmor1](https://github.com/Barakmor1) |
 | Add OCI artifact export support behind the OCIExport feature gate. Use `virtctl vmexport download --format=oci` to export a VM as an OCI image layout TAR.  | [#17944](https://github.com/kubevirt/kubevirt/pull/17944) | [0xFelix](https://github.com/0xFelix) |
 | Bump github.com/moby/spdystream from v0.5.0 to v0.5.1 to address CVE-2026-35469 (GHSA-pc3f-x583-g7j2).  | [#17989](https://github.com/kubevirt/kubevirt/pull/17989) | [UdayYendva](https://github.com/UdayYendva) |
