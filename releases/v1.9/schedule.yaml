@@ -38,7 +38,9 @@
   who: KubeVirt CI
   what: Mandatory pre-submit
   notes: Non-standard lanes (i.e. migrations, multus, ipv6) are to be bumped by
-    stakeholder
+    stakeholder. See [lane migration process](https://github.com/kubevirt/project-infra/blob/main/docs/lane-migration-process.md)
+    for how to safely merge lane bump PRs (scale down statusreconciler to avoid
+    mass job triggering)
 - when: 2026/06/24
   milestone: KubeVirt Code Freeze
   who: KubeVirt
