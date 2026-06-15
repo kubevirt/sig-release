@@ -11,6 +11,8 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| Added CEL-based domain hook evaluation for the structured plugin system (alpha, behind Plugins feature gate).  | [#17897](https://github.com/kubevirt/kubevirt/pull/17897) | [iholder101](https://github.com/iholder101) |
+| - Allow configuring launch security via preference.<br>- Deprecate launchSecurity field in instancetypes.  | [#17551](https://github.com/kubevirt/kubevirt/pull/17551) | [jschintag](https://github.com/jschintag) |
 | vep-10: add dra packages to lint configuration and fix linter errors  | [#17923](https://github.com/kubevirt/kubevirt/pull/17923) | [alaypatel07](https://github.com/alaypatel07) |
 | Migrated port-forwarding and remote exec from hardcoded SPDY to WebSocket-primary with SPDY fallback, fixing intermittent stream creation failures against Kubernetes 1.31+ clusters where the PortForwardWebsockets feature gate is enabled.  | [#16990](https://github.com/kubevirt/kubevirt/pull/16990) | [lyarwood](https://github.com/lyarwood) |
 | Updated virt-template to v0.2.0  | [#18076](https://github.com/kubevirt/kubevirt/pull/18076) | [jcanocan](https://github.com/jcanocan) |
