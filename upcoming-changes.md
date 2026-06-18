@@ -11,6 +11,7 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| BugFix: Live migration with CBT and RWO backend storage now correctly retains checkpoints post-migration  | [#17993](https://github.com/kubevirt/kubevirt/pull/17993) | [Acedus](https://github.com/Acedus) |
 | The RebootPolicy feature was graduated to Beta status.  | [#17623](https://github.com/kubevirt/kubevirt/pull/17623) | [MarSik](https://github.com/MarSik) |
 | Libvirt bumped to v11.10  | [#17422](https://github.com/kubevirt/kubevirt/pull/17422) | [jean-edouard](https://github.com/jean-edouard) |
 | Add foundation types for Grace IO Virtualization: GraceIOVirtualization feature gate, IOMMU domain XML schema, HostDevice IOMMU/ACPI extensions, and NUMACell pointer change for zero-memory cells.  | [#17891](https://github.com/kubevirt/kubevirt/pull/17891) | [vladikr](https://github.com/vladikr) |
