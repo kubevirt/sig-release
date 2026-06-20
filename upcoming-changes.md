@@ -11,6 +11,10 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| virtctl: updated virt-template subcomands to v1beta1  | [#17910](https://github.com/kubevirt/kubevirt/pull/17910) | [jcanocan](https://github.com/jcanocan) |
+| BugFix: Storage Live Migration Filesystem-to-Block fails with libvirt error Code 84 pre-creation of storage target for incremental storage migration of disk is not supported  | [#18143](https://github.com/kubevirt/kubevirt/pull/18143) | [akalenyu](https://github.com/akalenyu) |
+| VirtualMachineBackups now consist of only 3 conditions: Progressing, Complete, and Failed, with matching reasons to replace the now removed Initializing, ExportInitiated, ExportReady, Aborting and Done.  | [#18090](https://github.com/kubevirt/kubevirt/pull/18090) | [Acedus](https://github.com/Acedus) |
+| VEP 250: Add serviceAccountName to VirtualMachineInstance Spec  | [#17861](https://github.com/kubevirt/kubevirt/pull/17861) | [mhenriks](https://github.com/mhenriks) |
 | Fix the virtctl image-upload command token expiry issue by refreshing the token.  | [#17960](https://github.com/kubevirt/kubevirt/pull/17960) | [dsanatar](https://github.com/dsanatar) |
 | virt-operator: customizeComponents.Patches now apply to the install-strategy job (match it with resourceType "Job" and resourceName "virt-operator-install-strategy"). The job's generated name changed from "kubevirt-<id>-job" to "virt-operator-install-strategy-".  | [#17976](https://github.com/kubevirt/kubevirt/pull/17976) | [ethan-gallant](https://github.com/ethan-gallant) |
 | Enable live migration for VMs with SCSI persistent reservations  | [#17505](https://github.com/kubevirt/kubevirt/pull/17505) | [alromeros](https://github.com/alromeros) |
