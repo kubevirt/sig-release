@@ -11,6 +11,8 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| feat: Add annotation-based GuestAgentPing probe pausing  | [#17664](https://github.com/kubevirt/kubevirt/pull/17664) | [ksimon1](https://github.com/ksimon1) |
+| Fixed missing RBAC rules for plugin.kubevirt.io in the kubevirt.io:view ClusterRole, restoring cluster-reader access to Plugin resources.  | [#18129](https://github.com/kubevirt/kubevirt/pull/18129) | [iholder101](https://github.com/iholder101) |
 | virtctl: updated virt-template subcomands to v1beta1  | [#17910](https://github.com/kubevirt/kubevirt/pull/17910) | [jcanocan](https://github.com/jcanocan) |
 | BugFix: Storage Live Migration Filesystem-to-Block fails with libvirt error Code 84 pre-creation of storage target for incremental storage migration of disk is not supported  | [#18143](https://github.com/kubevirt/kubevirt/pull/18143) | [akalenyu](https://github.com/akalenyu) |
 | VirtualMachineBackups now consist of only 3 conditions: Progressing, Complete, and Failed, with matching reasons to replace the now removed Initializing, ExportInitiated, ExportReady, Aborting and Done.  | [#18090](https://github.com/kubevirt/kubevirt/pull/18090) | [Acedus](https://github.com/Acedus) |
