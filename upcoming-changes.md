@@ -11,6 +11,7 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| BugFix: fixed hotplug mount resolution when multiple attachment pods exist for volumes from the same underlying device, and prevented virt-handler from reusing one hotplug volume's source pod UID for later volumes in the same sync loop.  | [#18105](https://github.com/kubevirt/kubevirt/pull/18105) | [keinsword](https://github.com/keinsword) |
 | feat: Add annotation-based GuestAgentPing probe pausing  | [#17664](https://github.com/kubevirt/kubevirt/pull/17664) | [ksimon1](https://github.com/ksimon1) |
 | Fixed missing RBAC rules for plugin.kubevirt.io in the kubevirt.io:view ClusterRole, restoring cluster-reader access to Plugin resources.  | [#18129](https://github.com/kubevirt/kubevirt/pull/18129) | [iholder101](https://github.com/iholder101) |
 | virtctl: updated virt-template subcomands to v1beta1  | [#17910](https://github.com/kubevirt/kubevirt/pull/17910) | [jcanocan](https://github.com/jcanocan) |
