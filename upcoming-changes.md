@@ -11,6 +11,12 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| Skip PrometheusRule generation when VMStatsCollector is enabled  | [#18141](https://github.com/kubevirt/kubevirt/pull/18141) | [machadovilaca](https://github.com/machadovilaca) |
+| MigrationPriorityQueue feature gate has been promoted to GA.  | [#17818](https://github.com/kubevirt/kubevirt/pull/17818) | [fossedihelm](https://github.com/fossedihelm) |
+| Updated common-instancetypes bundles to v1.7.0  | [#18228](https://github.com/kubevirt/kubevirt/pull/18228) | [kubevirt-bot](https://github.com/kubevirt-bot) |
+| Add RBAC role aggregation upgrade e2e test  | [#17540](https://github.com/kubevirt/kubevirt/pull/17540) | [orenc1](https://github.com/orenc1) |
+| Updated virt-template to v0.2.1  | [#18220](https://github.com/kubevirt/kubevirt/pull/18220) | [0xFelix](https://github.com/0xFelix) |
+| IBM Secure Execution is now generally available  | [#17770](https://github.com/kubevirt/kubevirt/pull/17770) | [jschintag](https://github.com/jschintag) |
 | Add VMStatsHandler with HTTP endpoint for VM stats collection  | [#18188](https://github.com/kubevirt/kubevirt/pull/18188) | [machadovilaca](https://github.com/machadovilaca) |
 | Add VirtualMachineTemplate as a source kind for OCI export via VMExport.  | [#18032](https://github.com/kubevirt/kubevirt/pull/18032) | [0xFelix](https://github.com/0xFelix) |
 | Add node lifecycle hooks for the plugin framework, enabling plugins to run callbacks at VM start/stop and migration phases (alpha, behind Plugins feature gate).  | [#18001](https://github.com/kubevirt/kubevirt/pull/18001) | [iholder101](https://github.com/iholder101) |
