@@ -2,7 +2,7 @@
 name: Release Tracker
 about: Used to track the work which needs to be done every release cycle
 title: ':clipboard:[1.XX] Release Tracker'
-labels: sig/release, lifecycle/frozen 
+labels: sig/release, lifecycle/frozen, kind/tracker 
 ---
 
 <!--
@@ -15,76 +15,87 @@ The issue should be kept open for the entirety of the release cycle until all ta
 
 ## Release tasks
 
-### 1. Before the start of the Release Cycle
+### Milestone: Release Cycle Start
 
-- [ ] Captured feedback from the previous release cycle retro and planned to incorporate it into the release cycle.
-- [ ] Started planning the release schedule by opening a PR proposal, announcing it, and requesting feedback via email
-  to [kubevirt-dev](https://groups.google.com/forum/#!forum/kubevirt-dev).
+- [ ] Capture feedback from previous release cycle retro
+- [ ] Open PR proposal for release schedule, announce, request feedback
 
-### 2. First weeks of the release cycle up to Virtualization Enhancements Proposal Freeze
+  ---
 
-- [ ] Release schedule finalized.
-  - [ ] Announce schedule.
-- [ ] KubeVirt Alpha 0:
-  - [ ] Remind the community about Virtualization Enhancements Freeze.
-  - [ ] Tag 1.XX.0-alpha.0.
-  - [ ] Start the provider for the latest k8s beta/stable version, adding on-demand pre-submit.
+### Milestone: Alpha 0 Tag (`1.XX.0-alpha.0`)
 
-### 3. Enhancements freeze up to Release Code Freeze
+- [ ] Finalize release schedule
+- [ ] Announce schedule
+- [ ] Remind community about VEP Freeze
+- [ ] Start provider for latest k8s beta/stable, add on-demand pre-submit
+- [ ] **Tag XX.0-alpha.0**
 
-- [ ] Tag 1.XX.0-beta.0:
-  - [ ] Prepare unconference for next version development cycle.
-  - [ ] Mandatory pre-submit lanes.
-  - [ ] Non-standard lanes (i.e. migrations, multus, ipv6) have been bumped by stakeholders.
-    - [ ] sig-compute
-    - [ ] sig-storage
-    - [ ] sig-network
-    - [ ] other sigs
-- [ ] Begin casual observation of issues, CI signal, test flakes, and critical PRs.
-- [ ] Notify SIGs about upcoming Code Freeze Deadline.
-- [ ] Bring exceptions to [kubevirt-dev](https://groups.google.com/forum/#!forum/kubevirt-dev).
+  ---
 
-### 4. Code Freeze
+### Milestone: VEP Freeze
+- [ ] Review all VEPs targeting this release:
+  - [ ] Ensure each has an approved design
+  - [ ] Update status (implementable / deferred / rejected)
+  - [ ] Confirm SIG sign-off on each
+- [ ] **VEP Freeze**
 
-- [ ] Code Freeze:
-  - [ ] Update common-instancetypes bundle in KubeVirt repo.
-  - [ ] Review https://storage.googleapis.com/kubevirt-prow/reports/quarantined-tests/kubevirt/kubevirt/index.html
-  - [ ] Branch release-1.XX.
-  - [ ] Create release-1.XX prow config.
-  - [ ] Tag v1.XX.0-rc.0 on release-1.XX.
+  ---
 
-### 5. After Code Freeze
+### Milestone: Beta 0 Tag (`1.XX.0-beta.0`)
 
-- [ ] After Code Freeze:
-  - [ ] Generate api testdata for the new release and push them to main for backward compatibility testing.
-  - [ ] Gather scale & performance data.
-  - [ ] Unconference.
-  - [ ] Categorise release notes and create User Guide PR with /hold.
-  - [ ] Draft release highlights blog.
-- [ ] Test and production code stabilization:
+- [ ] Prepare unconference for next development cycle
+- [ ] Mandatory pre-submit lanes
+- [ ] Non-standard lanes bumped by stakeholders:
+  - [ ] sig-compute
+  - [ ] sig-storage
+  - [ ] sig-network
+  - [ ] other sigs
+- [ ] **Tag 1.XX.0-beta.0**
+
+  ---
+
+### Milestone: Code Freeze
+
+- [ ] Begin observation of issues, CI signal, test flakes, critical PRs
+- [ ] Notify SIGs about upcoming Code Freeze deadline
+- [ ] Bring exceptions to kubevirt-dev
+- [ ] Update common-instancetypes bundle in KubeVirt repo
+- [ ] Update virt-template bundle in KubeVirt repo
+- [ ] Review quarantined tests report
+- [ ] **Code Freeze: Branch release-1.XX**
+- [ ] Create release-1.XX prow config
+- [ ] **Tag v1.XX.0-rc.0 on release-1.XX**
+
+  ---
+
+### Milestone: Release Day
+
+- [ ] Generate api testdata for backward compatibility testing
+- [ ] Gather scale & performance data
+- [ ] Unconference
+- [ ] Code stabilization sign-offs:
   - [ ] sig-compute
   - [ ] sig-network
   - [ ] sig-storage
   - [ ] other sigs
+- [ ] Categorise release notes, create User Guide PR with /hold
+- [ ] Draft release highlights blog
+- [ ] Collect SIG sign-offs on blog
+- [ ] Publish scale & performance data
+- [ ] Update release notes for last-minute bugfixes
+- [ ] **Tag v1.XX.0 on release-1.XX**
+- [ ] Ensure docs and blog PRs are approved
+- [ ] Announce on kubevirt-dev
+- [ ] Publish/unhold release notes and blog
+- [ ] Promote through social media
 
-### 6. Around Release Day
+  ---
 
-- [ ] Collect SIG sign-offs on blog.
-- [ ] Publish scale & performance data.
+### Post Release
 
-### 7. Release Day
-
-- [ ] Update release notes for any last-minute bugfixes.
-- [ ] Tag v1.XX.0 on release-1.XX
-- [ ] Ensure docs and blog PRs are approved.
-- [ ] Send the email to [kubevirt-dev](https://groups.google.com/forum/#!forum/kubevirt-dev) for announcing.
-- [ ] Publish/unhold release notes and blog.
-- [ ] Promote through social media.
-
-### 8. Post Release
-
-- [ ] Update KubeVirt Enhancements Tracking board link in [ROADMAP](https://github.com/kubevirt/sig-release/blob/main/ROADMAP.md).
-- [ ] Update [label-approved-veps script](https://github.com/kubevirt/kubevirt/blob/main/.github/workflows/label_approved_veps.yaml) with the new `TARGET_PROJECT_URL`.
+- [ ] Update Enhancements Tracking board link in ROADMAP
+- [ ] Update label-approved-veps script with new TARGET_PROJECT_URL
+- [ ] Pin release branch to CDI version after CDI GA
 - [ ] After CDI GA: Pin release-1.XX branch to associated CDI version via `KUBEVIRT_CUSTOM_CDI_VERSION` in `automation/test.sh`.
 
 ## Further comments
