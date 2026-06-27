@@ -11,6 +11,12 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| Updated virt-template to v0.2.2  | [#18252](https://github.com/kubevirt/kubevirt/pull/18252) | [kubevirt-bot](https://github.com/kubevirt-bot) |
+| VEP-160: Graduate OptOutRoleAggregation feature gate to Beta  | [#18198](https://github.com/kubevirt/kubevirt/pull/18198) | [orenc1](https://github.com/orenc1) |
+| SRIOV vGPU now supports display  | [#18112](https://github.com/kubevirt/kubevirt/pull/18112) | [xpivarc](https://github.com/xpivarc) |
+| Add CrossArchitectureVirtualization Alpha feature gate enabling cross-architecture VM execution. When enabled, VMs can run on nodes with a different architecture (e.g. ARM64 guest on AMD64 host) via QEMU TCG software emulation. The scheduler prefers native-arch nodes and falls back to cross-arch emulation when unavailable. The feature gate is designed to accommodate future hardware-accelerated backends (e.g. SAE) under the same gate.  | [#17199](https://github.com/kubevirt/kubevirt/pull/17199) | [lyarwood](https://github.com/lyarwood) |
+| Plugin sidecars can now mutate the libvirt domain XML via gRPC domain hooks, enabling arbitrary domain customization through sidecar containers injected alongside virt-launcher pods.  | [#18102](https://github.com/kubevirt/kubevirt/pull/18102) | [iholder101](https://github.com/iholder101) |
+| Fix infinite migration target pod loop caused by stale VMI MigrationState when the target pod fails after preparation.  | [#18103](https://github.com/kubevirt/kubevirt/pull/18103) | [orelmisan](https://github.com/orelmisan) |
 | Skip PrometheusRule generation when VMStatsCollector is enabled  | [#18141](https://github.com/kubevirt/kubevirt/pull/18141) | [machadovilaca](https://github.com/machadovilaca) |
 | MigrationPriorityQueue feature gate has been promoted to GA.  | [#17818](https://github.com/kubevirt/kubevirt/pull/17818) | [fossedihelm](https://github.com/fossedihelm) |
 | Updated common-instancetypes bundles to v1.7.0  | [#18228](https://github.com/kubevirt/kubevirt/pull/18228) | [kubevirt-bot](https://github.com/kubevirt-bot) |
