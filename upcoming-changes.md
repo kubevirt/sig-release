@@ -11,6 +11,11 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| Add kubevirt_vmi_gpu_info metric to correlate GPU UUIDs with VMIs  | [#18161](https://github.com/kubevirt/kubevirt/pull/18161) | [machadovilaca](https://github.com/machadovilaca) |
+| Nebius is listed as an adopter of KubeVirt since 2023.  | [#17837](https://github.com/kubevirt/kubevirt/pull/17837) | [keinsword](https://github.com/keinsword) |
+| virt-api: add X-Content-Type-Options: nosniff security header  | [#17846](https://github.com/kubevirt/kubevirt/pull/17846) | [ksimon1](https://github.com/ksimon1) |
+| Remove ephemeral hotplug volume metric and alert  | [#18101](https://github.com/kubevirt/kubevirt/pull/18101) | [dsanatar](https://github.com/dsanatar) |
+| Expose FS freeze status early in VirtualMachineBackup  | [#18082](https://github.com/kubevirt/kubevirt/pull/18082) | [alromeros](https://github.com/alromeros) |
 | Updated virt-template to v0.2.2  | [#18252](https://github.com/kubevirt/kubevirt/pull/18252) | [kubevirt-bot](https://github.com/kubevirt-bot) |
 | VEP-160: Graduate OptOutRoleAggregation feature gate to Beta  | [#18198](https://github.com/kubevirt/kubevirt/pull/18198) | [orenc1](https://github.com/orenc1) |
 | SRIOV vGPU now supports display  | [#18112](https://github.com/kubevirt/kubevirt/pull/18112) | [xpivarc](https://github.com/xpivarc) |
