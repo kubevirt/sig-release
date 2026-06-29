@@ -11,6 +11,7 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| Build KubeVirt with go 1.26.4  | [#18116](https://github.com/kubevirt/kubevirt/pull/18116) | [brianmcarey](https://github.com/brianmcarey) |
 | Add kubevirt_vmi_gpu_info metric to correlate GPU UUIDs with VMIs  | [#18161](https://github.com/kubevirt/kubevirt/pull/18161) | [machadovilaca](https://github.com/machadovilaca) |
 | Nebius is listed as an adopter of KubeVirt since 2023.  | [#17837](https://github.com/kubevirt/kubevirt/pull/17837) | [keinsword](https://github.com/keinsword) |
 | virt-api: add X-Content-Type-Options: nosniff security header  | [#17846](https://github.com/kubevirt/kubevirt/pull/17846) | [ksimon1](https://github.com/ksimon1) |
