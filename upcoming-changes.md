@@ -11,6 +11,10 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| Add PortRanges support for masquerade interfaces (Alpha, guarded by PortRangesSpec feature gate)  | [#18095](https://github.com/kubevirt/kubevirt/pull/18095) | [fra2404](https://github.com/fra2404) |
+| When the alpha GraceIOVirtualization feature gate is enabled, KubeVirt now configures NVIDIA Grace GPU passthrough with SMMUv3/IOMMUFD, ACPI Generic Initiator NUMA topology, NUMA distance mapping, and automatic PCI 64-bit hole sizing.  | [#18011](https://github.com/kubevirt/kubevirt/pull/18011) | [fanzhangio](https://github.com/fanzhangio) |
+| WorkloadEncryptionSEV graduated from Alpha -> Beta  | [#18048](https://github.com/kubevirt/kubevirt/pull/18048) | [alancaldelas](https://github.com/alancaldelas) |
+| BugFix: Fixes bug in cancelling of decentralized live migration not removing finalizer from migration resource  | [#18216](https://github.com/kubevirt/kubevirt/pull/18216) | [awels](https://github.com/awels) |
 | Add VMNonRecoverableOSPanic alert  | [#18004](https://github.com/kubevirt/kubevirt/pull/18004) | [avlitman](https://github.com/avlitman) |
 | The Template feature gate has been graduated to Beta and is now enabled by default. Virt-template components are deployed automatically unless explicitly disabled.  | [#18065](https://github.com/kubevirt/kubevirt/pull/18065) | [0xFelix](https://github.com/0xFelix) |
 | Build KubeVirt with go 1.26.4  | [#18116](https://github.com/kubevirt/kubevirt/pull/18116) | [brianmcarey](https://github.com/brianmcarey) |
