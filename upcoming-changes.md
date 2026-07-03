@@ -11,6 +11,9 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| Live migration data stream can be compressed now by using .spec.experimental.compression field in MigrationPolicy applied to a set of VMs. Currently only "zstd" algorithm is supported.  | [#17509](https://github.com/kubevirt/kubevirt/pull/17509) | [michalskrivanek](https://github.com/michalskrivanek) |
+| Add namespace-aware VSOCK dialing support in virt-handler (VEP 222)  | [#17955](https://github.com/kubevirt/kubevirt/pull/17955) | [akrejcir](https://github.com/akrejcir) |
+| Bug fix: Increase IOMMUFD socket accept timeout from 60 seconds to 15 minutes to prevent silent fallback to legacy VFIO on environments with slow container image pulls.  | [#18299](https://github.com/kubevirt/kubevirt/pull/18299) | [lyarwood](https://github.com/lyarwood) |
 | Add PortRanges support for masquerade interfaces (Alpha, guarded by PortRangesSpec feature gate)  | [#18095](https://github.com/kubevirt/kubevirt/pull/18095) | [fra2404](https://github.com/fra2404) |
 | When the alpha GraceIOVirtualization feature gate is enabled, KubeVirt now configures NVIDIA Grace GPU passthrough with SMMUv3/IOMMUFD, ACPI Generic Initiator NUMA topology, NUMA distance mapping, and automatic PCI 64-bit hole sizing.  | [#18011](https://github.com/kubevirt/kubevirt/pull/18011) | [fanzhangio](https://github.com/fanzhangio) |
 | WorkloadEncryptionSEV graduated from Alpha -> Beta  | [#18048](https://github.com/kubevirt/kubevirt/pull/18048) | [alancaldelas](https://github.com/alancaldelas) |
