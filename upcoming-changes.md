@@ -11,6 +11,9 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| vep-10: move GPUsWithDRA and HostDevicesWithDRA to beta  | [#18247](https://github.com/kubevirt/kubevirt/pull/18247) | [alaypatel07](https://github.com/alaypatel07) |
+| Adding NoLeadingVirtController alert  | [#18154](https://github.com/kubevirt/kubevirt/pull/18154) | [Ronilerr](https://github.com/Ronilerr) |
+| BugFix: admin can remove memory dump from their VM  | [#17775](https://github.com/kubevirt/kubevirt/pull/17775) | [akalenyu](https://github.com/akalenyu) |
 | Live migration data stream can be compressed now by using .spec.experimental.compression field in MigrationPolicy applied to a set of VMs. Currently only "zstd" algorithm is supported.  | [#17509](https://github.com/kubevirt/kubevirt/pull/17509) | [michalskrivanek](https://github.com/michalskrivanek) |
 | Add namespace-aware VSOCK dialing support in virt-handler (VEP 222)  | [#17955](https://github.com/kubevirt/kubevirt/pull/17955) | [akrejcir](https://github.com/akrejcir) |
 | Bug fix: Increase IOMMUFD socket accept timeout from 60 seconds to 15 minutes to prevent silent fallback to legacy VFIO on environments with slow container image pulls.  | [#18299](https://github.com/kubevirt/kubevirt/pull/18299) | [lyarwood](https://github.com/lyarwood) |
