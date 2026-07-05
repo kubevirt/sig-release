@@ -11,6 +11,7 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| Set explicit SMMUv3 address capability defaults for Grace I/O Virtualization.  | [#18316](https://github.com/kubevirt/kubevirt/pull/18316) | [fanzhangio](https://github.com/fanzhangio) |
 | vep-10: move GPUsWithDRA and HostDevicesWithDRA to beta  | [#18247](https://github.com/kubevirt/kubevirt/pull/18247) | [alaypatel07](https://github.com/alaypatel07) |
 | Adding NoLeadingVirtController alert  | [#18154](https://github.com/kubevirt/kubevirt/pull/18154) | [Ronilerr](https://github.com/Ronilerr) |
 | BugFix: admin can remove memory dump from their VM  | [#17775](https://github.com/kubevirt/kubevirt/pull/17775) | [akalenyu](https://github.com/akalenyu) |
