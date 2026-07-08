@@ -11,6 +11,11 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| Bug fix: Fixed hugetblfs-dir EmptyDir volume masking the parent hugetlbfs mount at /dev/hugepages, which prevented QEMU from allocating hugepages via -mem-path. The EmptyDir is now explicitly hugepage-backed.  | [#18272](https://github.com/kubevirt/kubevirt/pull/18272) | [laxmi-333](https://github.com/laxmi-333) |
+| client-go/log: The `-v` verbosity flag is no longer registered on `flag.CommandLine` during `init()`. External consumers that used `flag.CommandLine.Lookup("v")` to obtain the verbosity flag must switch to `log.VerbosityFlag()`. This eliminates panics when importing `kubevirt.io/client-go` alongside packages that also register a `-v` flag (e.g. glog, klog).  | [#18294](https://github.com/kubevirt/kubevirt/pull/18294) | [guzalv](https://github.com/guzalv) |
+| virtctl: addvolume optional --disk-name flag  | [#17936](https://github.com/kubevirt/kubevirt/pull/17936) | [dsanatar](https://github.com/dsanatar) |
+| Fixed a delay in VM/VMI deletion that could happen when the VMI controller missed a pod event.  | [#18206](https://github.com/kubevirt/kubevirt/pull/18206) | [lukashes](https://github.com/lukashes) |
+| Fix panic in ClusterConfig CRD delete handler when the informer delivers a tombstone object instead of the deleted CRD.  | [#17880](https://github.com/kubevirt/kubevirt/pull/17880) | [Shreesha001](https://github.com/Shreesha001) |
 | Support inferFromVolume for VolumeSnapshot-backed DataVolumes, DataVolumeTemplates, and DataSources  | [#18337](https://github.com/kubevirt/kubevirt/pull/18337) | [0xFelix](https://github.com/0xFelix) |
 | Set explicit SMMUv3 address capability defaults for Grace I/O Virtualization.  | [#18316](https://github.com/kubevirt/kubevirt/pull/18316) | [fanzhangio](https://github.com/fanzhangio) |
 | vep-10: move GPUsWithDRA and HostDevicesWithDRA to beta  | [#18247](https://github.com/kubevirt/kubevirt/pull/18247) | [alaypatel07](https://github.com/alaypatel07) |
