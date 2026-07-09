@@ -11,6 +11,9 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| BugFix: Importer pod rejected by ValidatingAdmissionPolicy 'kubevirt-plugin-sidecar-subpath-policy'  | [#18392](https://github.com/kubevirt/kubevirt/pull/18392) | [akalenyu](https://github.com/akalenyu) |
+| The `kubevirt_vmi_guest_os_panic_total` metric is now emitted<br>for all guest panic events, including when the guest recovers internally<br>(e.g. via kdump/crashdump with the ISA pvpanic driver)  | [#18370](https://github.com/kubevirt/kubevirt/pull/18370) | [michalskrivanek](https://github.com/michalskrivanek) |
+| Add E2E tests support for DRA feature.  | [#18061](https://github.com/kubevirt/kubevirt/pull/18061) | [Sreeja1725](https://github.com/Sreeja1725) |
 | Bug fix: Fixed hugetblfs-dir EmptyDir volume masking the parent hugetlbfs mount at /dev/hugepages, which prevented QEMU from allocating hugepages via -mem-path. The EmptyDir is now explicitly hugepage-backed.  | [#18272](https://github.com/kubevirt/kubevirt/pull/18272) | [laxmi-333](https://github.com/laxmi-333) |
 | client-go/log: The `-v` verbosity flag is no longer registered on `flag.CommandLine` during `init()`. External consumers that used `flag.CommandLine.Lookup("v")` to obtain the verbosity flag must switch to `log.VerbosityFlag()`. This eliminates panics when importing `kubevirt.io/client-go` alongside packages that also register a `-v` flag (e.g. glog, klog).  | [#18294](https://github.com/kubevirt/kubevirt/pull/18294) | [guzalv](https://github.com/guzalv) |
 | virtctl: addvolume optional --disk-name flag  | [#17936](https://github.com/kubevirt/kubevirt/pull/17936) | [dsanatar](https://github.com/dsanatar) |
