@@ -11,6 +11,8 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| Bugfix: Fix VM restore when backend storage is not snapshottable  | [#17286](https://github.com/kubevirt/kubevirt/pull/17286) | [alromeros](https://github.com/alromeros) |
+| Network conformance tests can now be run with a custom network binding plugin via the `--primary-network-binding-plugin` test flag.  | [#18021](https://github.com/kubevirt/kubevirt/pull/18021) | [orelmisan](https://github.com/orelmisan) |
 | BugFix: Importer pod rejected by ValidatingAdmissionPolicy 'kubevirt-plugin-sidecar-subpath-policy'  | [#18392](https://github.com/kubevirt/kubevirt/pull/18392) | [akalenyu](https://github.com/akalenyu) |
 | The `kubevirt_vmi_guest_os_panic_total` metric is now emitted<br>for all guest panic events, including when the guest recovers internally<br>(e.g. via kdump/crashdump with the ISA pvpanic driver)  | [#18370](https://github.com/kubevirt/kubevirt/pull/18370) | [michalskrivanek](https://github.com/michalskrivanek) |
 | Add E2E tests support for DRA feature.  | [#18061](https://github.com/kubevirt/kubevirt/pull/18061) | [Sreeja1725](https://github.com/Sreeja1725) |
