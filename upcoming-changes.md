@@ -11,6 +11,7 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| Require restart for NAD swap for non-migratable VMs  | [#18194](https://github.com/kubevirt/kubevirt/pull/18194) | [frenzyfriday](https://github.com/frenzyfriday) |
 | Low virt count alerts are using running rule intead of up rule  | [#18380](https://github.com/kubevirt/kubevirt/pull/18380) | [Ronilerr](https://github.com/Ronilerr) |
 | Bug fix: VMs with NFS-backed storage are no longer incorrectly restarted during temporary NFS unavailability (e.g., NFS server failover).  | [#17752](https://github.com/kubevirt/kubevirt/pull/17752) | [iholder101](https://github.com/iholder101) |
 | Bugfix: Fix VM restore when backend storage is not snapshottable  | [#17286](https://github.com/kubevirt/kubevirt/pull/17286) | [alromeros](https://github.com/alromeros) |
