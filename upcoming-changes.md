@@ -11,6 +11,8 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| Deprecated old method to set SSH key in a VM.  | [#13881](https://github.com/kubevirt/kubevirt/pull/13881) | [akrejcir](https://github.com/akrejcir) |
+| Set unlimited memlock prlimit for VMs requiring memory locking (VFIO, realtime, SEV, explicit memlock), ensuring libvirt's memlock calculation always succeeds in session mode.  | [#17857](https://github.com/kubevirt/kubevirt/pull/17857) | [lyarwood](https://github.com/lyarwood) |
 | Require restart for NAD swap for non-migratable VMs  | [#18194](https://github.com/kubevirt/kubevirt/pull/18194) | [frenzyfriday](https://github.com/frenzyfriday) |
 | Low virt count alerts are using running rule intead of up rule  | [#18380](https://github.com/kubevirt/kubevirt/pull/18380) | [Ronilerr](https://github.com/Ronilerr) |
 | Bug fix: VMs with NFS-backed storage are no longer incorrectly restarted during temporary NFS unavailability (e.g., NFS server failover).  | [#17752](https://github.com/kubevirt/kubevirt/pull/17752) | [iholder101](https://github.com/iholder101) |
