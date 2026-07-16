@@ -11,6 +11,9 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| BugFix: hotplug volume detach deadlock when VMIs exchange RWO PVCs between attachment pods.  | [#18045](https://github.com/kubevirt/kubevirt/pull/18045) | [maxwmsft](https://github.com/maxwmsft) |
+| Network binding plugin sidecars can now infer their registration name using the `NETWORK_BINDING_PLUGIN_NAME` environment variable.  | [#18435](https://github.com/kubevirt/kubevirt/pull/18435) | [orelmisan](https://github.com/orelmisan) |
+| N/A  | [#17117](https://github.com/kubevirt/kubevirt/pull/17117) | [suPer8Hu](https://github.com/suPer8Hu) |
 | Deprecated old method to set SSH key in a VM.  | [#13881](https://github.com/kubevirt/kubevirt/pull/13881) | [akrejcir](https://github.com/akrejcir) |
 | Set unlimited memlock prlimit for VMs requiring memory locking (VFIO, realtime, SEV, explicit memlock), ensuring libvirt's memlock calculation always succeeds in session mode.  | [#17857](https://github.com/kubevirt/kubevirt/pull/17857) | [lyarwood](https://github.com/lyarwood) |
 | Require restart for NAD swap for non-migratable VMs  | [#18194](https://github.com/kubevirt/kubevirt/pull/18194) | [frenzyfriday](https://github.com/frenzyfriday) |
