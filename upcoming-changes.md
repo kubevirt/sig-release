@@ -11,6 +11,10 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| Bug fix: Expose VFIO cdev devices (/dev/vfio/devices/vfioN) to virt-launcher containers, fixing IOMMUFD-based GPU passthrough on ARM64 systems with SMMUv3.  | [#18300](https://github.com/kubevirt/kubevirt/pull/18300) | [lyarwood](https://github.com/lyarwood) |
+| Fixed VMI owner resolution when an attachment pod is deleted while the virt-launcher pod is gone  | [#18222](https://github.com/kubevirt/kubevirt/pull/18222) | [lukashes](https://github.com/lukashes) |
+| BugFix: hotplug volume detach deadlock for already removed volumes.  | [#18044](https://github.com/kubevirt/kubevirt/pull/18044) | [maxwmsft](https://github.com/maxwmsft) |
+| virt-launcher pods get cleaned up along with migration objects  | [#17707](https://github.com/kubevirt/kubevirt/pull/17707) | [jean-edouard](https://github.com/jean-edouard) |
 | BugFix: hotplug volume detach deadlock when VMIs exchange RWO PVCs between attachment pods.  | [#18045](https://github.com/kubevirt/kubevirt/pull/18045) | [maxwmsft](https://github.com/maxwmsft) |
 | Network binding plugin sidecars can now infer their registration name using the `NETWORK_BINDING_PLUGIN_NAME` environment variable.  | [#18435](https://github.com/kubevirt/kubevirt/pull/18435) | [orelmisan](https://github.com/orelmisan) |
 | N/A  | [#17117](https://github.com/kubevirt/kubevirt/pull/17117) | [suPer8Hu](https://github.com/suPer8Hu) |
