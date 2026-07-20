@@ -11,6 +11,7 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| Fixed missing validation for network interface bindings: interfaces with no binding or multiple bindings are now rejected at admission instead of failing silently at runtime.  | [#18374](https://github.com/kubevirt/kubevirt/pull/18374) | [orelmisan](https://github.com/orelmisan) |
 | Bug fix: Expose VFIO cdev devices (/dev/vfio/devices/vfioN) to virt-launcher containers, fixing IOMMUFD-based GPU passthrough on ARM64 systems with SMMUv3.  | [#18300](https://github.com/kubevirt/kubevirt/pull/18300) | [lyarwood](https://github.com/lyarwood) |
 | Fixed VMI owner resolution when an attachment pod is deleted while the virt-launcher pod is gone  | [#18222](https://github.com/kubevirt/kubevirt/pull/18222) | [lukashes](https://github.com/lukashes) |
 | BugFix: hotplug volume detach deadlock for already removed volumes.  | [#18044](https://github.com/kubevirt/kubevirt/pull/18044) | [maxwmsft](https://github.com/maxwmsft) |
