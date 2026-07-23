@@ -1,1 +1,1 @@
-releases/v1.9/schedule.md
+releases/v1.10/schedule.md
