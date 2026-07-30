@@ -11,6 +11,8 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| Fix sidecar hooks silently dropping QEMU command-line arguments (qemu:commandline) during XML round-trip  | [#18460](https://github.com/kubevirt/kubevirt/pull/18460) | [dasionov](https://github.com/dasionov) |
+| Migrate container image builds from rules_oci to rules_img, enabling hermetic multi-arch image builds with native s390x platform support.  | [#17598](https://github.com/kubevirt/kubevirt/pull/17598) | [vamsikrishna-siddu](https://github.com/vamsikrishna-siddu) |
 | RamFB display validation now treats a vGPU whose ramFB is present with its enabled field unset as an enabled display, matching the API default. A VirtualMachine or VirtualMachineInstanceReplicaSet template with more than one such vGPU is now rejected at creation instead of being accepted and failing later when its VMI is created.  | [#18542](https://github.com/kubevirt/kubevirt/pull/18542) | [thc1006](https://github.com/thc1006) |
 | BugFix: file descriptor leak in vmexport proxy  | [#18400](https://github.com/kubevirt/kubevirt/pull/18400) | [awels](https://github.com/awels) |
 | Decentralized live migration to beta  | [#18168](https://github.com/kubevirt/kubevirt/pull/18168) | [awels](https://github.com/awels) |
