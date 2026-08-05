@@ -11,6 +11,7 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| Bump hermetic_launcher to v0.0.15 to fix s390x container image builds.  | [#18692](https://github.com/kubevirt/kubevirt/pull/18692) | [vamsikrishna-siddu](https://github.com/vamsikrishna-siddu) |
 | Removed the slirp network binding plugin sidecar image. The plugin had no known consumers.  | [#18613](https://github.com/kubevirt/kubevirt/pull/18613) | [orelmisan](https://github.com/orelmisan) |
 | Live migration downtime can now be dynamically tuned by using .spec.experimental.downtimeTuning field in MigrationPolicy. When enabled, QEMU's max_downtime is gradually increased from an initial value (default 150ms) to a configurable ceiling (default 1050ms), helping migrations converge with bounded sub-second switchover downtime.  | [#17480](https://github.com/kubevirt/kubevirt/pull/17480) | [michalskrivanek](https://github.com/michalskrivanek) |
 | Bug fix: During live migration, domain stats collection no longer blocks on the libvirt job lock for up to 30 seconds. The NOWAIT flag is used to skip locked domains instead of waiting, avoiding lock contention and disruptive error logs.  | [#18362](https://github.com/kubevirt/kubevirt/pull/18362) | [iholder101](https://github.com/iholder101) |
