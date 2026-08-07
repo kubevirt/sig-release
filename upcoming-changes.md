@@ -11,6 +11,11 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| Graduate VmiMemoryOverheadReport feature gate to GA  | [#18708](https://github.com/kubevirt/kubevirt/pull/18708) | [Barakmor1](https://github.com/Barakmor1) |
+| Fix premature domain undefine during slow QEMU startup that left VMs transient and broke hotplug  | [#18545](https://github.com/kubevirt/kubevirt/pull/18545) | [amasolov](https://github.com/amasolov) |
+| Backend storage PVC size is increased by 1Gi for VMs with CBT enabled.  | [#18470](https://github.com/kubevirt/kubevirt/pull/18470) | [Acedus](https://github.com/Acedus) |
+| BREAKING CHANGE: Modifies internal on-the-wire API fields for the stall detector feature; MigrationStallDetection FG must be disabled for cluster upgrades to succeed.  | [#18303](https://github.com/kubevirt/kubevirt/pull/18303) | [Aseeef](https://github.com/Aseeef) |
+| Fixed a timing side channel in the export server token check by switching to a constant-time comparison.  | [#18200](https://github.com/kubevirt/kubevirt/pull/18200) | [naruto-lgtm](https://github.com/naruto-lgtm) |
 | Bug fix: Prevent guest OS from ejecting critical PCI devices (disks, memory balloon, RNG, watchdog) via hotplug mechanisms like the Windows "Safely Remove Hardware" tray menu. PCI root ports hosting non-NIC devices are now marked as non-hotpluggable, while NIC ports and empty ports reserved for future hotplug remain available.  | [#17605](https://github.com/kubevirt/kubevirt/pull/17605) | [dasionov](https://github.com/dasionov) |
 | Bump hermetic_launcher to v0.0.15 to fix s390x container image builds.  | [#18692](https://github.com/kubevirt/kubevirt/pull/18692) | [vamsikrishna-siddu](https://github.com/vamsikrishna-siddu) |
 | Removed the slirp network binding plugin sidecar image. The plugin had no known consumers.  | [#18613](https://github.com/kubevirt/kubevirt/pull/18613) | [orelmisan](https://github.com/orelmisan) |
