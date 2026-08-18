@@ -11,6 +11,7 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| Add recording rule for report suspected orphaned PVCs  | [#18521](https://github.com/kubevirt/kubevirt/pull/18521) | [Ronilerr](https://github.com/Ronilerr) |
 | Graduate LibvirtHooksServerAndClient feature gate to GA  | [#18687](https://github.com/kubevirt/kubevirt/pull/18687) | [Barakmor1](https://github.com/Barakmor1) |
 | Graduate VmiMemoryOverheadReport feature gate to GA  | [#18708](https://github.com/kubevirt/kubevirt/pull/18708) | [Barakmor1](https://github.com/Barakmor1) |
 | Fix premature domain undefine during slow QEMU startup that left VMs transient and broke hotplug  | [#18545](https://github.com/kubevirt/kubevirt/pull/18545) | [amasolov](https://github.com/amasolov) |
