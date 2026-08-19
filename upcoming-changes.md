@@ -11,6 +11,7 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| Bumped QEMU process memory overhead from 30Mi to 50Mi, increasing VMI pod memory requests by 20Mi to reflect actual QEMU RSS requirements with current QEMU versions.  | [#18388](https://github.com/kubevirt/kubevirt/pull/18388) | [dasionov](https://github.com/dasionov) |
 | Add recording rule for report suspected orphaned PVCs  | [#18521](https://github.com/kubevirt/kubevirt/pull/18521) | [Ronilerr](https://github.com/Ronilerr) |
 | Graduate LibvirtHooksServerAndClient feature gate to GA  | [#18687](https://github.com/kubevirt/kubevirt/pull/18687) | [Barakmor1](https://github.com/Barakmor1) |
 | Graduate VmiMemoryOverheadReport feature gate to GA  | [#18708](https://github.com/kubevirt/kubevirt/pull/18708) | [Barakmor1](https://github.com/Barakmor1) |
