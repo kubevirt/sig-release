@@ -11,6 +11,11 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| Added NUMA node distance passthrough from host topology to guest VMs, enabling performance-sensitive applications to make optimal scheduling decisions on multi-NUMA systems.  | [#18829](https://github.com/kubevirt/kubevirt/pull/18829) | [omastama-spec](https://github.com/omastama-spec) |
+| Fix OrphanedVirtualMachineInstances false positives and VirtLauncherPodsStuckFailed per-namespace threshold by restoring cluster-scoped evaluation with a static install-namespace label  | [#18822](https://github.com/kubevirt/kubevirt/pull/18822) | [sradco](https://github.com/sradco) |
+| Cleanup: Remove legacy containerdisk CRC32 checksum computation  | [#18847](https://github.com/kubevirt/kubevirt/pull/18847) | [akalenyu](https://github.com/akalenyu) |
+| Build KubeVirt with go 1.26.6  | [#18761](https://github.com/kubevirt/kubevirt/pull/18761) | [lentzi90](https://github.com/lentzi90) |
+| Bug fix: "virtctl evacuate-cancel" now works  | [#17008](https://github.com/kubevirt/kubevirt/pull/17008) | [xpivarc](https://github.com/xpivarc) |
 | Bumped QEMU process memory overhead from 30Mi to 50Mi, increasing VMI pod memory requests by 20Mi to reflect actual QEMU RSS requirements with current QEMU versions.  | [#18388](https://github.com/kubevirt/kubevirt/pull/18388) | [dasionov](https://github.com/dasionov) |
 | Add recording rule for report suspected orphaned PVCs  | [#18521](https://github.com/kubevirt/kubevirt/pull/18521) | [Ronilerr](https://github.com/Ronilerr) |
 | Graduate LibvirtHooksServerAndClient feature gate to GA  | [#18687](https://github.com/kubevirt/kubevirt/pull/18687) | [Barakmor1](https://github.com/Barakmor1) |
