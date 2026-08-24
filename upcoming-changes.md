@@ -11,6 +11,7 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| plugin: consolidate CEL evaluators  | [#18624](https://github.com/kubevirt/kubevirt/pull/18624) | [dsanatar](https://github.com/dsanatar) |
 | Fixed a bug where a VM with RunStrategyRerunOnFailure incorrectly showed WaitingForVolumeBinding status after being manually stopped when its PVC was unbound.  | [#18787](https://github.com/kubevirt/kubevirt/pull/18787) | [davmarro](https://github.com/davmarro) |
 | Added NUMA node distance passthrough from host topology to guest VMs, enabling performance-sensitive applications to make optimal scheduling decisions on multi-NUMA systems.  | [#18829](https://github.com/kubevirt/kubevirt/pull/18829) | [omastama-spec](https://github.com/omastama-spec) |
 | Fix OrphanedVirtualMachineInstances false positives and VirtLauncherPodsStuckFailed per-namespace threshold by restoring cluster-scoped evaluation with a static install-namespace label  | [#18822](https://github.com/kubevirt/kubevirt/pull/18822) | [sradco](https://github.com/sradco) |
