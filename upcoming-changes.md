@@ -11,6 +11,7 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| Bug fix: Ensuring that records (ghost records, mount records) are written atomically to disk  | [#18716](https://github.com/kubevirt/kubevirt/pull/18716) | [xpivarc](https://github.com/xpivarc) |
 | plugin: consolidate CEL evaluators  | [#18624](https://github.com/kubevirt/kubevirt/pull/18624) | [dsanatar](https://github.com/dsanatar) |
 | Fixed a bug where a VM with RunStrategyRerunOnFailure incorrectly showed WaitingForVolumeBinding status after being manually stopped when its PVC was unbound.  | [#18787](https://github.com/kubevirt/kubevirt/pull/18787) | [davmarro](https://github.com/davmarro) |
 | Added NUMA node distance passthrough from host topology to guest VMs, enabling performance-sensitive applications to make optimal scheduling decisions on multi-NUMA systems.  | [#18829](https://github.com/kubevirt/kubevirt/pull/18829) | [omastama-spec](https://github.com/omastama-spec) |
