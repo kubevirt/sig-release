@@ -11,6 +11,10 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| Fix PCI passthrough regression on kernels without CONFIG_VFIO_DEVICE_CDEV support. VMs with GPU/PCI host devices now correctly fall back to legacy VFIO group interface when IOMMUFD cdev is unavailable.  | [#18905](https://github.com/kubevirt/kubevirt/pull/18905) | [fossedihelm](https://github.com/fossedihelm) |
+| Memory overcommit is now ignored for VMIs with hugepages  | [#18880](https://github.com/kubevirt/kubevirt/pull/18880) | [jean-edouard](https://github.com/jean-edouard) |
+| Fix a virt-handler crash that could occur when preparing VFIO device ownership fails.  | [#18867](https://github.com/kubevirt/kubevirt/pull/18867) | [cwedgwood](https://github.com/cwedgwood) |
+| Kubernetes dependencies have been updated to v0.36.4 (Kubernetes 1.36)  | [#18315](https://github.com/kubevirt/kubevirt/pull/18315) | [alancaldelas](https://github.com/alancaldelas) |
 | Bug fix: Ensuring that records (ghost records, mount records) are written atomically to disk  | [#18716](https://github.com/kubevirt/kubevirt/pull/18716) | [xpivarc](https://github.com/xpivarc) |
 | plugin: consolidate CEL evaluators  | [#18624](https://github.com/kubevirt/kubevirt/pull/18624) | [dsanatar](https://github.com/dsanatar) |
 | Fixed a bug where a VM with RunStrategyRerunOnFailure incorrectly showed WaitingForVolumeBinding status after being manually stopped when its PVC was unbound.  | [#18787](https://github.com/kubevirt/kubevirt/pull/18787) | [davmarro](https://github.com/davmarro) |
