@@ -11,6 +11,10 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| Updated virt-template to v0.2.3  | [#18908](https://github.com/kubevirt/kubevirt/pull/18908) | [kubevirt-bot](https://github.com/kubevirt-bot) |
+| SR-IOV interfaces are no longer supported with DRA networks.  | [#18451](https://github.com/kubevirt/kubevirt/pull/18451) | [orelmisan](https://github.com/orelmisan) |
+| Graduate the PodSecondaryInterfaceNamingUpgrade feature gate to GA. The pre-migration hook that converts ordinal network interface names to hashed equivalents now runs unconditionally.  | [#18317](https://github.com/kubevirt/kubevirt/pull/18317) | [orelmisan](https://github.com/orelmisan) |
+| Add name label to kubevirt_vmi_gpu_info  | [#18902](https://github.com/kubevirt/kubevirt/pull/18902) | [machadovilaca](https://github.com/machadovilaca) |
 | Add uid label (Kubernetes object UID) to kubevirt_vm_info and kubevirt_vmi_info  | [#18854](https://github.com/kubevirt/kubevirt/pull/18854) | [sradco](https://github.com/sradco) |
 | Fix PCI passthrough regression on kernels without CONFIG_VFIO_DEVICE_CDEV support. VMs with GPU/PCI host devices now correctly fall back to legacy VFIO group interface when IOMMUFD cdev is unavailable.  | [#18905](https://github.com/kubevirt/kubevirt/pull/18905) | [fossedihelm](https://github.com/fossedihelm) |
 | Memory overcommit is now ignored for VMIs with hugepages  | [#18880](https://github.com/kubevirt/kubevirt/pull/18880) | [jean-edouard](https://github.com/jean-edouard) |
