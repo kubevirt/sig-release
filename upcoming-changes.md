@@ -11,6 +11,11 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| Fix GuestFilesystemAlmostOutOfSpace firing on Windows VMs when a UDF CDROM/ISO is attached.  | [#18994](https://github.com/kubevirt/kubevirt/pull/18994) | [avlitman](https://github.com/avlitman) |
+| Changing recording rule expression  | [#18986](https://github.com/kubevirt/kubevirt/pull/18986) | [Ronilerr](https://github.com/Ronilerr) |
+| Fix no ready alerts  | [#18942](https://github.com/kubevirt/kubevirt/pull/18942) | [Ronilerr](https://github.com/Ronilerr) |
+| Bug fix: unresponsive sockets are not correctly accounted  | [#18970](https://github.com/kubevirt/kubevirt/pull/18970) | [xpivarc](https://github.com/xpivarc) |
+| ExternalNetResourceInjection graduated to GA. virt-controller no longer queries NetworkAttachmentDefinition objects or injects network resource requests into the launcher pod. The k8s.cni.cncf.io network-attachment-definitions get rule is<br>removed from the virt-controller and virt-operator ClusterRoles. KubeVirt now relies on the Network Resources Injector for network resource injection.  | [#18497](https://github.com/kubevirt/kubevirt/pull/18497) | [orelmisan](https://github.com/orelmisan) |
 | Updated virt-template to v0.2.3  | [#18908](https://github.com/kubevirt/kubevirt/pull/18908) | [kubevirt-bot](https://github.com/kubevirt-bot) |
 | SR-IOV interfaces are no longer supported with DRA networks.  | [#18451](https://github.com/kubevirt/kubevirt/pull/18451) | [orelmisan](https://github.com/orelmisan) |
 | Graduate the PodSecondaryInterfaceNamingUpgrade feature gate to GA. The pre-migration hook that converts ordinal network interface names to hashed equivalents now runs unconditionally.  | [#18317](https://github.com/kubevirt/kubevirt/pull/18317) | [orelmisan](https://github.com/orelmisan) |
