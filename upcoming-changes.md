@@ -11,6 +11,10 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| Network Binding Plugins sidecars receive DRA resource claims for device metadata access  | [#18741](https://github.com/kubevirt/kubevirt/pull/18741) | [frenzyfriday](https://github.com/frenzyfriday) |
+| Fixed a source-side ghost record leak on decentralized live migration that could prevent a subsequent same-name VirtualMachineInstance from starting on the same node.  | [#18988](https://github.com/kubevirt/kubevirt/pull/18988) | [davmarro](https://github.com/davmarro) |
+| Add Conformance decorator to PVC expansion test for storage<br>self-certification coverage.  | [#18458](https://github.com/kubevirt/kubevirt/pull/18458) | [Ahmad-Hafe](https://github.com/Ahmad-Hafe) |
+| client-go: GetKubevirtSubresourceClient is removed  | [#18874](https://github.com/kubevirt/kubevirt/pull/18874) | [xpivarc](https://github.com/xpivarc) |
 | Fix GuestFilesystemAlmostOutOfSpace firing on Windows VMs when a UDF CDROM/ISO is attached.  | [#18994](https://github.com/kubevirt/kubevirt/pull/18994) | [avlitman](https://github.com/avlitman) |
 | Changing recording rule expression  | [#18986](https://github.com/kubevirt/kubevirt/pull/18986) | [Ronilerr](https://github.com/Ronilerr) |
 | Fix no ready alerts  | [#18942](https://github.com/kubevirt/kubevirt/pull/18942) | [Ronilerr](https://github.com/Ronilerr) |
