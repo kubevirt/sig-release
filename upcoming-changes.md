@@ -11,6 +11,9 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| Add guest-get-fsinfo to GetVMStats  | [#19002](https://github.com/kubevirt/kubevirt/pull/19002) | [machadovilaca](https://github.com/machadovilaca) |
+| BugFix: Fixed race condition where target node and source fields were racing which could cause a migration failed.  | [#18604](https://github.com/kubevirt/kubevirt/pull/18604) | [awels](https://github.com/awels) |
+|   | [#16346](https://github.com/kubevirt/kubevirt/pull/16346) | [ram2valar](https://github.com/ram2valar) |
 | Network Binding Plugins sidecars receive DRA resource claims for device metadata access  | [#18741](https://github.com/kubevirt/kubevirt/pull/18741) | [frenzyfriday](https://github.com/frenzyfriday) |
 | Fixed a source-side ghost record leak on decentralized live migration that could prevent a subsequent same-name VirtualMachineInstance from starting on the same node.  | [#18988](https://github.com/kubevirt/kubevirt/pull/18988) | [davmarro](https://github.com/davmarro) |
 | Add Conformance decorator to PVC expansion test for storage<br>self-certification coverage.  | [#18458](https://github.com/kubevirt/kubevirt/pull/18458) | [Ahmad-Hafe](https://github.com/Ahmad-Hafe) |
