@@ -11,6 +11,9 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| Fix PVC expansion preallocating new space on full thin provisioned disks  | [#18827](https://github.com/kubevirt/kubevirt/pull/18827) | [germanovm](https://github.com/germanovm) |
+| Fixed VirtualMachineExport manifests retaining stale CA certificates when exporter Pods are recreated after CA rotation, which could cause CDI disk imports to fail TLS verification  | [#18965](https://github.com/kubevirt/kubevirt/pull/18965) | [lukashes](https://github.com/lukashes) |
+| Graduate the KubevirtSeccompProfile feature gate to GA. The custom seccomp profile is now always installed. Tighten profile file permissions to 0600, and write it atomically.  | [#18888](https://github.com/kubevirt/kubevirt/pull/18888) | [dankenigsberg](https://github.com/dankenigsberg) |
 | Add guest-get-fsinfo to GetVMStats  | [#19002](https://github.com/kubevirt/kubevirt/pull/19002) | [machadovilaca](https://github.com/machadovilaca) |
 | BugFix: Fixed race condition where target node and source fields were racing which could cause a migration failed.  | [#18604](https://github.com/kubevirt/kubevirt/pull/18604) | [awels](https://github.com/awels) |
 |   | [#16346](https://github.com/kubevirt/kubevirt/pull/16346) | [ram2valar](https://github.com/ram2valar) |
