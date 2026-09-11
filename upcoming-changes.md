@@ -11,6 +11,8 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| virtctl: add vsock ssh proxy command  | [#18274](https://github.com/kubevirt/kubevirt/pull/18274) | [ksimon1](https://github.com/ksimon1) |
+| BugFix: Prevent duplicate attachment pods when both utility volumes and hotplug volumes are used in a single VM  | [#18843](https://github.com/kubevirt/kubevirt/pull/18843) | [awels](https://github.com/awels) |
 | Expose guest device info via VMStatsCollector  | [#19007](https://github.com/kubevirt/kubevirt/pull/19007) | [codingben](https://github.com/codingben) |
 | Fix PVC expansion preallocating new space on full thin provisioned disks  | [#18827](https://github.com/kubevirt/kubevirt/pull/18827) | [germanovm](https://github.com/germanovm) |
 | Fixed VirtualMachineExport manifests retaining stale CA certificates when exporter Pods are recreated after CA rotation, which could cause CDI disk imports to fail TLS verification  | [#18965](https://github.com/kubevirt/kubevirt/pull/18965) | [lukashes](https://github.com/lukashes) |
