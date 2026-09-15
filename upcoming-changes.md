@@ -11,6 +11,8 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| Allow Prometheus to list EndpointSlices in the KubeVirt namespace  | [#19041](https://github.com/kubevirt/kubevirt/pull/19041) | [machadovilaca](https://github.com/machadovilaca) |
+| Libvirt updated to 12.5.0-4.el10  | [#19048](https://github.com/kubevirt/kubevirt/pull/19048) | [michalskrivanek](https://github.com/michalskrivanek) |
 | virtctl: add vsock ssh proxy command  | [#18274](https://github.com/kubevirt/kubevirt/pull/18274) | [ksimon1](https://github.com/ksimon1) |
 | BugFix: Prevent duplicate attachment pods when both utility volumes and hotplug volumes are used in a single VM  | [#18843](https://github.com/kubevirt/kubevirt/pull/18843) | [awels](https://github.com/awels) |
 | Expose guest device info via VMStatsCollector  | [#19007](https://github.com/kubevirt/kubevirt/pull/19007) | [codingben](https://github.com/codingben) |
