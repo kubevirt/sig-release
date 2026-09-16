@@ -11,6 +11,10 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| Vera Rubin GPU (10de:3041) is now recognised as a Grace GPU, enabling GraceIOVirtualization for VMs with a passthrough Vera Rubin GPU.  | [#19070](https://github.com/kubevirt/kubevirt/pull/19070) | [lyarwood](https://github.com/lyarwood) |
+| Add VMI GPU usage recording rules correlating DCGM metrics  | [#18962](https://github.com/kubevirt/kubevirt/pull/18962) | [machadovilaca](https://github.com/machadovilaca) |
+| Ensure terminated launcher pods are pruned from VMI status.activePods after live migration  | [#18287](https://github.com/kubevirt/kubevirt/pull/18287) | [dasionov](https://github.com/dasionov) |
+| VMs with CBT now correctly factor in the required memory overhead for each of their included disks.  | [#18416](https://github.com/kubevirt/kubevirt/pull/18416) | [Acedus](https://github.com/Acedus) |
 | Allow Prometheus to list EndpointSlices in the KubeVirt namespace  | [#19041](https://github.com/kubevirt/kubevirt/pull/19041) | [machadovilaca](https://github.com/machadovilaca) |
 | Libvirt updated to 12.5.0-4.el10  | [#19048](https://github.com/kubevirt/kubevirt/pull/19048) | [michalskrivanek](https://github.com/michalskrivanek) |
 | virtctl: add vsock ssh proxy command  | [#18274](https://github.com/kubevirt/kubevirt/pull/18274) | [ksimon1](https://github.com/ksimon1) |
