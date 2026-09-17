@@ -11,6 +11,10 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| Guest clock now properly syncs after multiple pause/unpause  | [#19089](https://github.com/kubevirt/kubevirt/pull/19089) | [jean-edouard](https://github.com/jean-edouard) |
+| Users will now receive a simplified error message than what QEMU reports when two VMs share the same disk image when an NFS storage class is uitilized in the 'Conditions' field in the faulty VM/VMI. The complicated QEMU error can still be found in the 'virt-handler' pod.  | [#18943](https://github.com/kubevirt/kubevirt/pull/18943) | [HoustonBoston](https://github.com/HoustonBoston) |
+| Fixed a bug where an OCI VirtualMachineExport of a VM with a persistent TPM or EFI never became ready  | [#19085](https://github.com/kubevirt/kubevirt/pull/19085) | [0xFelix](https://github.com/0xFelix) |
+| image changes for Centos Stream 10 compatibility, notably adds /var/run -> ../run symlink to virt-handler image layer due to how CS10 creates sockets in /run/ but kubevirt expects them to exist in /var/run/  | [#18951](https://github.com/kubevirt/kubevirt/pull/18951) | [dsanatar](https://github.com/dsanatar) |
 | Vera Rubin GPU (10de:3041) is now recognised as a Grace GPU, enabling GraceIOVirtualization for VMs with a passthrough Vera Rubin GPU.  | [#19070](https://github.com/kubevirt/kubevirt/pull/19070) | [lyarwood](https://github.com/lyarwood) |
 | Add VMI GPU usage recording rules correlating DCGM metrics  | [#18962](https://github.com/kubevirt/kubevirt/pull/18962) | [machadovilaca](https://github.com/machadovilaca) |
 | Ensure terminated launcher pods are pruned from VMI status.activePods after live migration  | [#18287](https://github.com/kubevirt/kubevirt/pull/18287) | [dasionov](https://github.com/dasionov) |
