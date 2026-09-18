@@ -11,6 +11,7 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| Report InvalidImageName container disk errors on the VMI and surface ErrImagePull on the VM instead of leaving the VM stuck in Starting. Pool autoheal for VM's may apply, on the error condition, where it did not before.  | [#18872](https://github.com/kubevirt/kubevirt/pull/18872) | [ameya-keskar](https://github.com/ameya-keskar) |
 | Guest clock now properly syncs after multiple pause/unpause  | [#19089](https://github.com/kubevirt/kubevirt/pull/19089) | [jean-edouard](https://github.com/jean-edouard) |
 | Users will now receive a simplified error message than what QEMU reports when two VMs share the same disk image when an NFS storage class is uitilized in the 'Conditions' field in the faulty VM/VMI. The complicated QEMU error can still be found in the 'virt-handler' pod.  | [#18943](https://github.com/kubevirt/kubevirt/pull/18943) | [HoustonBoston](https://github.com/HoustonBoston) |
 | Fixed a bug where an OCI VirtualMachineExport of a VM with a persistent TPM or EFI never became ready  | [#19085](https://github.com/kubevirt/kubevirt/pull/19085) | [0xFelix](https://github.com/0xFelix) |
