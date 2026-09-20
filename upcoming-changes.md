@@ -11,6 +11,7 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| The VSOCK feature gate graduated to Beta and is now enabled by default.  | [#19155](https://github.com/kubevirt/kubevirt/pull/19155) | [0xFelix](https://github.com/0xFelix) |
 | VMStats guest agent data is refreshed after a guest OS reboot instead of being served from cache until its TTL expires  | [#19169](https://github.com/kubevirt/kubevirt/pull/19169) | [0xFelix](https://github.com/0xFelix) |
 | Label "cpumanager" is no longer used  | [#19100](https://github.com/kubevirt/kubevirt/pull/19100) | [xpivarc](https://github.com/xpivarc) |
 | Fixed a bug where hotplugging a block volume or triggering a live migration on s390x crashed virtqemud due to /dev/urandom being removed from the cgroup device allow list. /dev/urandom (char 1:9) is now unconditionally included in the default cgroup device rules, consistent with the OCI runtime specification. This also fixes a latent bug on x86_64 where /dev/urandom was incorrectly revoked but masked by the RDRAND hardware entropy fallback.  | [#19131](https://github.com/kubevirt/kubevirt/pull/19131) | [vishnubijukumar](https://github.com/vishnubijukumar) |
