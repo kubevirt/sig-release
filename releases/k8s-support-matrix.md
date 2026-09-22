@@ -11,3 +11,12 @@
 
 
 Note: _EOL_ means that the Kubernetes version was supported by KubeVirt but has reached end of life. See [Kubernetes releases](https://kubernetes.io/releases/) for more details
+
+## Support Exceptions
+
+The KubeVirt community maintains the ability to extend support for a KubeVirt
+release to older Kubernetes versions that may fall outside of the
+latest 3 Kubernetes releases present at the time of the KubeVirt release.
+
+For more details on Kubernetes version compatibility, see the [Kubernetes Version Compatibility](https://github.com/kubevirt/kubevirt/blob/main/docs/kubernetes-compatibility.md#support-exceptions)
+documentation in the kubevirt/kubevirt repository.
