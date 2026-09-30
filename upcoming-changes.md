@@ -11,6 +11,8 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| Add vm label to kubevirt_vm_info and kubevirt_vmi_info (VMI only when owned by a VirtualMachine)  | [#19149](https://github.com/kubevirt/kubevirt/pull/19149) | [sradco](https://github.com/sradco) |
+| Add GPU utilization time and active engine time recording rules  | [#19144](https://github.com/kubevirt/kubevirt/pull/19144) | [machadovilaca](https://github.com/machadovilaca) |
 | Decentralized live migration can now use a proxy to reduce the number of ip addresses required<br>Using kubectl apply the kubevirt CRD has reached the annotation length limit, use server side apply instead  | [#17922](https://github.com/kubevirt/kubevirt/pull/17922) | [awels](https://github.com/awels) |
 | The VSOCK feature gate graduated to Beta and is now enabled by default.  | [#19155](https://github.com/kubevirt/kubevirt/pull/19155) | [0xFelix](https://github.com/0xFelix) |
 | VMStats guest agent data is refreshed after a guest OS reboot instead of being served from cache until its TTL expires  | [#19169](https://github.com/kubevirt/kubevirt/pull/19169) | [0xFelix](https://github.com/0xFelix) |
