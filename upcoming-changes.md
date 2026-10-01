@@ -11,6 +11,10 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| Virt*Down alerts include container waiting reason when the component is fully unavailable  | [#17985](https://github.com/kubevirt/kubevirt/pull/17985) | [sradco](https://github.com/sradco) |
+| Bugfix: Increase timeout for velero post-backup hook  | [#19166](https://github.com/kubevirt/kubevirt/pull/19166) | [alromeros](https://github.com/alromeros) |
+| BugFix: blockresize spam when doing I/O for filesystem volumes  | [#19120](https://github.com/kubevirt/kubevirt/pull/19120) | [akalenyu](https://github.com/akalenyu) |
+| adds kubevirt.io/mergeable-memory annotation to opt out the guest memory from kernel memory merging  | [#19033](https://github.com/kubevirt/kubevirt/pull/19033) | [michalskrivanek](https://github.com/michalskrivanek) |
 | Add vm label to kubevirt_vm_info and kubevirt_vmi_info (VMI only when owned by a VirtualMachine)  | [#19149](https://github.com/kubevirt/kubevirt/pull/19149) | [sradco](https://github.com/sradco) |
 | Add GPU utilization time and active engine time recording rules  | [#19144](https://github.com/kubevirt/kubevirt/pull/19144) | [machadovilaca](https://github.com/machadovilaca) |
 | Decentralized live migration can now use a proxy to reduce the number of ip addresses required<br>Using kubectl apply the kubevirt CRD has reached the annotation length limit, use server side apply instead  | [#17922](https://github.com/kubevirt/kubevirt/pull/17922) | [awels](https://github.com/awels) |
