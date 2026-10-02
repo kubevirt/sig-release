@@ -11,6 +11,8 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| Add structured `links` field to `VirtualMachineBackup` status exposing both internal and external export endpoints for pull-mode backups. The existing endpoint fields are removed.  | [#18537](https://github.com/kubevirt/kubevirt/pull/18537) | [davmarro](https://github.com/davmarro) |
+| Accept a per-VMI VMStatsRequest body in virt-handler GetVMStats  | [#18938](https://github.com/kubevirt/kubevirt/pull/18938) | [machadovilaca](https://github.com/machadovilaca) |
 | Virt*Down alerts include container waiting reason when the component is fully unavailable  | [#17985](https://github.com/kubevirt/kubevirt/pull/17985) | [sradco](https://github.com/sradco) |
 | Bugfix: Increase timeout for velero post-backup hook  | [#19166](https://github.com/kubevirt/kubevirt/pull/19166) | [alromeros](https://github.com/alromeros) |
 | BugFix: blockresize spam when doing I/O for filesystem volumes  | [#19120](https://github.com/kubevirt/kubevirt/pull/19120) | [akalenyu](https://github.com/akalenyu) |
