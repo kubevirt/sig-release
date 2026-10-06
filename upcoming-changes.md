@@ -11,6 +11,10 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| When Windows guest crashes and VM has a `hyperv` panic device configured, kubevirt no longer immediately terminates the VM and allows Windows to finish its default memory dump process and reboot. The actual behavior is guest-side configurable.  | [#19011](https://github.com/kubevirt/kubevirt/pull/19011) | [michalskrivanek](https://github.com/michalskrivanek) |
+| Fix: incremental pull-mode backups no longer silently leave out changed blocks from the backup map on fragmented disks.  | [#19315](https://github.com/kubevirt/kubevirt/pull/19315) | [Acedus](https://github.com/Acedus) |
+| Propagate the `instancetype.kubevirt.io/common-instancetypes-version` label from referenced instancetype and preference objects to their captured `ControllerRevision` metadata labels.  | [#19006](https://github.com/kubevirt/kubevirt/pull/19006) | [lyarwood](https://github.com/lyarwood) |
+| virt-handler now exposes a per-VMI gauge containing the downtime reported for the latest successful live migration.  | [#17974](https://github.com/kubevirt/kubevirt/pull/17974) | [bxuan1999](https://github.com/bxuan1999) |
 | Add structured `links` field to `VirtualMachineBackup` status exposing both internal and external export endpoints for pull-mode backups. The existing endpoint fields are removed.  | [#18537](https://github.com/kubevirt/kubevirt/pull/18537) | [davmarro](https://github.com/davmarro) |
 | Accept a per-VMI VMStatsRequest body in virt-handler GetVMStats  | [#18938](https://github.com/kubevirt/kubevirt/pull/18938) | [machadovilaca](https://github.com/machadovilaca) |
 | Virt*Down alerts include container waiting reason when the component is fully unavailable  | [#17985](https://github.com/kubevirt/kubevirt/pull/17985) | [sradco](https://github.com/sradco) |
