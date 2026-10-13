@@ -11,6 +11,8 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| Istio sidecar proxy termination is no longer handled by virt-launcher-monitor; Istio >= 1.27 is required with kubevirt (alternatively, use native sidecar mode)  | [#19239](https://github.com/kubevirt/kubevirt/pull/19239) | [akalenyu](https://github.com/akalenyu) |
+| Fixed a bug where a VirtualMachineExport of a source referencing the same PVC from more than one volume would never complete  | [#19057](https://github.com/kubevirt/kubevirt/pull/19057) | [0xFelix](https://github.com/0xFelix) |
 | Updated virt-template to v0.3.0  | [#19388](https://github.com/kubevirt/kubevirt/pull/19388) | [0xFelix](https://github.com/0xFelix) |
 | The kubevirt.io/disablePCIHole64 annotation now also stops SeaBIOS from programming a 64-bit PCI hole, allowing legacy guests like Windows Server 2003 to run with 4Gi of memory or more.  | [#18941](https://github.com/kubevirt/kubevirt/pull/18941) | [0xFelix](https://github.com/0xFelix) |
 | Make new virt-export Services headless on port 8443 so virt-exportproxy can reach exporters across isolated networks. Existing ClusterIP/443 export Services are left in place. Internal VMExport links include the Service dial port (:8443 or :443).  | [#18606](https://github.com/kubevirt/kubevirt/pull/18606) | [OOsemka](https://github.com/OOsemka) |
