@@ -11,6 +11,9 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| Enable readOnlyRootFilesystem for all KubeVirt infrastructure containers  | [#18853](https://github.com/kubevirt/kubevirt/pull/18853) | [davmarro](https://github.com/davmarro) |
+| Removed deprecated virtctl create vm flags --volume-blank, --volume-datasource, and --volume-clone-pvc. Use --volume-import with type:blank, type:ds, or type:pvc instead.  | [#19362](https://github.com/kubevirt/kubevirt/pull/19362) | [NoamBerkoLaor](https://github.com/NoamBerkoLaor) |
+| virt-handler no longer deletes mediated devices it did not create, so DRA-owned vfio-ap devices are not torn out from under running VMs  | [#19099](https://github.com/kubevirt/kubevirt/pull/19099) | [HarshithaMS005](https://github.com/HarshithaMS005) |
 | Istio sidecar proxy termination is no longer handled by virt-launcher-monitor; Istio >= 1.27 is required with kubevirt (alternatively, use native sidecar mode)  | [#19239](https://github.com/kubevirt/kubevirt/pull/19239) | [akalenyu](https://github.com/akalenyu) |
 | Fixed a bug where a VirtualMachineExport of a source referencing the same PVC from more than one volume would never complete  | [#19057](https://github.com/kubevirt/kubevirt/pull/19057) | [0xFelix](https://github.com/0xFelix) |
 | Updated virt-template to v0.3.0  | [#19388](https://github.com/kubevirt/kubevirt/pull/19388) | [0xFelix](https://github.com/0xFelix) |
