@@ -11,6 +11,8 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| virt-api: the port-forward subresource (used by `virtctl port-forward` and `virtctl ssh`) now dials the virt-launcher pod IP for VMIs connected to the pod network, instead of the first IP reported in the VMI interface status. The virt-api cluster role gains the `watch` verb on pods.  | [#19019](https://github.com/kubevirt/kubevirt/pull/19019) | [lllamnyp](https://github.com/lllamnyp) |
+| Removed legacy name-based firmware UUID calculation and the firmware synchronizer.  | [#17399](https://github.com/kubevirt/kubevirt/pull/17399) | [dasionov](https://github.com/dasionov) |
 | Enable readOnlyRootFilesystem for all KubeVirt infrastructure containers  | [#18853](https://github.com/kubevirt/kubevirt/pull/18853) | [davmarro](https://github.com/davmarro) |
 | Removed deprecated virtctl create vm flags --volume-blank, --volume-datasource, and --volume-clone-pvc. Use --volume-import with type:blank, type:ds, or type:pvc instead.  | [#19362](https://github.com/kubevirt/kubevirt/pull/19362) | [NoamBerkoLaor](https://github.com/NoamBerkoLaor) |
 | virt-handler no longer deletes mediated devices it did not create, so DRA-owned vfio-ap devices are not torn out from under running VMs  | [#19099](https://github.com/kubevirt/kubevirt/pull/19099) | [HarshithaMS005](https://github.com/HarshithaMS005) |
