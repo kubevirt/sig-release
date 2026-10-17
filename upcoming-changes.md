@@ -11,6 +11,8 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| Keep partial VMStats when a sub-command fails  | [#19192](https://github.com/kubevirt/kubevirt/pull/19192) | [machadovilaca](https://github.com/machadovilaca) |
+| Decentralized live migration using the proxy dataPath supports Route/Ingress/Service endpoints  | [#19351](https://github.com/kubevirt/kubevirt/pull/19351) | [awels](https://github.com/awels) |
 | virt-api: the port-forward subresource (used by `virtctl port-forward` and `virtctl ssh`) now dials the virt-launcher pod IP for VMIs connected to the pod network, instead of the first IP reported in the VMI interface status. The virt-api cluster role gains the `watch` verb on pods.  | [#19019](https://github.com/kubevirt/kubevirt/pull/19019) | [lllamnyp](https://github.com/lllamnyp) |
 | Removed legacy name-based firmware UUID calculation and the firmware synchronizer.  | [#17399](https://github.com/kubevirt/kubevirt/pull/17399) | [dasionov](https://github.com/dasionov) |
 | Enable readOnlyRootFilesystem for all KubeVirt infrastructure containers  | [#18853](https://github.com/kubevirt/kubevirt/pull/18853) | [davmarro](https://github.com/davmarro) |
