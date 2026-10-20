@@ -11,6 +11,10 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| Updated common-instancetypes bundles to v1.8.0  | [#19521](https://github.com/kubevirt/kubevirt/pull/19521) | [kubevirt-bot](https://github.com/kubevirt-bot) |
+| Fix repeated synchronization endpoint misconfiguration Warning events caused by unstable cache ordering.  | [#19481](https://github.com/kubevirt/kubevirt/pull/19481) | [lyarwood](https://github.com/lyarwood) |
+| Add configuration option for cluster wide and per VM emulation (Alpha Stage).<br>Action Required: Add `spec.configuration.emulationPolicy: Software` to kubevirt CR to keep existing behaviour if using Software Emulation<br>Note: LiveMigration of VMs using Emulation is untested and unsupported. However as it is still in alpha, it is not blocked at the moment.  | [#19244](https://github.com/kubevirt/kubevirt/pull/19244) | [jschintag](https://github.com/jschintag) |
+| VMI whose DRA network is backed by a ResourceClaim (rather than a ResourceClaimTemplate) are now reported as non-migratable.  | [#19468](https://github.com/kubevirt/kubevirt/pull/19468) | [orelmisan](https://github.com/orelmisan) |
 | Backups whose VMI is deleted mid-backup now fail immediately, and pull-mode backups remove their export.  | [#19484](https://github.com/kubevirt/kubevirt/pull/19484) | [Acedus](https://github.com/Acedus) |
 | Keep partial VMStats when a sub-command fails  | [#19192](https://github.com/kubevirt/kubevirt/pull/19192) | [machadovilaca](https://github.com/machadovilaca) |
 | Decentralized live migration using the proxy dataPath supports Route/Ingress/Service endpoints  | [#19351](https://github.com/kubevirt/kubevirt/pull/19351) | [awels](https://github.com/awels) |
