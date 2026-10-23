@@ -11,6 +11,15 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| The pod-status VMI network interface info source is now reported for interfaces whose device is ready in the pod (DRA-backed, and Multus-backed secondary interfaces), when the NetworkDevicesWithDRA feature gate is enabled.  | [#19572](https://github.com/kubevirt/kubevirt/pull/19572) | [orelmisan](https://github.com/orelmisan) |
+| Declarative VirtualMachineState  | [#19173](https://github.com/kubevirt/kubevirt/pull/19173) | [alromeros](https://github.com/alromeros) |
+| HostDisk volumes are no longer eligible for changed block tracking.  | [#19410](https://github.com/kubevirt/kubevirt/pull/19410) | [Acedus](https://github.com/Acedus) |
+| Use a memory-backed emptyDir for the hotplug mount root to support mount propagation.  | [#19520](https://github.com/kubevirt/kubevirt/pull/19520) | [noamasu](https://github.com/noamasu) |
+| Cleanup CBT overlays when disabling CBT  | [#19435](https://github.com/kubevirt/kubevirt/pull/19435) | [awels](https://github.com/awels) |
+| ContainerPath volumes graduate to beta  | [#19382](https://github.com/kubevirt/kubevirt/pull/19382) | [mhenriks](https://github.com/mhenriks) |
+| virt-launcher-monitor is rewritten in C to reduce memory footprint to about 2Mi  | [#19240](https://github.com/kubevirt/kubevirt/pull/19240) | [vladikr](https://github.com/vladikr) |
+| Fixed a bug where a VirtualMachineExport of a VM with two claims whose names differ only in dots would never complete  | [#19064](https://github.com/kubevirt/kubevirt/pull/19064) | [0xFelix](https://github.com/0xFelix) |
+| IOThread Virtqueue Mapping for virtio-scsi  | [#18249](https://github.com/kubevirt/kubevirt/pull/18249) | [dsanatar](https://github.com/dsanatar) |
 | Renamed the alpha feature gate for mdev-based vGPU live migration from VGPULiveMigration to MDevVGPULiveMigration.  | [#19546](https://github.com/kubevirt/kubevirt/pull/19546) | [dasionov](https://github.com/dasionov) |
 | Fixed a bug where a Unix socket listener may be left open if an error occurs while setting file ownership on the socket  | [#19534](https://github.com/kubevirt/kubevirt/pull/19534) | [caxu-rh](https://github.com/caxu-rh) |
 | Only add virt-handler migration identity to synchronization controller if proxy is enabled.  | [#19490](https://github.com/kubevirt/kubevirt/pull/19490) | [awels](https://github.com/awels) |
