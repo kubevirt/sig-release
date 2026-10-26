@@ -11,6 +11,8 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| NetworkDevicesWithDRA Feature Gate is now in Beta stage  | [#19511](https://github.com/kubevirt/kubevirt/pull/19511) | [nirdothan](https://github.com/nirdothan) |
+| Add Alpha UEFI Secure Boot support for ARM64 guests through the ARM64SecureBoot and FirmwareAutoSelection feature gates. Requires CentOS Stream 10 virt-launcher images with suitable QEMU, libvirt, and edk2 firmware. Supports persistent EFI state through existing backend storage.  | [#17135](https://github.com/kubevirt/kubevirt/pull/17135) | [lyarwood](https://github.com/lyarwood) |
 | Build KubeVirt with go 1.26.10  | [#19590](https://github.com/kubevirt/kubevirt/pull/19590) | [lyarwood](https://github.com/lyarwood) |
 | The io.kubevirt.disk.name annotation of exported OCI artifacts now carries the volume name from the VM instead of the PersistentVolumeClaim name  | [#19066](https://github.com/kubevirt/kubevirt/pull/19066) | [0xFelix](https://github.com/0xFelix) |
 | Alpha: Add CPUsWithDRA to provision dedicated VMI CPUs via a DRA CPU driver instead of kubelet's CPU manager.<br>Fix dedicated-CPU VMIs reserving an extra host CPU when supplementalPool IO threads are combined with EmulatorThreadCompleteToEvenParity.  | [#19228](https://github.com/kubevirt/kubevirt/pull/19228) | [Sreeja1725](https://github.com/Sreeja1725) |
