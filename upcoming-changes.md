@@ -11,6 +11,9 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| Exported OCI archives now contain the Image Index as a blob referenced from index.json with ref.name "latest", so pushing them creates an Image Index in the registry  | [#19485](https://github.com/kubevirt/kubevirt/pull/19485) | [0xFelix](https://github.com/0xFelix) |
+| Memory dumps are attached as utility volumes and require the UtilityVolumes feature gate, which is promoted to Beta and enabled by default. VM snapshots and exports no longer include the memory dump PVC.  | [#19550](https://github.com/kubevirt/kubevirt/pull/19550) | [Acedus](https://github.com/Acedus) |
+| VirtualMachineBackup no longer fails when a disk has lost the base checkpoint's bitmap; that disk is backed up in full and type is now reported per volume in `status.includedVolumes[].type`, replacing the removed `status.type`.  | [#19056](https://github.com/kubevirt/kubevirt/pull/19056) | [Acedus](https://github.com/Acedus) |
 | NetworkDevicesWithDRA Feature Gate is now in Beta stage  | [#19511](https://github.com/kubevirt/kubevirt/pull/19511) | [nirdothan](https://github.com/nirdothan) |
 | Add Alpha UEFI Secure Boot support for ARM64 guests through the ARM64SecureBoot and FirmwareAutoSelection feature gates. Requires CentOS Stream 10 virt-launcher images with suitable QEMU, libvirt, and edk2 firmware. Supports persistent EFI state through existing backend storage.  | [#17135](https://github.com/kubevirt/kubevirt/pull/17135) | [lyarwood](https://github.com/lyarwood) |
 | Build KubeVirt with go 1.26.10  | [#19590](https://github.com/kubevirt/kubevirt/pull/19590) | [lyarwood](https://github.com/lyarwood) |
