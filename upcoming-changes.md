@@ -11,6 +11,8 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| Guest writes are recovered when a VM starts after a virt-launcher crash during an External mode snapshot.  | [#19574](https://github.com/kubevirt/kubevirt/pull/19574) | [noamasu](https://github.com/noamasu) |
+| VEP 321: add External mode VirtualMachineSnapshot  | [#19360](https://github.com/kubevirt/kubevirt/pull/19360) | [noamasu](https://github.com/noamasu) |
 | Exported OCI archives now contain the Image Index as a blob referenced from index.json with ref.name "latest", so pushing them creates an Image Index in the registry  | [#19485](https://github.com/kubevirt/kubevirt/pull/19485) | [0xFelix](https://github.com/0xFelix) |
 | Memory dumps are attached as utility volumes and require the UtilityVolumes feature gate, which is promoted to Beta and enabled by default. VM snapshots and exports no longer include the memory dump PVC.  | [#19550](https://github.com/kubevirt/kubevirt/pull/19550) | [Acedus](https://github.com/Acedus) |
 | VirtualMachineBackup no longer fails when a disk has lost the base checkpoint's bitmap; that disk is backed up in full and type is now reported per volume in `status.includedVolumes[].type`, replacing the removed `status.type`.  | [#19056](https://github.com/kubevirt/kubevirt/pull/19056) | [Acedus](https://github.com/Acedus) |
