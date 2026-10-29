@@ -11,6 +11,7 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| Fixed a bug that caused a gRPC connection to leak when virt-handler client initialization fails  | [#19492](https://github.com/kubevirt/kubevirt/pull/19492) | [caxu-rh](https://github.com/caxu-rh) |
 | Guest writes are recovered when a VM starts after a virt-launcher crash during an External mode snapshot.  | [#19574](https://github.com/kubevirt/kubevirt/pull/19574) | [noamasu](https://github.com/noamasu) |
 | VEP 321: add External mode VirtualMachineSnapshot  | [#19360](https://github.com/kubevirt/kubevirt/pull/19360) | [noamasu](https://github.com/noamasu) |
 | Exported OCI archives now contain the Image Index as a blob referenced from index.json with ref.name "latest", so pushing them creates an Image Index in the registry  | [#19485](https://github.com/kubevirt/kubevirt/pull/19485) | [0xFelix](https://github.com/0xFelix) |
