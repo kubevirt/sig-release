@@ -11,6 +11,10 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| Fixed a bug where a Unix socket listener may be left open if an invalid socket path is specified  | [#19532](https://github.com/kubevirt/kubevirt/pull/19532) | [caxu-rh](https://github.com/caxu-rh) |
+| Fixed hotplug attachment pods entering an infinite create/delete loop when<br>mutating admission webhooks inject additional volumes into hp-volume pods.  | [#19442](https://github.com/kubevirt/kubevirt/pull/19442) | [nijinashok](https://github.com/nijinashok) |
+| Prevent virt-operator from repeatedly reconciling idle deployments in response to unrelated leader-election Leases and routine Lease renewals.  | [#19417](https://github.com/kubevirt/kubevirt/pull/19417) | [lyarwood](https://github.com/lyarwood) |
+| Offline incremental backup  | [#19294](https://github.com/kubevirt/kubevirt/pull/19294) | [alromeros](https://github.com/alromeros) |
 | Fixed a bug that caused a gRPC connection to leak when virt-handler client initialization fails  | [#19492](https://github.com/kubevirt/kubevirt/pull/19492) | [caxu-rh](https://github.com/caxu-rh) |
 | Guest writes are recovered when a VM starts after a virt-launcher crash during an External mode snapshot.  | [#19574](https://github.com/kubevirt/kubevirt/pull/19574) | [noamasu](https://github.com/noamasu) |
 | VEP 321: add External mode VirtualMachineSnapshot  | [#19360](https://github.com/kubevirt/kubevirt/pull/19360) | [noamasu](https://github.com/noamasu) |
