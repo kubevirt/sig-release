@@ -11,6 +11,10 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| Expired pull mode backups are marked failed instead of succeeded.  | [#19478](https://github.com/kubevirt/kubevirt/pull/19478) | [awels](https://github.com/awels) |
+| Beta: IncrementalBackup, and introduce backup.kubevirt.io/v1beta1  | [#19637](https://github.com/kubevirt/kubevirt/pull/19637) | [Acedus](https://github.com/Acedus) |
+| CBT overlays are now keyed by volume and PVC name. Pointing a volume at a different PVC triggers a Full backup instead of an incorrect incremental.  | [#19404](https://github.com/kubevirt/kubevirt/pull/19404) | [Acedus](https://github.com/Acedus) |
+| Fix for cluster-profiler dump command, to now dump profiling for control-plane pods when the selector field is empty, as earlier was returning no results when run without a label selector  | [#19225](https://github.com/kubevirt/kubevirt/pull/19225) | [ameya-keskar](https://github.com/ameya-keskar) |
 | Fixed a bug where a Unix socket listener may be left open if an invalid socket path is specified  | [#19532](https://github.com/kubevirt/kubevirt/pull/19532) | [caxu-rh](https://github.com/caxu-rh) |
 | Fixed hotplug attachment pods entering an infinite create/delete loop when<br>mutating admission webhooks inject additional volumes into hp-volume pods.  | [#19442](https://github.com/kubevirt/kubevirt/pull/19442) | [nijinashok](https://github.com/nijinashok) |
 | Prevent virt-operator from repeatedly reconciling idle deployments in response to unrelated leader-election Leases and routine Lease renewals.  | [#19417](https://github.com/kubevirt/kubevirt/pull/19417) | [lyarwood](https://github.com/lyarwood) |
