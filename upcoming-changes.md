@@ -11,6 +11,7 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| Live migrations are no longer scheduled from a node running an updated virt-handler onto a node that has not yet been updated, preventing migrations from getting stuck during a rolling upgrade.  | [#19134](https://github.com/kubevirt/kubevirt/pull/19134) | [stu-gott](https://github.com/stu-gott) |
 | Expired pull mode backups are marked failed instead of succeeded.  | [#19478](https://github.com/kubevirt/kubevirt/pull/19478) | [awels](https://github.com/awels) |
 | Beta: IncrementalBackup, and introduce backup.kubevirt.io/v1beta1  | [#19637](https://github.com/kubevirt/kubevirt/pull/19637) | [Acedus](https://github.com/Acedus) |
 | CBT overlays are now keyed by volume and PVC name. Pointing a volume at a different PVC triggers a Full backup instead of an incorrect incremental.  | [#19404](https://github.com/kubevirt/kubevirt/pull/19404) | [Acedus](https://github.com/Acedus) |
