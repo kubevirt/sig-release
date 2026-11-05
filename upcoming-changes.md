@@ -11,6 +11,9 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| Fix VMIs with SR-IOV, GPU or PCI host devices failing to start when the Plugins feature gate is enabled and any Plugin exists in the cluster.  | [#19720](https://github.com/kubevirt/kubevirt/pull/19720) | [iholder101](https://github.com/iholder101) |
+| manifest-templator now rejects --infra-replicas values above 255 instead of silently wrapping them around.  | [#19602](https://github.com/kubevirt/kubevirt/pull/19602) | [cvas22](https://github.com/cvas22) |
+| Fixed a virt-handler panic when a device plugin is restarted, which on nodes with host devices happened on every kubelet restart.  | [#18622](https://github.com/kubevirt/kubevirt/pull/18622) | [alichtl](https://github.com/alichtl) |
 | Live migrations are no longer scheduled from a node running an updated virt-handler onto a node that has not yet been updated, preventing migrations from getting stuck during a rolling upgrade.  | [#19134](https://github.com/kubevirt/kubevirt/pull/19134) | [stu-gott](https://github.com/stu-gott) |
 | Expired pull mode backups are marked failed instead of succeeded.  | [#19478](https://github.com/kubevirt/kubevirt/pull/19478) | [awels](https://github.com/awels) |
 | Beta: IncrementalBackup, and introduce backup.kubevirt.io/v1beta1  | [#19637](https://github.com/kubevirt/kubevirt/pull/19637) | [Acedus](https://github.com/Acedus) |
