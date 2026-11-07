@@ -14,6 +14,10 @@ The [KubeVirt roadmap](ROADMAP.md) includes links to our Virtualization Enhancem
 
 Use the [KubeVirt to Kubernetes version support matrix](https://github.com/kubevirt/sig-release/blob/main/releases/k8s-support-matrix.md) to verify the version of KubeVirt that are built and supported for your verstion of Kubernetes.
 
+Use the [userspace and host-kernel support matrix](releases/userspace-support-matrix.md)
+to identify the bundled virtualization components and matching host-kernel family
+for each tracked KubeVirt release.
+
 ## To start using KubeVirt
 
 Try our quickstart at [kubevirt.io](http://kubevirt.io/get_kubevirt/).
