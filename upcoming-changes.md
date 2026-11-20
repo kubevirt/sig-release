@@ -11,6 +11,7 @@ This list contains the noteworthy changes made after the latest KubeVirt release
 
 | Upcoming changes | PR                                                                   | Author                                          |
 |------------------|----------------------------------------------------------------------|-------------------------------------------------|
+| Fix a panic in virt-synchronization-controller when a decentralized migration publishes sourceState before targetState.  | [#19823](https://github.com/kubevirt/kubevirt/pull/19823) | [omkarP-bit](https://github.com/omkarP-bit) |
 | Live migration no longer switches to post-copy or pauses the guest on completion timeout(when configured) during the initial bulk-copy; the migration is aborted instead. Post-copy/pause assist are triggered only in the convergence phase afterwards.  | [#19390](https://github.com/kubevirt/kubevirt/pull/19390) | [michalskrivanek](https://github.com/michalskrivanek) |
 | Bugfix: Prevent VM snapshot export PVCs from being selected as VM backend storage  | [#19741](https://github.com/kubevirt/kubevirt/pull/19741) | [mohitjoshi-hey](https://github.com/mohitjoshi-hey) |
 | virt-handler no longer changes the ownership of HostDisk and filesystem PVC directories.  | [#19923](https://github.com/kubevirt/kubevirt/pull/19923) | [Acedus](https://github.com/Acedus) |
