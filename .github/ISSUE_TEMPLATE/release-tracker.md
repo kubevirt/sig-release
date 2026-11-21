@@ -84,6 +84,7 @@ The issue should be kept open for the entirety of the release cycle until all ta
 - [ ] Publish scale & performance data
 - [ ] Update release notes for last-minute bugfixes
 - [ ] **Tag v1.XX.0 on release-1.XX**
+- [ ] Update the [userspace and host-kernel matrix](https://github.com/kubevirt/sig-release/blob/main/cmd/userspace-matrix-generator/README.md#release-updates) from the published tag, and repeat for each patch release.
 - [ ] Ensure docs and blog PRs are approved
 - [ ] Announce on kubevirt-dev
 - [ ] Publish/unhold release notes and blog
