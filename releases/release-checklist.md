@@ -20,4 +20,5 @@ A KubeVirt release entails a variety of tasks to complete in concert with the re
 | GA                                | Email to mailing list                                        | SIG-release                                |
 |                                   | Publish/unhold release notes and blog                        | Docs and Community                         |
 |                                   | Promote through social media                                 | Community                                  |
+| GA and each patch release         | [Refresh userspace and host-kernel matrix](../cmd/userspace-matrix-generator/README.md#release-updates) | SIG-release |
 | After CDI GA                      | Pin release branch to associated CDI version                 | SIG-release                                |
